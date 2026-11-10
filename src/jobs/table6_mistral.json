@@ -1,0 +1,12 @@
+[
+ {
+  "name": "mistral_full_MovieLens-H",
+  "done": "probs/mistral_full_MovieLens-H.json",
+  "cmd": "( [ -f adapters/mistral_full_MovieLens-H/adapter_config.json ] || python train.py --data data/MovieLens-H --base mistralai/Mistral-7B-Instruct-v0.2 --out adapters/mistral_full_MovieLens-H --epochs 2 ) && python evaluate_probs.py --4bit --data data/MovieLens-H --adapter adapters/mistral_full_MovieLens-H --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/mistral_full_MovieLens-H.json"
+ },
+ {
+  "name": "mistral_full_AmazonBooks-H_probs",
+  "done": "probs/mistral_full_AmazonBooks-H.json",
+  "cmd": "python evaluate_probs.py --4bit --data data/AmazonBooks-H --adapter adapters/mistral_full_AmazonBooks-H --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/mistral_full_AmazonBooks-H.json"
+ }
+]

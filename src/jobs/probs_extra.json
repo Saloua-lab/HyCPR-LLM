@@ -1,0 +1,22 @@
+[
+ {
+  "name": "probs_mistral_Depaul-H_noleak_cand-ldosDepaulH",
+  "cmd": "python evaluate_probs.py --4bit --data data/LocationDepaulWithHisAvecMistral_noleak --adapter ../small_data/ldos-recommendation-modelDepaulH --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/mistral_Depaul-H_noleak_cand-ldosDepaulH.json",
+  "done": "probs/mistral_Depaul-H_noleak_cand-ldosDepaulH.json"
+ },
+ {
+  "name": "probs_mistral_Depaul-H_noleak_cand-ckpt1500",
+  "cmd": "python evaluate_probs.py --4bit --data data/LocationDepaulWithHisAvecMistral_noleak --adapter ../small_data/resultsDepaulWithHisAvecMistral/checkpoint-1500 --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/mistral_Depaul-H_noleak_cand-ckpt1500.json",
+  "done": "probs/mistral_Depaul-H_noleak_cand-ckpt1500.json"
+ },
+ {
+  "name": "probs_mistral_Depaul-H_noleak_cand-ckpt1000",
+  "cmd": "python evaluate_probs.py --4bit --data data/LocationDepaulWithHisAvecMistral_noleak --adapter ../small_data/resultsDepaulWithHisAvecMistral/checkpoint-1000 --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/mistral_Depaul-H_noleak_cand-ckpt1000.json",
+  "done": "probs/mistral_Depaul-H_noleak_cand-ckpt1000.json"
+ },
+ {
+  "name": "probs_mistral_Depaul-H_noleak_cand-DeapulWithH1500",
+  "cmd": "python evaluate_probs.py --4bit --data data/LocationDepaulWithHisAvecMistral_noleak --adapter ../small_data/resultsDeapulWithH/checkpoint-1500 --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/mistral_Depaul-H_noleak_cand-DeapulWithH1500.json",
+  "done": "probs/mistral_Depaul-H_noleak_cand-DeapulWithH1500.json"
+ }
+]

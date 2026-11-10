@@ -1,0 +1,37 @@
+[
+ {
+  "name": "mistral_full_YELP-H",
+  "cmd": "python train.py --data data/YELP-H --base mistralai/Mistral-7B-Instruct-v0.2 --out adapters/mistral_full_YELP-H --epochs 2 && python evaluate.py --data data/YELP-H --adapter adapters/mistral_full_YELP-H --base mistralai/Mistral-7B-Instruct-v0.2 --out results/mistral_full_YELP-H.json",
+  "done": "results/mistral_full_YELP-H.json"
+ },
+ {
+  "name": "mistral_full_YELP-WH",
+  "cmd": "python train.py --data data/YELP-WH --base mistralai/Mistral-7B-Instruct-v0.2 --out adapters/mistral_full_YELP-WH --epochs 2 && python evaluate.py --data data/YELP-WH --adapter adapters/mistral_full_YELP-WH --base mistralai/Mistral-7B-Instruct-v0.2 --out results/mistral_full_YELP-WH.json",
+  "done": "results/mistral_full_YELP-WH.json"
+ },
+ {
+  "name": "deepseek_full_YELP-H",
+  "cmd": "python train.py --data data/YELP-H --base deepseek-ai/deepseek-llm-7b-chat --out adapters/deepseek_full_YELP-H --epochs 2 && python evaluate.py --data data/YELP-H --adapter adapters/deepseek_full_YELP-H --base deepseek-ai/deepseek-llm-7b-chat --out results/deepseek_full_YELP-H.json",
+  "done": "results/deepseek_full_YELP-H.json"
+ },
+ {
+  "name": "deepseek_full_YELP-WH",
+  "cmd": "python train.py --data data/YELP-WH --base deepseek-ai/deepseek-llm-7b-chat --out adapters/deepseek_full_YELP-WH --epochs 2 && python evaluate.py --data data/YELP-WH --adapter adapters/deepseek_full_YELP-WH --base deepseek-ai/deepseek-llm-7b-chat --out results/deepseek_full_YELP-WH.json",
+  "done": "results/deepseek_full_YELP-WH.json"
+ },
+ {
+  "name": "mistral_noit_YELP-H",
+  "cmd": "python train.py --data data/YELP-H --base mistralai/Mistral-7B-v0.1 --out adapters/mistral_noit_YELP-H --epochs 2 && python evaluate.py --data data/YELP-H --adapter adapters/mistral_noit_YELP-H --base mistralai/Mistral-7B-v0.1 --out results/mistral_noit_YELP-H.json",
+  "done": "results/mistral_noit_YELP-H.json"
+ },
+ {
+  "name": "deepseek_noit_YELP-H",
+  "cmd": "python train.py --data data/YELP-H --base deepseek-ai/deepseek-llm-7b-base --out adapters/deepseek_noit_YELP-H --epochs 2 && python evaluate.py --data data/YELP-H --adapter adapters/deepseek_noit_YELP-H --base deepseek-ai/deepseek-llm-7b-base --out results/deepseek_noit_YELP-H.json",
+  "done": "results/deepseek_noit_YELP-H.json"
+ },
+ {
+  "name": "mistral_full_MovieLens-H",
+  "cmd": "python train.py --data data/MovieLens-H --base mistralai/Mistral-7B-Instruct-v0.2 --out adapters/mistral_full_MovieLens-H --epochs 2 && python evaluate.py --data data/MovieLens-H --adapter adapters/mistral_full_MovieLens-H --base mistralai/Mistral-7B-Instruct-v0.2 --out results/mistral_full_MovieLens-H.json",
+  "done": "results/mistral_full_MovieLens-H.json"
+ }
+]

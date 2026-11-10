@@ -1,0 +1,5458 @@
+{
+ "mistral LDOS-H eps=0.1": {
+  "marginal": {
+   "coverage": 90.29179810725549,
+   "width": 2.596326431967917,
+   "set_size": 2.936088328075712,
+   "group_coverage": {
+    "user activity": {
+     "high": 90.75654552121418,
+     "low": 89.89727409868624
+    },
+    "item popularity": {
+     "high": 89.37365489816492,
+     "low": 90.97727180399347
+    },
+    "context (daytype)": {
+     "Holiday": 86.62359279888997,
+     "Weekend": 90.08799943245778,
+     "Working day": 91.47872952309923
+    },
+    "true rating": {
+     "1-2": 46.046651635086114,
+     "3": 95.9772802094332,
+     "4-5": 94.46323364897921
+    },
+    "predicted rating": {
+     "3-4": 89.51007932853643,
+     "<3": 69.95690371787641,
+     ">=4": 94.49726190377169
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 207,
+     "low": 245
+    },
+    "item popularity": {
+     "high": 193,
+     "low": 259
+    },
+    "context (daytype)": {
+     "Holiday": 45,
+     "Weekend": 229,
+     "Working day": 178
+    },
+    "true rating": {
+     "1-2": 42,
+     "3": 108,
+     "4-5": 302
+    },
+    "predicted rating": {
+     "3-4": 233,
+     "<3": 30,
+     ">=4": 189
+    }
+   }
+  },
+  "mondrian (user activity)": {
+   "coverage": 90.4744479495268,
+   "width": 2.627475227350482,
+   "set_size": 2.9755425867507883,
+   "group_coverage": {
+    "user activity": {
+     "high": 90.31029397132315,
+     "low": 90.60353602760239
+    },
+    "item popularity": {
+     "high": 89.45907187653538,
+     "low": 91.23858061773555
+    },
+    "context (daytype)": {
+     "Holiday": 87.17184144687485,
+     "Weekend": 90.31758294022838,
+     "Working day": 91.51117933244637
+    },
+    "true rating": {
+     "1-2": 48.11287454191102,
+     "3": 95.93008998364216,
+     "4-5": 94.46942617331635
+    },
+    "predicted rating": {
+     "3-4": 89.79401375303907,
+     "<3": 70.63094602499574,
+     ">=4": 94.48197159565603
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 207,
+     "low": 245
+    },
+    "item popularity": {
+     "high": 193,
+     "low": 259
+    },
+    "context (daytype)": {
+     "Holiday": 45,
+     "Weekend": 229,
+     "Working day": 178
+    },
+    "true rating": {
+     "1-2": 42,
+     "3": 108,
+     "4-5": 302
+    },
+    "predicted rating": {
+     "3-4": 233,
+     "<3": 30,
+     ">=4": 189
+    }
+   }
+  },
+  "mondrian (item popularity)": {
+   "coverage": 90.49369085173491,
+   "width": 2.642176187407207,
+   "set_size": 2.9979305993690866,
+   "group_coverage": {
+    "user activity": {
+     "high": 91.38329162023695,
+     "low": 89.74189463131414
+    },
+    "item popularity": {
+     "high": 90.50379352481326,
+     "low": 90.48098864705771
+    },
+    "context (daytype)": {
+     "Holiday": 87.23675215663637,
+     "Weekend": 90.23649121622228,
+     "Working day": 91.64479701948294
+    },
+    "true rating": {
+     "1-2": 47.31207483728977,
+     "3": 96.07757130189715,
+     "4-5": 94.55214012920375
+    },
+    "predicted rating": {
+     "3-4": 89.82922711931815,
+     "<3": 70.06536510111859,
+     ">=4": 94.57483531016979
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 207,
+     "low": 245
+    },
+    "item popularity": {
+     "high": 193,
+     "low": 259
+    },
+    "context (daytype)": {
+     "Holiday": 45,
+     "Weekend": 229,
+     "Working day": 178
+    },
+    "true rating": {
+     "1-2": 42,
+     "3": 108,
+     "4-5": 302
+    },
+    "predicted rating": {
+     "3-4": 233,
+     "<3": 30,
+     ">=4": 189
+    }
+   }
+  },
+  "mondrian (predicted rating)": {
+   "coverage": 90.9899053627761,
+   "width": 2.592100372696363,
+   "set_size": 2.9963249211356495,
+   "group_coverage": {
+    "user activity": {
+     "high": 90.65758193471586,
+     "low": 91.26887298030145
+    },
+    "item popularity": {
+     "high": 90.09401172645565,
+     "low": 91.65738402087523
+    },
+    "context (daytype)": {
+     "Holiday": 89.73567811571583,
+     "Weekend": 90.58770601491403,
+     "Working day": 91.8177624668519
+    },
+    "true rating": {
+     "1-2": 55.23046567334183,
+     "3": 89.47816115363776,
+     "4-5": 96.57241997327625
+    },
+    "predicted rating": {
+     "3-4": 90.64826755663363,
+     "<3": 95.03154835618459,
+     ">=4": 90.71546339155194
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 207,
+     "low": 245
+    },
+    "item popularity": {
+     "high": 193,
+     "low": 259
+    },
+    "context (daytype)": {
+     "Holiday": 45,
+     "Weekend": 229,
+     "Working day": 178
+    },
+    "true rating": {
+     "1-2": 42,
+     "3": 108,
+     "4-5": 302
+    },
+    "predicted rating": {
+     "3-4": 233,
+     "<3": 30,
+     ">=4": 189
+    }
+   }
+  }
+ },
+ "mistral LDOS-H eps=0.05": {
+  "marginal": {
+   "coverage": 95.4766561514194,
+   "width": 3.0298538420144254,
+   "set_size": 3.487662460567821,
+   "group_coverage": {
+    "user activity": {
+     "high": 95.81207964672231,
+     "low": 95.19262839659088
+    },
+    "item popularity": {
+     "high": 93.86622895789772,
+     "low": 96.67690934709876
+    },
+    "context (daytype)": {
+     "Holiday": 92.94563458412999,
+     "Weekend": 95.46863877685794,
+     "Working day": 96.12309292115972
+    },
+    "true rating": {
+     "1-2": 70.05095740721458,
+     "3": 99.70485577122747,
+     "4-5": 97.54806551023725
+    },
+    "predicted rating": {
+     "3-4": 96.30330263537294,
+     "<3": 80.34305376313934,
+     ">=4": 96.87797262554909
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 207,
+     "low": 245
+    },
+    "item popularity": {
+     "high": 193,
+     "low": 259
+    },
+    "context (daytype)": {
+     "Holiday": 45,
+     "Weekend": 229,
+     "Working day": 178
+    },
+    "true rating": {
+     "1-2": 42,
+     "3": 108,
+     "4-5": 302
+    },
+    "predicted rating": {
+     "3-4": 233,
+     "<3": 30,
+     ">=4": 189
+    }
+   }
+  },
+  "mondrian (user activity)": {
+   "coverage": 95.57886435331217,
+   "width": 3.0744361778814038,
+   "set_size": 3.5412208201892734,
+   "group_coverage": {
+    "user activity": {
+     "high": 95.34943236023939,
+     "low": 95.76324616896005
+    },
+    "item popularity": {
+     "high": 93.76826737270027,
+     "low": 96.9295161260777
+    },
+    "context (daytype)": {
+     "Holiday": 93.86264487342729,
+     "Weekend": 95.48322900153603,
+     "Working day": 96.13747083665314
+    },
+    "true rating": {
+     "1-2": 71.31478535660027,
+     "3": 99.44269752056816,
+     "4-5": 97.61723051963203
+    },
+    "predicted rating": {
+     "3-4": 96.04818498091511,
+     "<3": 82.30805502995855,
+     ">=4": 97.11650579478969
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 207,
+     "low": 245
+    },
+    "item popularity": {
+     "high": 193,
+     "low": 259
+    },
+    "context (daytype)": {
+     "Holiday": 45,
+     "Weekend": 229,
+     "Working day": 178
+    },
+    "true rating": {
+     "1-2": 42,
+     "3": 108,
+     "4-5": 302
+    },
+    "predicted rating": {
+     "3-4": 233,
+     "<3": 30,
+     ">=4": 189
+    }
+   }
+  },
+  "mondrian (item popularity)": {
+   "coverage": 95.73880126182956,
+   "width": 3.0886270529859665,
+   "set_size": 3.561018927444798,
+   "group_coverage": {
+    "user activity": {
+     "high": 96.93507179883318,
+     "low": 94.72660734897744
+    },
+    "item popularity": {
+     "high": 95.88817565335174,
+     "low": 95.60941652571321
+    },
+    "context (daytype)": {
+     "Holiday": 93.82172183335345,
+     "Weekend": 96.14098255324504,
+     "Working day": 95.70999762281673
+    },
+    "true rating": {
+     "1-2": 70.19699347531329,
+     "3": 99.75307598418418,
+     "4-5": 97.9064760310581
+    },
+    "predicted rating": {
+     "3-4": 96.36983252096805,
+     "<3": 82.03961820955749,
+     ">=4": 97.15400916106101
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 207,
+     "low": 245
+    },
+    "item popularity": {
+     "high": 193,
+     "low": 259
+    },
+    "context (daytype)": {
+     "Holiday": 45,
+     "Weekend": 229,
+     "Working day": 178
+    },
+    "true rating": {
+     "1-2": 42,
+     "3": 108,
+     "4-5": 302
+    },
+    "predicted rating": {
+     "3-4": 233,
+     "<3": 30,
+     ">=4": 189
+    }
+   }
+  },
+  "mondrian (predicted rating)": {
+   "coverage": 96.08138801261835,
+   "width": 3.0082544617045603,
+   "set_size": 3.528388012618293,
+   "group_coverage": {
+    "user activity": {
+     "high": 96.10106737662663,
+     "low": 96.06432539766091
+    },
+    "item popularity": {
+     "high": 94.50542973385579,
+     "low": 97.25643761357775
+    },
+    "context (daytype)": {
+     "Holiday": 93.7825276689577,
+     "Weekend": 96.12042155930702,
+     "Working day": 96.60708818678162
+    },
+    "true rating": {
+     "1-2": 71.03521002355102,
+     "3": 97.62541855191049,
+     "4-5": 99.06371603286071
+    },
+    "predicted rating": {
+     "3-4": 95.75860766996914,
+     "<3": 100.0,
+     ">=4": 95.84604386566112
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 207,
+     "low": 245
+    },
+    "item popularity": {
+     "high": 193,
+     "low": 259
+    },
+    "context (daytype)": {
+     "Holiday": 45,
+     "Weekend": 229,
+     "Working day": 178
+    },
+    "true rating": {
+     "1-2": 42,
+     "3": 108,
+     "4-5": 302
+    },
+    "predicted rating": {
+     "3-4": 233,
+     "<3": 30,
+     ">=4": 189
+    }
+   }
+  }
+ },
+ "eurollm LDOS-H eps=0.1": {
+  "marginal": {
+   "coverage": 90.20126182965284,
+   "width": 2.737132431782476,
+   "set_size": 3.093400630914832,
+   "group_coverage": {
+    "user activity": {
+     "high": 89.15686583772853,
+     "low": 91.08051096573679
+    },
+    "item popularity": {
+     "high": 87.98723747026078,
+     "low": 91.85195766375256
+    },
+    "context (daytype)": {
+     "Holiday": 89.34543066042434,
+     "Weekend": 90.15972582176236,
+     "Working day": 90.46973883782614
+    },
+    "true rating": {
+     "1-2": 54.88437638166397,
+     "3": 97.07392494751588,
+     "4-5": 92.69003828430623
+    },
+    "predicted rating": {
+     "3-4": 90.77647446996488,
+     "<3": 77.8756816267187,
+     ">=4": 92.64585038403766
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 207,
+     "low": 245
+    },
+    "item popularity": {
+     "high": 193,
+     "low": 259
+    },
+    "context (daytype)": {
+     "Holiday": 45,
+     "Weekend": 229,
+     "Working day": 178
+    },
+    "true rating": {
+     "1-2": 42,
+     "3": 108,
+     "4-5": 302
+    },
+    "predicted rating": {
+     "3-4": 227,
+     "<3": 46,
+     ">=4": 179
+    }
+   }
+  },
+  "mondrian (user activity)": {
+   "coverage": 90.43154574132478,
+   "width": 2.7806608436117375,
+   "set_size": 3.139760252365931,
+   "group_coverage": {
+    "user activity": {
+     "high": 90.30764277592822,
+     "low": 90.52774542669086
+    },
+    "item popularity": {
+     "high": 88.53876495078778,
+     "low": 91.84939836272824
+    },
+    "context (daytype)": {
+     "Holiday": 89.04371611493464,
+     "Weekend": 90.41662179590637,
+     "Working day": 90.80342828666336
+    },
+    "true rating": {
+     "1-2": 54.712348904249,
+     "3": 97.05879315734084,
+     "4-5": 93.06844739115839
+    },
+    "predicted rating": {
+     "3-4": 91.15901313990805,
+     "<3": 77.86547766217421,
+     ">=4": 92.74463657018445
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 207,
+     "low": 245
+    },
+    "item popularity": {
+     "high": 193,
+     "low": 259
+    },
+    "context (daytype)": {
+     "Holiday": 45,
+     "Weekend": 229,
+     "Working day": 178
+    },
+    "true rating": {
+     "1-2": 42,
+     "3": 108,
+     "4-5": 302
+    },
+    "predicted rating": {
+     "3-4": 227,
+     "<3": 46,
+     ">=4": 179
+    }
+   }
+  },
+  "mondrian (item popularity)": {
+   "coverage": 90.46277602523654,
+   "width": 2.79831208516412,
+   "set_size": 3.15882018927445,
+   "group_coverage": {
+    "user activity": {
+     "high": 90.33967145794635,
+     "low": 90.56605581520645
+    },
+    "item popularity": {
+     "high": 90.5624051346442,
+     "low": 90.37781351518258
+    },
+    "context (daytype)": {
+     "Holiday": 89.52553031344178,
+     "Weekend": 90.35330730935843,
+     "Working day": 90.8379459237785
+    },
+    "true rating": {
+     "1-2": 55.666322683488225,
+     "3": 96.95304790054736,
+     "4-5": 93.0177688758419
+    },
+    "predicted rating": {
+     "3-4": 91.0692448843816,
+     "<3": 78.06281953478867,
+     ">=4": 92.88846525660021
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 207,
+     "low": 245
+    },
+    "item popularity": {
+     "high": 193,
+     "low": 259
+    },
+    "context (daytype)": {
+     "Holiday": 45,
+     "Weekend": 229,
+     "Working day": 178
+    },
+    "true rating": {
+     "1-2": 42,
+     "3": 108,
+     "4-5": 302
+    },
+    "predicted rating": {
+     "3-4": 227,
+     "<3": 46,
+     ">=4": 179
+    }
+   }
+  },
+  "mondrian (predicted rating)": {
+   "coverage": 90.82176656151411,
+   "width": 2.7704027557968898,
+   "set_size": 3.187419558359623,
+   "group_coverage": {
+    "user activity": {
+     "high": 90.31538877840379,
+     "low": 91.24728784036004
+    },
+    "item popularity": {
+     "high": 89.09984460214905,
+     "low": 92.10163626936651
+    },
+    "context (daytype)": {
+     "Holiday": 88.93356115658435,
+     "Weekend": 90.932955315622,
+     "Working day": 91.1549649717906
+    },
+    "true rating": {
+     "1-2": 54.65604304865309,
+     "3": 93.89699113614518,
+     "4-5": 94.80671684123585
+    },
+    "predicted rating": {
+     "3-4": 90.46583638985419,
+     "<3": 92.63704778308394,
+     ">=4": 90.81541422333731
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 207,
+     "low": 245
+    },
+    "item popularity": {
+     "high": 193,
+     "low": 259
+    },
+    "context (daytype)": {
+     "Holiday": 45,
+     "Weekend": 229,
+     "Working day": 178
+    },
+    "true rating": {
+     "1-2": 42,
+     "3": 108,
+     "4-5": 302
+    },
+    "predicted rating": {
+     "3-4": 227,
+     "<3": 46,
+     ">=4": 179
+    }
+   }
+  }
+ },
+ "eurollm LDOS-H eps=0.05": {
+  "marginal": {
+   "coverage": 95.45993690851738,
+   "width": 3.2094974302408854,
+   "set_size": 3.677646687697162,
+   "group_coverage": {
+    "user activity": {
+     "high": 94.93997383883317,
+     "low": 95.89615366323396
+    },
+    "item popularity": {
+     "high": 93.68471914179575,
+     "low": 96.7830579076781
+    },
+    "context (daytype)": {
+     "Holiday": 96.46654115928739,
+     "Weekend": 95.50754450037387,
+     "Working day": 95.13952629715088
+    },
+    "true rating": {
+     "1-2": 74.23258652033952,
+     "3": 99.92598487699628,
+     "4-5": 96.84732604502207
+    },
+    "predicted rating": {
+     "3-4": 97.78721111261503,
+     "<3": 82.05517839355558,
+     ">=4": 95.97544395166017
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 207,
+     "low": 245
+    },
+    "item popularity": {
+     "high": 193,
+     "low": 259
+    },
+    "context (daytype)": {
+     "Holiday": 45,
+     "Weekend": 229,
+     "Working day": 178
+    },
+    "true rating": {
+     "1-2": 42,
+     "3": 108,
+     "4-5": 302
+    },
+    "predicted rating": {
+     "3-4": 227,
+     "<3": 46,
+     ">=4": 179
+    }
+   }
+  },
+  "mondrian (user activity)": {
+   "coverage": 95.53690851735007,
+   "width": 3.232283643402935,
+   "set_size": 3.7121955835962224,
+   "group_coverage": {
+    "user activity": {
+     "high": 95.31217610829627,
+     "low": 95.71983001689843
+    },
+    "item popularity": {
+     "high": 93.85133014387263,
+     "low": 96.79622121482183
+    },
+    "context (daytype)": {
+     "Holiday": 96.02937691033827,
+     "Weekend": 95.61363313322727,
+     "Working day": 95.31425433227557
+    },
+    "true rating": {
+     "1-2": 73.81953670297031,
+     "3": 99.82007828546432,
+     "4-5": 97.0568126982467
+    },
+    "predicted rating": {
+     "3-4": 97.46614052924325,
+     "<3": 84.23974292832742,
+     ">=4": 96.00638641118728
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 207,
+     "low": 245
+    },
+    "item popularity": {
+     "high": 193,
+     "low": 259
+    },
+    "context (daytype)": {
+     "Holiday": 45,
+     "Weekend": 229,
+     "Working day": 178
+    },
+    "true rating": {
+     "1-2": 42,
+     "3": 108,
+     "4-5": 302
+    },
+    "predicted rating": {
+     "3-4": 227,
+     "<3": 46,
+     ">=4": 179
+    }
+   }
+  },
+  "mondrian (item popularity)": {
+   "coverage": 95.69747634069375,
+   "width": 3.2415202899367603,
+   "set_size": 3.731899053627761,
+   "group_coverage": {
+    "user activity": {
+     "high": 96.06991074599922,
+     "low": 95.38033547396617
+    },
+    "item popularity": {
+     "high": 95.8120346099844,
+     "low": 95.59721932964935
+    },
+    "context (daytype)": {
+     "Holiday": 97.38162131309728,
+     "Weekend": 95.95141201544331,
+     "Working day": 94.94134649974208
+    },
+    "true rating": {
+     "1-2": 74.84736556366629,
+     "3": 99.79226639611099,
+     "4-5": 97.16337742872388
+    },
+    "predicted rating": {
+     "3-4": 97.3203965761949,
+     "<3": 85.85220488648653,
+     ">=4": 96.18565953760331
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 207,
+     "low": 245
+    },
+    "item popularity": {
+     "high": 193,
+     "low": 259
+    },
+    "context (daytype)": {
+     "Holiday": 45,
+     "Weekend": 229,
+     "Working day": 178
+    },
+    "true rating": {
+     "1-2": 42,
+     "3": 108,
+     "4-5": 302
+    },
+    "predicted rating": {
+     "3-4": 227,
+     "<3": 46,
+     ">=4": 179
+    }
+   }
+  },
+  "mondrian (predicted rating)": {
+   "coverage": 96.16908517350132,
+   "width": 3.207815151103464,
+   "set_size": 3.7140189274447937,
+   "group_coverage": {
+    "user activity": {
+     "high": 96.09225203164829,
+     "low": 96.23260096114682
+    },
+    "item popularity": {
+     "high": 94.33360950895299,
+     "low": 97.53755784473181
+    },
+    "context (daytype)": {
+     "Holiday": 94.95178611054848,
+     "Weekend": 96.34491636483318,
+     "Working day": 96.2478575406915
+    },
+    "true rating": {
+     "1-2": 73.00422608372699,
+     "3": 99.36475482528064,
+     "4-5": 98.30186148439427
+    },
+    "predicted rating": {
+     "3-4": 95.52429381989782,
+     "<3": 99.76147541749715,
+     ">=4": 96.05844692070012
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 207,
+     "low": 245
+    },
+    "item popularity": {
+     "high": 193,
+     "low": 259
+    },
+    "context (daytype)": {
+     "Holiday": 45,
+     "Weekend": 229,
+     "Working day": 178
+    },
+    "true rating": {
+     "1-2": 42,
+     "3": 108,
+     "4-5": 302
+    },
+    "predicted rating": {
+     "3-4": 227,
+     "<3": 46,
+     ">=4": 179
+    }
+   }
+  }
+ },
+ "llama LDOS-H eps=0.1": {
+  "marginal": {
+   "coverage": 90.26971608832814,
+   "width": 2.769236291251256,
+   "set_size": 3.088558359621449,
+   "group_coverage": {
+    "user activity": {
+     "high": 88.98391719863812,
+     "low": 91.35598260348848
+    },
+    "item popularity": {
+     "high": 86.65154914568002,
+     "low": 92.96732350159762
+    },
+    "context (daytype)": {
+     "Holiday": 91.27217803569508,
+     "Weekend": 89.90163559834589,
+     "Working day": 90.48446173737132
+    },
+    "true rating": {
+     "1-2": 55.46804489405787,
+     "3": 97.1456641845727,
+     "4-5": 92.67668050647544
+    },
+    "predicted rating": {
+     "3-4": 90.49217654651544,
+     "<3": 75.02654162773696,
+     ">=4": 93.02863154597335
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 207,
+     "low": 245
+    },
+    "item popularity": {
+     "high": 193,
+     "low": 259
+    },
+    "context (daytype)": {
+     "Holiday": 45,
+     "Weekend": 229,
+     "Working day": 178
+    },
+    "true rating": {
+     "1-2": 42,
+     "3": 108,
+     "4-5": 302
+    },
+    "predicted rating": {
+     "3-4": 277,
+     "<3": 30,
+     ">=4": 145
+    }
+   }
+  },
+  "mondrian (user activity)": {
+   "coverage": 90.44479495268146,
+   "width": 2.797904997434879,
+   "set_size": 3.1261135646687674,
+   "group_coverage": {
+    "user activity": {
+     "high": 90.35173163515073,
+     "low": 90.522428219049
+    },
+    "item popularity": {
+     "high": 87.67296641375141,
+     "low": 92.5171791668955
+    },
+    "context (daytype)": {
+     "Holiday": 89.82350002687208,
+     "Weekend": 90.07008883837057,
+     "Working day": 91.08117348865694
+    },
+    "true rating": {
+     "1-2": 55.79307231452908,
+     "3": 97.51187864720661,
+     "4-5": 92.76412424835773
+    },
+    "predicted rating": {
+     "3-4": 90.6980353311937,
+     "<3": 74.41427361484246,
+     ">=4": 93.30657609758177
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 207,
+     "low": 245
+    },
+    "item popularity": {
+     "high": 193,
+     "low": 259
+    },
+    "context (daytype)": {
+     "Holiday": 45,
+     "Weekend": 229,
+     "Working day": 178
+    },
+    "true rating": {
+     "1-2": 42,
+     "3": 108,
+     "4-5": 302
+    },
+    "predicted rating": {
+     "3-4": 277,
+     "<3": 30,
+     ">=4": 145
+    }
+   }
+  },
+  "mondrian (item popularity)": {
+   "coverage": 90.50914826498412,
+   "width": 2.784677459154025,
+   "set_size": 3.1128643533123017,
+   "group_coverage": {
+    "user activity": {
+     "high": 91.04799422848147,
+     "low": 90.05860534920608
+    },
+    "item popularity": {
+     "high": 90.63509478423983,
+     "low": 90.40597972888796
+    },
+    "context (daytype)": {
+     "Holiday": 91.08435788593745,
+     "Weekend": 90.2312985378416,
+     "Working day": 90.71573895498268
+    },
+    "true rating": {
+     "1-2": 58.84386766968307,
+     "3": 96.71694766510534,
+     "4-5": 92.72056002971183
+    },
+    "predicted rating": {
+     "3-4": 90.95114193515924,
+     "<3": 75.5965055201447,
+     ">=4": 92.77510423513851
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 207,
+     "low": 245
+    },
+    "item popularity": {
+     "high": 193,
+     "low": 259
+    },
+    "context (daytype)": {
+     "Holiday": 45,
+     "Weekend": 229,
+     "Working day": 178
+    },
+    "true rating": {
+     "1-2": 42,
+     "3": 108,
+     "4-5": 302
+    },
+    "predicted rating": {
+     "3-4": 277,
+     "<3": 30,
+     ">=4": 145
+    }
+   }
+  },
+  "mondrian (predicted rating)": {
+   "coverage": 90.90063091482648,
+   "width": 2.7793784819267127,
+   "set_size": 3.1437728706624593,
+   "group_coverage": {
+    "user activity": {
+     "high": 90.9918273313142,
+     "low": 90.8278902969189
+    },
+    "item popularity": {
+     "high": 88.0339243899352,
+     "low": 93.03692941152255
+    },
+    "context (daytype)": {
+     "Holiday": 90.74594862567594,
+     "Weekend": 90.86432314780902,
+     "Working day": 90.98597862719983
+    },
+    "true rating": {
+     "1-2": 55.78054889135821,
+     "3": 94.15639821087393,
+     "4-5": 94.66365239422021
+    },
+    "predicted rating": {
+     "3-4": 90.35304837219914,
+     "<3": 95.79045143495995,
+     ">=4": 90.84602335033875
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 207,
+     "low": 245
+    },
+    "item popularity": {
+     "high": 193,
+     "low": 259
+    },
+    "context (daytype)": {
+     "Holiday": 45,
+     "Weekend": 229,
+     "Working day": 178
+    },
+    "true rating": {
+     "1-2": 42,
+     "3": 108,
+     "4-5": 302
+    },
+    "predicted rating": {
+     "3-4": 277,
+     "<3": 30,
+     ">=4": 145
+    }
+   }
+  }
+ },
+ "llama LDOS-H eps=0.05": {
+  "marginal": {
+   "coverage": 95.54132492113568,
+   "width": 3.1868497605169375,
+   "set_size": 3.637476340694007,
+   "group_coverage": {
+    "user activity": {
+     "high": 94.78537656493218,
+     "low": 96.17699312498516
+    },
+    "item popularity": {
+     "high": 93.58318580755548,
+     "low": 97.00174776879403
+    },
+    "context (daytype)": {
+     "Holiday": 96.49784269884648,
+     "Weekend": 95.47699779222035,
+     "Working day": 95.37824224309051
+    },
+    "true rating": {
+     "1-2": 72.44230570696236,
+     "3": 99.90952622177278,
+     "4-5": 97.2246268745594
+    },
+    "predicted rating": {
+     "3-4": 97.1540025359982,
+     "<3": 79.24142886550733,
+     ">=4": 95.86559856016004
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 207,
+     "low": 245
+    },
+    "item popularity": {
+     "high": 193,
+     "low": 259
+    },
+    "context (daytype)": {
+     "Holiday": 45,
+     "Weekend": 229,
+     "Working day": 178
+    },
+    "true rating": {
+     "1-2": 42,
+     "3": 108,
+     "4-5": 302
+    },
+    "predicted rating": {
+     "3-4": 277,
+     "<3": 30,
+     ">=4": 145
+    }
+   }
+  },
+  "mondrian (user activity)": {
+   "coverage": 95.61293375394322,
+   "width": 3.2172707807665875,
+   "set_size": 3.6794069400630915,
+   "group_coverage": {
+    "user activity": {
+     "high": 95.42356816072025,
+     "low": 95.76727129381749
+    },
+    "item popularity": {
+     "high": 94.0371768817311,
+     "low": 96.78929994521032
+    },
+    "context (daytype)": {
+     "Holiday": 96.29552996283374,
+     "Weekend": 95.61143336703806,
+     "Working day": 95.4435155484892
+    },
+    "true rating": {
+     "1-2": 72.69414724230245,
+     "3": 99.80123843151195,
+     "4-5": 97.3398639214754
+    },
+    "predicted rating": {
+     "3-4": 96.98294037098745,
+     "<3": 81.80853522930303,
+     ">=4": 95.89288854563198
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 207,
+     "low": 245
+    },
+    "item popularity": {
+     "high": 193,
+     "low": 259
+    },
+    "context (daytype)": {
+     "Holiday": 45,
+     "Weekend": 229,
+     "Working day": 178
+    },
+    "true rating": {
+     "1-2": 42,
+     "3": 108,
+     "4-5": 302
+    },
+    "predicted rating": {
+     "3-4": 277,
+     "<3": 30,
+     ">=4": 145
+    }
+   }
+  },
+  "mondrian (item popularity)": {
+   "coverage": 95.73406940063086,
+   "width": 3.20332983069069,
+   "set_size": 3.661227129337545,
+   "group_coverage": {
+    "user activity": {
+     "high": 96.15641674135838,
+     "low": 95.37854652417647
+    },
+    "item popularity": {
+     "high": 95.87540158581804,
+     "low": 95.6103112302656
+    },
+    "context (daytype)": {
+     "Holiday": 96.39969445927825,
+     "Weekend": 95.83277407221226,
+     "Working day": 95.43390072719711
+    },
+    "true rating": {
+     "1-2": 74.004596499624,
+     "3": 99.59245082763908,
+     "4-5": 97.40547138899188
+    },
+    "predicted rating": {
+     "3-4": 96.96665793183163,
+     "<3": 83.61157933136366,
+     ">=4": 95.91172202971482
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 207,
+     "low": 245
+    },
+    "item popularity": {
+     "high": 193,
+     "low": 259
+    },
+    "context (daytype)": {
+     "Holiday": 45,
+     "Weekend": 229,
+     "Working day": 178
+    },
+    "true rating": {
+     "1-2": 42,
+     "3": 108,
+     "4-5": 302
+    },
+    "predicted rating": {
+     "3-4": 277,
+     "<3": 30,
+     ">=4": 145
+    }
+   }
+  },
+  "mondrian (predicted rating)": {
+   "coverage": 95.84542586750776,
+   "width": 3.174094701767911,
+   "set_size": 3.6503217665615106,
+   "group_coverage": {
+    "user activity": {
+     "high": 95.93120217859799,
+     "low": 95.77197512633056
+    },
+    "item popularity": {
+     "high": 93.80065595908938,
+     "low": 97.3710452814752
+    },
+    "context (daytype)": {
+     "Holiday": 96.33724095945583,
+     "Weekend": 95.8654462413961,
+     "Working day": 95.69053849053458
+    },
+    "true rating": {
+     "1-2": 70.57967166273856,
+     "3": 99.06351009373121,
+     "4-5": 98.25182698582914
+    },
+    "predicted rating": {
+     "3-4": 95.38484708202634,
+     "<3": 100.0,
+     ">=4": 95.85725267959988
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 207,
+     "low": 245
+    },
+    "item popularity": {
+     "high": 193,
+     "low": 259
+    },
+    "context (daytype)": {
+     "Holiday": 45,
+     "Weekend": 229,
+     "Working day": 178
+    },
+    "true rating": {
+     "1-2": 42,
+     "3": 108,
+     "4-5": 302
+    },
+    "predicted rating": {
+     "3-4": 277,
+     "<3": 30,
+     ">=4": 145
+    }
+   }
+  }
+ },
+ "deepseek LDOS-H eps=0.1": {
+  "marginal": {
+   "coverage": 90.29148264984222,
+   "width": 2.7136998694882517,
+   "set_size": 3.0314132492113552,
+   "group_coverage": {
+    "user activity": {
+     "high": 90.8581710665168,
+     "low": 89.81494788974973
+    },
+    "item popularity": {
+     "high": 88.76044319678466,
+     "low": 91.43330953027846
+    },
+    "context (daytype)": {
+     "Holiday": 89.48804299814313,
+     "Weekend": 91.34375830635844,
+     "Working day": 89.14220758611764
+    },
+    "true rating": {
+     "1-2": 49.10918452227464,
+     "3": 97.9881357189096,
+     "4-5": 93.31611621719273
+    },
+    "predicted rating": {
+     "3-4": 88.25151076477941,
+     "<3": 82.18839857206976,
+     ">=4": 95.80606523545126
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 207,
+     "low": 245
+    },
+    "item popularity": {
+     "high": 193,
+     "low": 259
+    },
+    "context (daytype)": {
+     "Holiday": 45,
+     "Weekend": 229,
+     "Working day": 178
+    },
+    "true rating": {
+     "1-2": 42,
+     "3": 108,
+     "4-5": 302
+    },
+    "predicted rating": {
+     "3-4": 274,
+     "<3": 31,
+     ">=4": 147
+    }
+   }
+  },
+  "mondrian (user activity)": {
+   "coverage": 90.459621451104,
+   "width": 2.7364288733952553,
+   "set_size": 3.059735015772871,
+   "group_coverage": {
+    "user activity": {
+     "high": 90.34273874454013,
+     "low": 90.56327644317807
+    },
+    "item popularity": {
+     "high": 88.86045562911488,
+     "low": 91.65720747358593
+    },
+    "context (daytype)": {
+     "Holiday": 90.79645925764468,
+     "Weekend": 91.4654527031207,
+     "Working day": 89.08267716252945
+    },
+    "true rating": {
+     "1-2": 52.04228654662417,
+     "3": 97.86494528957907,
+     "4-5": 93.2082785545734
+    },
+    "predicted rating": {
+     "3-4": 88.55162650286402,
+     "<3": 82.41337961522109,
+     ">=4": 95.71525900844962
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 207,
+     "low": 245
+    },
+    "item popularity": {
+     "high": 193,
+     "low": 259
+    },
+    "context (daytype)": {
+     "Holiday": 45,
+     "Weekend": 229,
+     "Working day": 178
+    },
+    "true rating": {
+     "1-2": 42,
+     "3": 108,
+     "4-5": 302
+    },
+    "predicted rating": {
+     "3-4": 274,
+     "<3": 31,
+     ">=4": 147
+    }
+   }
+  },
+  "mondrian (item popularity)": {
+   "coverage": 90.53722397476358,
+   "width": 2.7401375246322717,
+   "set_size": 3.073637223974764,
+   "group_coverage": {
+    "user activity": {
+     "high": 91.66389245491511,
+     "low": 89.59222562025612
+    },
+    "item popularity": {
+     "high": 90.59156661303082,
+     "low": 90.49111532384553
+    },
+    "context (daytype)": {
+     "Holiday": 89.9076586149194,
+     "Weekend": 91.5094466526864,
+     "Working day": 89.44242448771264
+    },
+    "true rating": {
+     "1-2": 50.50401473453077,
+     "3": 97.8919679143582,
+     "4-5": 93.52278875189175
+    },
+    "predicted rating": {
+     "3-4": 88.75423995161002,
+     "<3": 81.61466903546342,
+     ">=4": 95.73950596434439
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 207,
+     "low": 245
+    },
+    "item popularity": {
+     "high": 193,
+     "low": 259
+    },
+    "context (daytype)": {
+     "Holiday": 45,
+     "Weekend": 229,
+     "Working day": 178
+    },
+    "true rating": {
+     "1-2": 42,
+     "3": 108,
+     "4-5": 302
+    },
+    "predicted rating": {
+     "3-4": 274,
+     "<3": 31,
+     ">=4": 147
+    }
+   }
+  },
+  "mondrian (predicted rating)": {
+   "coverage": 90.96340694006301,
+   "width": 2.7202144808629516,
+   "set_size": 3.0848738170346945,
+   "group_coverage": {
+    "user activity": {
+     "high": 91.21813259818866,
+     "low": 90.75050208334171
+    },
+    "item popularity": {
+     "high": 89.12349340102026,
+     "low": 92.33700030098208
+    },
+    "context (daytype)": {
+     "Holiday": 88.02187845283854,
+     "Weekend": 91.54990488118194,
+     "Working day": 90.95194905747688
+    },
+    "true rating": {
+     "1-2": 54.77463121202039,
+     "3": 91.97157947848488,
+     "4-5": 95.70989421404026
+    },
+    "predicted rating": {
+     "3-4": 90.41436088236112,
+     "<3": 94.33943579983827,
+     ">=4": 91.18525588097579
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 207,
+     "low": 245
+    },
+    "item popularity": {
+     "high": 193,
+     "low": 259
+    },
+    "context (daytype)": {
+     "Holiday": 45,
+     "Weekend": 229,
+     "Working day": 178
+    },
+    "true rating": {
+     "1-2": 42,
+     "3": 108,
+     "4-5": 302
+    },
+    "predicted rating": {
+     "3-4": 274,
+     "<3": 31,
+     ">=4": 147
+    }
+   }
+  }
+ },
+ "deepseek LDOS-H eps=0.05": {
+  "marginal": {
+   "coverage": 95.51829652996835,
+   "width": 3.1087504172149116,
+   "set_size": 3.5470283911671894,
+   "group_coverage": {
+    "user activity": {
+     "high": 96.10467379866725,
+     "low": 95.02261065110227
+    },
+    "item popularity": {
+     "high": 94.70980173912278,
+     "low": 96.11848903928481
+    },
+    "context (daytype)": {
+     "Holiday": 96.67660871961687,
+     "Weekend": 96.17757189081398,
+     "Working day": 94.37358131093994
+    },
+    "true rating": {
+     "1-2": 72.90319963293655,
+     "3": 99.6110821360294,
+     "4-5": 97.23465005309663
+    },
+    "predicted rating": {
+     "3-4": 95.90716678650458,
+     "<3": 84.96977774105167,
+     ">=4": 97.01795390676922
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 207,
+     "low": 245
+    },
+    "item popularity": {
+     "high": 193,
+     "low": 259
+    },
+    "context (daytype)": {
+     "Holiday": 45,
+     "Weekend": 229,
+     "Working day": 178
+    },
+    "true rating": {
+     "1-2": 42,
+     "3": 108,
+     "4-5": 302
+    },
+    "predicted rating": {
+     "3-4": 274,
+     "<3": 31,
+     ">=4": 147
+    }
+   }
+  },
+  "mondrian (user activity)": {
+   "coverage": 95.60315457413242,
+   "width": 3.1872675468014813,
+   "set_size": 3.6433501577287117,
+   "group_coverage": {
+    "user activity": {
+     "high": 95.4407733766277,
+     "low": 95.73502496370546
+    },
+    "item popularity": {
+     "high": 94.18278809519008,
+     "low": 96.66534783786261
+    },
+    "context (daytype)": {
+     "Holiday": 97.11029192482442,
+     "Weekend": 96.11650431041518,
+     "Working day": 94.55954889042081
+    },
+    "true rating": {
+     "1-2": 73.28425738112495,
+     "3": 99.32138541984011,
+     "4-5": 97.40866683393678
+    },
+    "predicted rating": {
+     "3-4": 95.85870110136537,
+     "<3": 87.28161055294547,
+     ">=4": 96.87935909736943
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 207,
+     "low": 245
+    },
+    "item popularity": {
+     "high": 193,
+     "low": 259
+    },
+    "context (daytype)": {
+     "Holiday": 45,
+     "Weekend": 229,
+     "Working day": 178
+    },
+    "true rating": {
+     "1-2": 42,
+     "3": 108,
+     "4-5": 302
+    },
+    "predicted rating": {
+     "3-4": 274,
+     "<3": 31,
+     ">=4": 147
+    }
+   }
+  },
+  "mondrian (item popularity)": {
+   "coverage": 95.69684542586725,
+   "width": 3.195003768510394,
+   "set_size": 3.6575804416403797,
+   "group_coverage": {
+    "user activity": {
+     "high": 96.85232149745815,
+     "low": 94.71997330070192
+    },
+    "item popularity": {
+     "high": 95.85193819968212,
+     "low": 95.56411507361624
+    },
+    "context (daytype)": {
+     "Holiday": 96.6736532071751,
+     "Weekend": 96.44706637515614,
+     "Working day": 94.48244343377762
+    },
+    "true rating": {
+     "1-2": 73.7047376222361,
+     "3": 99.49815436470134,
+     "4-5": 97.43376708714581
+    },
+    "predicted rating": {
+     "3-4": 96.00074565040315,
+     "<3": 86.1001929166191,
+     ">=4": 97.15382398165967
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 207,
+     "low": 245
+    },
+    "item popularity": {
+     "high": 193,
+     "low": 259
+    },
+    "context (daytype)": {
+     "Holiday": 45,
+     "Weekend": 229,
+     "Working day": 178
+    },
+    "true rating": {
+     "1-2": 42,
+     "3": 108,
+     "4-5": 302
+    },
+    "predicted rating": {
+     "3-4": 274,
+     "<3": 31,
+     ">=4": 147
+    }
+   }
+  },
+  "mondrian (predicted rating)": {
+   "coverage": 95.84290220820189,
+   "width": 3.12901372014058,
+   "set_size": 3.6671419558359615,
+   "group_coverage": {
+    "user activity": {
+     "high": 96.11427588054136,
+     "low": 95.61270155782947
+    },
+    "item popularity": {
+     "high": 94.44735138677538,
+     "low": 96.88160170305899
+    },
+    "context (daytype)": {
+     "Holiday": 95.3095234675917,
+     "Weekend": 96.25857182414445,
+     "Working day": 95.43943408520074
+    },
+    "true rating": {
+     "1-2": 72.4771078142717,
+     "3": 97.71813473467496,
+     "4-5": 98.46489660850516
+    },
+    "predicted rating": {
+     "3-4": 95.33459952129041,
+     "<3": 100.0,
+     ">=4": 95.90474222183254
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 207,
+     "low": 245
+    },
+    "item popularity": {
+     "high": 193,
+     "low": 259
+    },
+    "context (daytype)": {
+     "Holiday": 45,
+     "Weekend": 229,
+     "Working day": 178
+    },
+    "true rating": {
+     "1-2": 42,
+     "3": 108,
+     "4-5": 302
+    },
+    "predicted rating": {
+     "3-4": 274,
+     "<3": 31,
+     ">=4": 147
+    }
+   }
+  }
+ },
+ "mistral Depaul-H eps=0.1": {
+  "marginal": {
+   "coverage": 90.30668058455115,
+   "width": 2.69968248528552,
+   "set_size": 3.055665970772449,
+   "group_coverage": {
+    "user activity": {
+     "high": 90.57138948078186,
+     "low": 90.05194356210362
+    },
+    "item popularity": {
+     "high": 91.62710735924617,
+     "low": 88.9961360575856
+    },
+    "context (Location)": {
+     "Cinema": 89.95813727882587,
+     "Home": 90.67870977600407
+    },
+    "true rating": {
+     "1-2": 84.54421607853781,
+     "3": 97.09380305010826,
+     "4-5": 91.29636375899297
+    },
+    "predicted rating": {
+     "3-4": 86.95333564362568,
+     "<3": 90.64709673968882,
+     ">=4": 92.7436640971567
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 335,
+     "low": 349
+    },
+    "item popularity": {
+     "high": 341,
+     "low": 343
+    },
+    "context (Location)": {
+     "Cinema": 354,
+     "Home": 330
+    },
+    "true rating": {
+     "1-2": 220,
+     "3": 140,
+     "4-5": 324
+    },
+    "predicted rating": {
+     "3-4": 190,
+     "<3": 270,
+     ">=4": 224
+    }
+   }
+  },
+  "mondrian (user activity)": {
+   "coverage": 90.43298538622122,
+   "width": 2.6929575744284593,
+   "set_size": 3.0742776617954033,
+   "group_coverage": {
+    "user activity": {
+     "high": 90.38939816197662,
+     "low": 90.48052971191302
+    },
+    "item popularity": {
+     "high": 91.52895014483352,
+     "low": 89.34352169771095
+    },
+    "context (Location)": {
+     "Cinema": 90.0865527882827,
+     "Home": 90.80198802946086
+    },
+    "true rating": {
+     "1-2": 84.85785595551731,
+     "3": 97.16416694504268,
+     "4-5": 91.32155588074227
+    },
+    "predicted rating": {
+     "3-4": 87.1089590304463,
+     "<3": 90.73502563513068,
+     ">=4": 92.89061049110936
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 335,
+     "low": 349
+    },
+    "item popularity": {
+     "high": 341,
+     "low": 343
+    },
+    "context (Location)": {
+     "Cinema": 354,
+     "Home": 330
+    },
+    "true rating": {
+     "1-2": 220,
+     "3": 140,
+     "4-5": 324
+    },
+    "predicted rating": {
+     "3-4": 190,
+     "<3": 270,
+     ">=4": 224
+    }
+   }
+  },
+  "mondrian (item popularity)": {
+   "coverage": 90.4515657620043,
+   "width": 2.667859655640304,
+   "set_size": 3.0662881002087685,
+   "group_coverage": {
+    "user activity": {
+     "high": 90.61952755393149,
+     "low": 90.28986489545522
+    },
+    "item popularity": {
+     "high": 90.37678040143552,
+     "low": 90.52421450469019
+    },
+    "context (Location)": {
+     "Cinema": 90.62357274514139,
+     "Home": 90.26445610426308
+    },
+    "true rating": {
+     "1-2": 85.21001778041723,
+     "3": 96.36543159411481,
+     "4-5": 91.46349028599309
+    },
+    "predicted rating": {
+     "3-4": 87.45070923039793,
+     "<3": 90.99249861070537,
+     ">=4": 92.34805814551346
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 335,
+     "low": 349
+    },
+    "item popularity": {
+     "high": 341,
+     "low": 343
+    },
+    "context (Location)": {
+     "Cinema": 354,
+     "Home": 330
+    },
+    "true rating": {
+     "1-2": 220,
+     "3": 140,
+     "4-5": 324
+    },
+    "predicted rating": {
+     "3-4": 190,
+     "<3": 270,
+     ">=4": 224
+    }
+   }
+  },
+  "mondrian (predicted rating)": {
+   "coverage": 90.70459290187883,
+   "width": 2.6561272019328546,
+   "set_size": 3.0964321503131518,
+   "group_coverage": {
+    "user activity": {
+     "high": 91.19885401388485,
+     "low": 90.2313586732262
+    },
+    "item popularity": {
+     "high": 91.50202147402544,
+     "low": 89.91320660009761
+    },
+    "context (Location)": {
+     "Cinema": 90.89120487292352,
+     "Home": 90.50189150216443
+    },
+    "true rating": {
+     "1-2": 85.97184236940225,
+     "3": 93.59981860304453,
+     "4-5": 92.69360195120078
+    },
+    "predicted rating": {
+     "3-4": 90.98427814317502,
+     "<3": 90.51518848122822,
+     ">=4": 90.68547813433011
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 335,
+     "low": 349
+    },
+    "item popularity": {
+     "high": 341,
+     "low": 343
+    },
+    "context (Location)": {
+     "Cinema": 354,
+     "Home": 330
+    },
+    "true rating": {
+     "1-2": 220,
+     "3": 140,
+     "4-5": 324
+    },
+    "predicted rating": {
+     "3-4": 190,
+     "<3": 270,
+     ">=4": 224
+    }
+   }
+  }
+ },
+ "mistral Depaul-H eps=0.05": {
+  "marginal": {
+   "coverage": 95.21607515657617,
+   "width": 3.059796875045959,
+   "set_size": 3.6238121085595,
+   "group_coverage": {
+    "user activity": {
+     "high": 94.58005896215334,
+     "low": 95.82807231983233
+    },
+    "item popularity": {
+     "high": 95.63270656852228,
+     "low": 94.80196633887155
+    },
+    "context (Location)": {
+     "Cinema": 95.49493081624603,
+     "Home": 94.91563577992869
+    },
+    "true rating": {
+     "1-2": 91.12971920131213,
+     "3": 99.95794050480849,
+     "4-5": 95.95102574808429
+    },
+    "predicted rating": {
+     "3-4": 95.08503017536832,
+     "<3": 95.17524150973048,
+     ">=4": 95.37373930262343
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 335,
+     "low": 349
+    },
+    "item popularity": {
+     "high": 341,
+     "low": 343
+    },
+    "context (Location)": {
+     "Cinema": 354,
+     "Home": 330
+    },
+    "true rating": {
+     "1-2": 220,
+     "3": 140,
+     "4-5": 324
+    },
+    "predicted rating": {
+     "3-4": 190,
+     "<3": 270,
+     ">=4": 224
+    }
+   }
+  },
+  "mondrian (user activity)": {
+   "coverage": 95.46847599164913,
+   "width": 3.1101420281259693,
+   "set_size": 3.670526096033403,
+   "group_coverage": {
+    "user activity": {
+     "high": 95.40777124795954,
+     "low": 95.52487581485859
+    },
+    "item popularity": {
+     "high": 96.10878010951929,
+     "low": 94.83309759523443
+    },
+    "context (Location)": {
+     "Cinema": 95.8525724834166,
+     "Home": 95.05487422497531
+    },
+    "true rating": {
+     "1-2": 91.99713880763854,
+     "3": 99.86831829206285,
+     "4-5": 95.93413920955943
+    },
+    "predicted rating": {
+     "3-4": 95.35028986939098,
+     "<3": 95.19367850381954,
+     ">=4": 95.90179158865025
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 335,
+     "low": 349
+    },
+    "item popularity": {
+     "high": 341,
+     "low": 343
+    },
+    "context (Location)": {
+     "Cinema": 354,
+     "Home": 330
+    },
+    "true rating": {
+     "1-2": 220,
+     "3": 140,
+     "4-5": 324
+    },
+    "predicted rating": {
+     "3-4": 190,
+     "<3": 270,
+     ">=4": 224
+    }
+   }
+  },
+  "mondrian (item popularity)": {
+   "coverage": 95.46659707724437,
+   "width": 3.1160688791148035,
+   "set_size": 3.6740501043841305,
+   "group_coverage": {
+    "user activity": {
+     "high": 94.9097992400173,
+     "low": 96.00258256863614
+    },
+    "item popularity": {
+     "high": 95.45628114843701,
+     "low": 95.4778395016107
+    },
+    "context (Location)": {
+     "Cinema": 95.64119476348333,
+     "Home": 95.27861789244383
+    },
+    "true rating": {
+     "1-2": 91.6943480372446,
+     "3": 99.83069844725769,
+     "4-5": 96.15087166536705
+    },
+    "predicted rating": {
+     "3-4": 95.3608118310171,
+     "<3": 95.46981420463348,
+     ">=4": 95.54719291310361
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 335,
+     "low": 349
+    },
+    "item popularity": {
+     "high": 341,
+     "low": 343
+    },
+    "context (Location)": {
+     "Cinema": 354,
+     "Home": 330
+    },
+    "true rating": {
+     "1-2": 220,
+     "3": 140,
+     "4-5": 324
+    },
+    "predicted rating": {
+     "3-4": 190,
+     "<3": 270,
+     ">=4": 224
+    }
+   }
+  },
+  "mondrian (predicted rating)": {
+   "coverage": 95.76784968684763,
+   "width": 3.1569215192120175,
+   "set_size": 3.7303924843423752,
+   "group_coverage": {
+    "user activity": {
+     "high": 95.3085640689863,
+     "low": 96.20932765897496
+    },
+    "item popularity": {
+     "high": 96.15246378003197,
+     "low": 95.38584482420168
+    },
+    "context (Location)": {
+     "Cinema": 95.83904228405648,
+     "Home": 95.69055847093674
+    },
+    "true rating": {
+     "1-2": 92.48838241862806,
+     "3": 99.44622864491795,
+     "4-5": 96.43163462570757
+    },
+    "predicted rating": {
+     "3-4": 96.02705405365403,
+     "<3": 95.63328343772257,
+     ">=4": 95.68997362301135
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 335,
+     "low": 349
+    },
+    "item popularity": {
+     "high": 341,
+     "low": 343
+    },
+    "context (Location)": {
+     "Cinema": 354,
+     "Home": 330
+    },
+    "true rating": {
+     "1-2": 220,
+     "3": 140,
+     "4-5": 324
+    },
+    "predicted rating": {
+     "3-4": 190,
+     "<3": 270,
+     ">=4": 224
+    }
+   }
+  }
+ },
+ "eurollm Depaul-H eps=0.1": {
+  "marginal": {
+   "coverage": 90.37620041753661,
+   "width": 2.5588822148707155,
+   "set_size": 2.912995824634656,
+   "group_coverage": {
+    "user activity": {
+     "high": 90.99768284901447,
+     "low": 89.78172151152054
+    },
+    "item popularity": {
+     "high": 91.82825783673529,
+     "low": 88.93103486373295
+    },
+    "context (Location)": {
+     "Cinema": 89.73277620775039,
+     "Home": 91.06284221351935
+    },
+    "true rating": {
+     "1-2": 87.7759718953308,
+     "3": 96.04717515720283,
+     "4-5": 89.69751684928447
+    },
+    "predicted rating": {
+     "3-4": 87.41075874832993,
+     "<3": 88.89931851322346,
+     ">=4": 94.75195920146805
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 335,
+     "low": 349
+    },
+    "item popularity": {
+     "high": 341,
+     "low": 343
+    },
+    "context (Location)": {
+     "Cinema": 354,
+     "Home": 330
+    },
+    "true rating": {
+     "1-2": 220,
+     "3": 140,
+     "4-5": 324
+    },
+    "predicted rating": {
+     "3-4": 188,
+     "<3": 275,
+     ">=4": 221
+    }
+   }
+  },
+  "mondrian (user activity)": {
+   "coverage": 90.48956158663883,
+   "width": 2.5763680327719665,
+   "set_size": 2.9400835073068894,
+   "group_coverage": {
+    "user activity": {
+     "high": 90.48302373791202,
+     "low": 90.50259070549494
+    },
+    "item popularity": {
+     "high": 92.08874692706928,
+     "low": 88.89723244649106
+    },
+    "context (Location)": {
+     "Cinema": 89.96541213252915,
+     "Home": 91.04920829965567
+    },
+    "true rating": {
+     "1-2": 87.98833561773279,
+     "3": 96.00507893027952,
+     "4-5": 89.81010743244006
+    },
+    "predicted rating": {
+     "3-4": 87.65478369494521,
+     "<3": 88.98298246947601,
+     ">=4": 94.79097103729266
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 335,
+     "low": 349
+    },
+    "item popularity": {
+     "high": 341,
+     "low": 343
+    },
+    "context (Location)": {
+     "Cinema": 354,
+     "Home": 330
+    },
+    "true rating": {
+     "1-2": 220,
+     "3": 140,
+     "4-5": 324
+    },
+    "predicted rating": {
+     "3-4": 188,
+     "<3": 275,
+     ">=4": 221
+    }
+   }
+  },
+  "mondrian (item popularity)": {
+   "coverage": 90.45574112734869,
+   "width": 2.5812059911797687,
+   "set_size": 2.9494885177453,
+   "group_coverage": {
+    "user activity": {
+     "high": 91.25399169039326,
+     "low": 89.69031118535713
+    },
+    "item popularity": {
+     "high": 90.36396066982654,
+     "low": 90.5425350954704
+    },
+    "context (Location)": {
+     "Cinema": 90.43669429675096,
+     "Home": 90.47404157609861
+    },
+    "true rating": {
+     "1-2": 88.31745119519985,
+     "3": 95.40339134804327,
+     "4-5": 89.77704205376975
+    },
+    "predicted rating": {
+     "3-4": 87.39440550699398,
+     "<3": 89.23913493305542,
+     ">=4": 94.58584218918766
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 335,
+     "low": 349
+    },
+    "item popularity": {
+     "high": 341,
+     "low": 343
+    },
+    "context (Location)": {
+     "Cinema": 354,
+     "Home": 330
+    },
+    "true rating": {
+     "1-2": 220,
+     "3": 140,
+     "4-5": 324
+    },
+    "predicted rating": {
+     "3-4": 188,
+     "<3": 275,
+     ">=4": 221
+    }
+   }
+  },
+  "mondrian (predicted rating)": {
+   "coverage": 90.71524008350733,
+   "width": 2.5599772718405465,
+   "set_size": 2.953486430062631,
+   "group_coverage": {
+    "user activity": {
+     "high": 91.54732828233998,
+     "low": 89.91704084199118
+    },
+    "item popularity": {
+     "high": 92.33924507038228,
+     "low": 89.10101984658276
+    },
+    "context (Location)": {
+     "Cinema": 91.04666716901957,
+     "Home": 90.35916381123172
+    },
+    "true rating": {
+     "1-2": 89.70602671482584,
+     "3": 90.45773110558903,
+     "4-5": 91.5379792128878
+    },
+    "predicted rating": {
+     "3-4": 90.92619562761185,
+     "<3": 90.58912306513626,
+     ">=4": 90.68424934550751
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 335,
+     "low": 349
+    },
+    "item popularity": {
+     "high": 341,
+     "low": 343
+    },
+    "context (Location)": {
+     "Cinema": 354,
+     "Home": 330
+    },
+    "true rating": {
+     "1-2": 220,
+     "3": 140,
+     "4-5": 324
+    },
+    "predicted rating": {
+     "3-4": 188,
+     "<3": 275,
+     ">=4": 221
+    }
+   }
+  }
+ },
+ "eurollm Depaul-H eps=0.05": {
+  "marginal": {
+   "coverage": 95.23903966597072,
+   "width": 2.9941394792577425,
+   "set_size": 3.4714634655532377,
+   "group_coverage": {
+    "user activity": {
+     "high": 95.00203982842073,
+     "low": 95.4683912307109
+    },
+    "item popularity": {
+     "high": 96.54195432909039,
+     "low": 93.94280910356633
+    },
+    "context (Location)": {
+     "Cinema": 95.7620291639986,
+     "Home": 94.67827479019586
+    },
+    "true rating": {
+     "1-2": 93.28787112014622,
+     "3": 99.73797700316433,
+     "4-5": 94.62518265404593
+    },
+    "predicted rating": {
+     "3-4": 95.88315318794605,
+     "<3": 93.61533314071535,
+     ">=4": 96.71453166736308
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 335,
+     "low": 349
+    },
+    "item popularity": {
+     "high": 341,
+     "low": 343
+    },
+    "context (Location)": {
+     "Cinema": 354,
+     "Home": 330
+    },
+    "true rating": {
+     "1-2": 220,
+     "3": 140,
+     "4-5": 324
+    },
+    "predicted rating": {
+     "3-4": 188,
+     "<3": 275,
+     ">=4": 221
+    }
+   }
+  },
+  "mondrian (user activity)": {
+   "coverage": 95.44906054279751,
+   "width": 3.0424848108739266,
+   "set_size": 3.531373695198331,
+   "group_coverage": {
+    "user activity": {
+     "high": 95.43732534623953,
+     "low": 95.46589328836079
+    },
+    "item popularity": {
+     "high": 96.70409943914399,
+     "low": 94.20226245998447
+    },
+    "context (Location)": {
+     "Cinema": 95.79490615426808,
+     "Home": 95.07778237325523
+    },
+    "true rating": {
+     "1-2": 93.6600587695426,
+     "3": 99.59928747167007,
+     "4-5": 94.87492996715153
+    },
+    "predicted rating": {
+     "3-4": 95.81392169624596,
+     "<3": 93.98860555524844,
+     ">=4": 96.95870194961984
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 335,
+     "low": 349
+    },
+    "item popularity": {
+     "high": 341,
+     "low": 343
+    },
+    "context (Location)": {
+     "Cinema": 354,
+     "Home": 330
+    },
+    "true rating": {
+     "1-2": 220,
+     "3": 140,
+     "4-5": 324
+    },
+    "predicted rating": {
+     "3-4": 188,
+     "<3": 275,
+     ">=4": 221
+    }
+   }
+  },
+  "mondrian (item popularity)": {
+   "coverage": 95.50271398747392,
+   "width": 3.0300215412209104,
+   "set_size": 3.5241419624217123,
+   "group_coverage": {
+    "user activity": {
+     "high": 95.09578583322177,
+     "low": 95.8953272616639
+    },
+    "item popularity": {
+     "high": 95.43098919836441,
+     "low": 95.56826858644781
+    },
+    "context (Location)": {
+     "Cinema": 95.9088541943104,
+     "Home": 95.0664081385487
+    },
+    "true rating": {
+     "1-2": 93.49378057102099,
+     "3": 99.07122035914699,
+     "4-5": 95.32886653375698
+    },
+    "predicted rating": {
+     "3-4": 95.42307768486887,
+     "<3": 94.83794460661544,
+     ">=4": 96.39831159802584
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 335,
+     "low": 349
+    },
+    "item popularity": {
+     "high": 341,
+     "low": 343
+    },
+    "context (Location)": {
+     "Cinema": 354,
+     "Home": 330
+    },
+    "true rating": {
+     "1-2": 220,
+     "3": 140,
+     "4-5": 324
+    },
+    "predicted rating": {
+     "3-4": 188,
+     "<3": 275,
+     ">=4": 221
+    }
+   }
+  },
+  "mondrian (predicted rating)": {
+   "coverage": 95.76492693110643,
+   "width": 3.0605965946125684,
+   "set_size": 3.5777181628392483,
+   "group_coverage": {
+    "user activity": {
+     "high": 95.65128089794115,
+     "low": 95.87630829015981
+    },
+    "item popularity": {
+     "high": 96.32194605072218,
+     "low": 95.21066220614965
+    },
+    "context (Location)": {
+     "Cinema": 96.1895954554138,
+     "Home": 95.3099921124348
+    },
+    "true rating": {
+     "1-2": 93.858593606949,
+     "3": 98.10892720072584,
+     "4-5": 96.0659478446751
+    },
+    "predicted rating": {
+     "3-4": 96.07218933319372,
+     "<3": 95.64963917990312,
+     ">=4": 95.63245219779597
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 335,
+     "low": 349
+    },
+    "item popularity": {
+     "high": 341,
+     "low": 343
+    },
+    "context (Location)": {
+     "Cinema": 354,
+     "Home": 330
+    },
+    "true rating": {
+     "1-2": 220,
+     "3": 140,
+     "4-5": 324
+    },
+    "predicted rating": {
+     "3-4": 188,
+     "<3": 275,
+     ">=4": 221
+    }
+   }
+  }
+ },
+ "llama Depaul-H eps=0.1": {
+  "marginal": {
+   "coverage": 90.4229645093947,
+   "width": 2.5561357950311154,
+   "set_size": 2.9115135699373718,
+   "group_coverage": {
+    "user activity": {
+     "high": 91.04621827245549,
+     "low": 89.82618429369231
+    },
+    "item popularity": {
+     "high": 92.4748748191035,
+     "low": 88.38177323601049
+    },
+    "context (Location)": {
+     "Cinema": 89.62105745853947,
+     "Home": 91.27990997979744
+    },
+    "true rating": {
+     "1-2": 87.00864140446492,
+     "3": 97.01420329386782,
+     "4-5": 89.90184946048626
+    },
+    "predicted rating": {
+     "3-4": 85.72640860329675,
+     "<3": 89.54522081359066,
+     ">=4": 95.79072098486428
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 335,
+     "low": 349
+    },
+    "item popularity": {
+     "high": 341,
+     "low": 343
+    },
+    "context (Location)": {
+     "Cinema": 354,
+     "Home": 330
+    },
+    "true rating": {
+     "1-2": 220,
+     "3": 140,
+     "4-5": 324
+    },
+    "predicted rating": {
+     "3-4": 197,
+     "<3": 270,
+     ">=4": 217
+    }
+   }
+  },
+  "mondrian (user activity)": {
+   "coverage": 90.48997912317328,
+   "width": 2.552869445241044,
+   "set_size": 2.9115052192066804,
+   "group_coverage": {
+    "user activity": {
+     "high": 90.44276597310498,
+     "low": 90.54190579805199
+    },
+    "item popularity": {
+     "high": 92.42495894980173,
+     "low": 88.56611009623208
+    },
+    "context (Location)": {
+     "Cinema": 89.85589129880097,
+     "Home": 91.16595185118238
+    },
+    "true rating": {
+     "1-2": 87.36008075718253,
+     "3": 96.58354327798074,
+     "4-5": 89.98984265823242
+    },
+    "predicted rating": {
+     "3-4": 85.97417282825172,
+     "<3": 89.57297997980818,
+     ">=4": 95.74304635055891
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 335,
+     "low": 349
+    },
+    "item popularity": {
+     "high": 341,
+     "low": 343
+    },
+    "context (Location)": {
+     "Cinema": 354,
+     "Home": 330
+    },
+    "true rating": {
+     "1-2": 220,
+     "3": 140,
+     "4-5": 324
+    },
+    "predicted rating": {
+     "3-4": 197,
+     "<3": 270,
+     ">=4": 217
+    }
+   }
+  },
+  "mondrian (item popularity)": {
+   "coverage": 90.51252609603344,
+   "width": 2.5607569262264636,
+   "set_size": 2.927473903966597,
+   "group_coverage": {
+    "user activity": {
+     "high": 90.8235419789193,
+     "low": 90.21721116379831
+    },
+    "item popularity": {
+     "high": 90.35192787979554,
+     "low": 90.6678007579654
+    },
+    "context (Location)": {
+     "Cinema": 90.1672342547634,
+     "Home": 90.88036828023137
+    },
+    "true rating": {
+     "1-2": 88.14391433604138,
+     "3": 95.78526546869743,
+     "4-5": 89.84993356939628
+    },
+    "predicted rating": {
+     "3-4": 85.82248716404041,
+     "<3": 89.9335665195475,
+     ">=4": 95.4987848506099
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 335,
+     "low": 349
+    },
+    "item popularity": {
+     "high": 341,
+     "low": 343
+    },
+    "context (Location)": {
+     "Cinema": 354,
+     "Home": 330
+    },
+    "true rating": {
+     "1-2": 220,
+     "3": 140,
+     "4-5": 324
+    },
+    "predicted rating": {
+     "3-4": 197,
+     "<3": 270,
+     ">=4": 217
+    }
+   }
+  },
+  "mondrian (predicted rating)": {
+   "coverage": 90.82233820459291,
+   "width": 2.5290550516431054,
+   "set_size": 2.9153277661795434,
+   "group_coverage": {
+    "user activity": {
+     "high": 92.01210029469098,
+     "low": 89.68105899619833
+    },
+    "item popularity": {
+     "high": 93.38839130107692,
+     "low": 88.27306557349317
+    },
+    "context (Location)": {
+     "Cinema": 90.99799543214633,
+     "Home": 90.63128090599373
+    },
+    "true rating": {
+     "1-2": 89.84021551747509,
+     "3": 89.67320107221174,
+     "4-5": 92.01073935018248
+    },
+    "predicted rating": {
+     "3-4": 91.01574835052921,
+     "<3": 90.74772223457491,
+     ">=4": 90.71902735707707
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 335,
+     "low": 349
+    },
+    "item popularity": {
+     "high": 341,
+     "low": 343
+    },
+    "context (Location)": {
+     "Cinema": 354,
+     "Home": 330
+    },
+    "true rating": {
+     "1-2": 220,
+     "3": 140,
+     "4-5": 324
+    },
+    "predicted rating": {
+     "3-4": 197,
+     "<3": 270,
+     ">=4": 217
+    }
+   }
+  }
+ },
+ "llama Depaul-H eps=0.05": {
+  "marginal": {
+   "coverage": 95.24008350730692,
+   "width": 2.923174164554075,
+   "set_size": 3.3859331941544872,
+   "group_coverage": {
+    "user activity": {
+     "high": 95.08456832521647,
+     "low": 95.3914761728533
+    },
+    "item popularity": {
+     "high": 96.82175391631668,
+     "low": 93.6667896200922
+    },
+    "context (Location)": {
+     "Cinema": 95.26085085965677,
+     "Home": 95.21720593336896
+    },
+    "true rating": {
+     "1-2": 93.7714326148525,
+     "3": 99.5843814052519,
+     "4-5": 94.36630627248273
+    },
+    "predicted rating": {
+     "3-4": 95.25965761062555,
+     "<3": 93.81351645075992,
+     ">=4": 96.99461766524436
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 335,
+     "low": 349
+    },
+    "item popularity": {
+     "high": 341,
+     "low": 343
+    },
+    "context (Location)": {
+     "Cinema": 354,
+     "Home": 330
+    },
+    "true rating": {
+     "1-2": 220,
+     "3": 140,
+     "4-5": 324
+    },
+    "predicted rating": {
+     "3-4": 197,
+     "<3": 270,
+     ">=4": 217
+    }
+   }
+  },
+  "mondrian (user activity)": {
+   "coverage": 95.48663883089766,
+   "width": 2.9869305234269143,
+   "set_size": 3.4675469728601223,
+   "group_coverage": {
+    "user activity": {
+     "high": 95.50501247373454,
+     "low": 95.47231017653367
+    },
+    "item popularity": {
+     "high": 96.95467925963028,
+     "low": 94.02809664221056
+    },
+    "context (Location)": {
+     "Cinema": 95.52369969657252,
+     "Home": 95.44552241396482
+    },
+    "true rating": {
+     "1-2": 94.05434617051317,
+     "3": 99.5100148099098,
+     "4-5": 94.7257640852339
+    },
+    "predicted rating": {
+     "3-4": 95.48632743484083,
+     "<3": 94.18322175624976,
+     ">=4": 97.10855926744703
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 335,
+     "low": 349
+    },
+    "item popularity": {
+     "high": 341,
+     "low": 343
+    },
+    "context (Location)": {
+     "Cinema": 354,
+     "Home": 330
+    },
+    "true rating": {
+     "1-2": 220,
+     "3": 140,
+     "4-5": 324
+    },
+    "predicted rating": {
+     "3-4": 197,
+     "<3": 270,
+     ">=4": 217
+    }
+   }
+  },
+  "mondrian (item popularity)": {
+   "coverage": 95.4807933194156,
+   "width": 2.9686698337443165,
+   "set_size": 3.440736951983298,
+   "group_coverage": {
+    "user activity": {
+     "high": 95.138888926958,
+     "low": 95.81134558147305
+    },
+    "item popularity": {
+     "high": 95.45414092406946,
+     "low": 95.50613957385447
+    },
+    "context (Location)": {
+     "Cinema": 95.34552241733756,
+     "Home": 95.6242124326785
+    },
+    "true rating": {
+     "1-2": 93.41760169311132,
+     "3": 99.02468774326212,
+     "4-5": 95.35597778847087
+    },
+    "predicted rating": {
+     "3-4": 94.65303406593213,
+     "<3": 95.11387204924876,
+     ">=4": 96.68477746156432
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 335,
+     "low": 349
+    },
+    "item popularity": {
+     "high": 341,
+     "low": 343
+    },
+    "context (Location)": {
+     "Cinema": 354,
+     "Home": 330
+    },
+    "true rating": {
+     "1-2": 220,
+     "3": 140,
+     "4-5": 324
+    },
+    "predicted rating": {
+     "3-4": 197,
+     "<3": 270,
+     ">=4": 217
+    }
+   }
+  },
+  "mondrian (predicted rating)": {
+   "coverage": 95.74551148225473,
+   "width": 3.0020999673110316,
+   "set_size": 3.4963089770354867,
+   "group_coverage": {
+    "user activity": {
+     "high": 95.99863014707982,
+     "low": 95.50403590743345
+    },
+    "item popularity": {
+     "high": 96.57782500472646,
+     "low": 94.91742042391196
+    },
+    "context (Location)": {
+     "Cinema": 95.86532860814114,
+     "Home": 95.6153864772596
+    },
+    "true rating": {
+     "1-2": 94.20812867446038,
+     "3": 97.2947120959041,
+     "4-5": 96.13941476190386
+    },
+    "predicted rating": {
+     "3-4": 95.88714592969755,
+     "<3": 95.68403177645574,
+     ">=4": 95.66364884661644
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 335,
+     "low": 349
+    },
+    "item popularity": {
+     "high": 341,
+     "low": 343
+    },
+    "context (Location)": {
+     "Cinema": 354,
+     "Home": 330
+    },
+    "true rating": {
+     "1-2": 220,
+     "3": 140,
+     "4-5": 324
+    },
+    "predicted rating": {
+     "3-4": 197,
+     "<3": 270,
+     ">=4": 217
+    }
+   }
+  }
+ },
+ "deepseek Depaul-H eps=0.1": {
+  "marginal": {
+   "coverage": 90.36033402922754,
+   "width": 2.6163496749055666,
+   "set_size": 2.9549603340292276,
+   "group_coverage": {
+    "user activity": {
+     "high": 91.3934949387008,
+     "low": 89.36760154790932
+    },
+    "item popularity": {
+     "high": 91.73452096930306,
+     "low": 88.99463693438689
+    },
+    "context (Location)": {
+     "Cinema": 89.96189126378474,
+     "Home": 90.78519980848493
+    },
+    "true rating": {
+     "1-2": 86.91184291675151,
+     "3": 95.72697343727843,
+     "4-5": 90.3905270756928
+    },
+    "predicted rating": {
+     "3-4": 87.95656941596305,
+     "<3": 88.52591740269166,
+     ">=4": 95.39323276632247
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 335,
+     "low": 349
+    },
+    "item popularity": {
+     "high": 341,
+     "low": 343
+    },
+    "context (Location)": {
+     "Cinema": 354,
+     "Home": 330
+    },
+    "true rating": {
+     "1-2": 220,
+     "3": 140,
+     "4-5": 324
+    },
+    "predicted rating": {
+     "3-4": 214,
+     "<3": 269,
+     ">=4": 201
+    }
+   }
+  },
+  "mondrian (user activity)": {
+   "coverage": 90.45532359081439,
+   "width": 2.615503472064054,
+   "set_size": 2.9644258872651355,
+   "group_coverage": {
+    "user activity": {
+     "high": 90.45804422431453,
+     "low": 90.45488239836912
+    },
+    "item popularity": {
+     "high": 91.64244061561358,
+     "low": 89.27722821524982
+    },
+    "context (Location)": {
+     "Cinema": 89.92890045212806,
+     "Home": 91.01596081804959
+    },
+    "true rating": {
+     "1-2": 87.69842177324976,
+     "3": 95.05134069048063,
+     "4-5": 90.34497977982751
+    },
+    "predicted rating": {
+     "3-4": 88.28777045524977,
+     "<3": 88.50637224510045,
+     ">=4": 95.39188193822635
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 335,
+     "low": 349
+    },
+    "item popularity": {
+     "high": 341,
+     "low": 343
+    },
+    "context (Location)": {
+     "Cinema": 354,
+     "Home": 330
+    },
+    "true rating": {
+     "1-2": 220,
+     "3": 140,
+     "4-5": 324
+    },
+    "predicted rating": {
+     "3-4": 214,
+     "<3": 269,
+     ">=4": 201
+    }
+   }
+  },
+  "mondrian (item popularity)": {
+   "coverage": 90.49979123173281,
+   "width": 2.6215732593338457,
+   "set_size": 2.976273486430063,
+   "group_coverage": {
+    "user activity": {
+     "high": 91.22667027317229,
+     "low": 89.80185090956827
+    },
+    "item popularity": {
+     "high": 90.45118737726307,
+     "low": 90.55024911332839
+    },
+    "context (Location)": {
+     "Cinema": 90.24853826042019,
+     "Home": 90.76642113580455
+    },
+    "true rating": {
+     "1-2": 87.85021466313513,
+     "3": 94.76237039307924,
+     "4-5": 90.46476243142362
+    },
+    "predicted rating": {
+     "3-4": 88.04165750838176,
+     "<3": 89.07318891629923,
+     ">=4": 95.04291864521042
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 335,
+     "low": 349
+    },
+    "item popularity": {
+     "high": 341,
+     "low": 343
+    },
+    "context (Location)": {
+     "Cinema": 354,
+     "Home": 330
+    },
+    "true rating": {
+     "1-2": 220,
+     "3": 140,
+     "4-5": 324
+    },
+    "predicted rating": {
+     "3-4": 214,
+     "<3": 269,
+     ">=4": 201
+    }
+   }
+  },
+  "mondrian (predicted rating)": {
+   "coverage": 90.73423799582467,
+   "width": 2.5786654886944222,
+   "set_size": 2.9821064718162837,
+   "group_coverage": {
+    "user activity": {
+     "high": 91.73708016681974,
+     "low": 89.7706369429368
+    },
+    "item popularity": {
+     "high": 91.61030964003703,
+     "low": 89.86500720975805
+    },
+    "context (Location)": {
+     "Cinema": 90.44425016607498,
+     "Home": 91.04312035611115
+    },
+    "true rating": {
+     "1-2": 89.48782181797145,
+     "3": 90.94266361556845,
+     "4-5": 91.49739695149098
+    },
+    "predicted rating": {
+     "3-4": 90.71181923295478,
+     "<3": 90.81913690490097,
+     ">=4": 90.63414581929294
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 335,
+     "low": 349
+    },
+    "item popularity": {
+     "high": 341,
+     "low": 343
+    },
+    "context (Location)": {
+     "Cinema": 354,
+     "Home": 330
+    },
+    "true rating": {
+     "1-2": 220,
+     "3": 140,
+     "4-5": 324
+    },
+    "predicted rating": {
+     "3-4": 214,
+     "<3": 269,
+     ">=4": 201
+    }
+   }
+  }
+ },
+ "deepseek Depaul-H eps=0.05": {
+  "marginal": {
+   "coverage": 95.18684759916486,
+   "width": 2.980453769184511,
+   "set_size": 3.465319415448851,
+   "group_coverage": {
+    "user activity": {
+     "high": 95.11556047868073,
+     "low": 95.25622705113575
+    },
+    "item popularity": {
+     "high": 96.2999984979717,
+     "low": 94.07878266225525
+    },
+    "context (Location)": {
+     "Cinema": 95.04956939300378,
+     "Home": 95.33369086087382
+    },
+    "true rating": {
+     "1-2": 93.58754571457246,
+     "3": 99.76589833148395,
+     "4-5": 94.29761187824785
+    },
+    "predicted rating": {
+     "3-4": 95.40171969343103,
+     "<3": 93.4550868628745,
+     ">=4": 97.28424207002355
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 335,
+     "low": 349
+    },
+    "item popularity": {
+     "high": 341,
+     "low": 343
+    },
+    "context (Location)": {
+     "Cinema": 354,
+     "Home": 330
+    },
+    "true rating": {
+     "1-2": 220,
+     "3": 140,
+     "4-5": 324
+    },
+    "predicted rating": {
+     "3-4": 214,
+     "<3": 269,
+     ">=4": 201
+    }
+   }
+  },
+  "mondrian (user activity)": {
+   "coverage": 95.44300626304783,
+   "width": 3.047673427504229,
+   "set_size": 3.5414885177453015,
+   "group_coverage": {
+    "user activity": {
+     "high": 95.42078950714746,
+     "low": 95.46378310636197
+    },
+    "item popularity": {
+     "high": 96.54942097678058,
+     "low": 94.3441886495965
+    },
+    "context (Location)": {
+     "Cinema": 95.48600316667046,
+     "Home": 95.39385355131593
+    },
+    "true rating": {
+     "1-2": 94.13546708905938,
+     "3": 99.59854975395024,
+     "4-5": 94.53878942278241
+    },
+    "predicted rating": {
+     "3-4": 95.61635368370352,
+     "<3": 93.725041394067,
+     ">=4": 97.56671266443155
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 335,
+     "low": 349
+    },
+    "item popularity": {
+     "high": 341,
+     "low": 343
+    },
+    "context (Location)": {
+     "Cinema": 354,
+     "Home": 330
+    },
+    "true rating": {
+     "1-2": 220,
+     "3": 140,
+     "4-5": 324
+    },
+    "predicted rating": {
+     "3-4": 214,
+     "<3": 269,
+     ">=4": 201
+    }
+   }
+  },
+  "mondrian (item popularity)": {
+   "coverage": 95.46367432150315,
+   "width": 3.039907629179078,
+   "set_size": 3.532173277661797,
+   "group_coverage": {
+    "user activity": {
+     "high": 95.39790207673443,
+     "low": 95.52685201867868
+    },
+    "item popularity": {
+     "high": 95.35661057737926,
+     "low": 95.56641750150217
+    },
+    "context (Location)": {
+     "Cinema": 95.54629659990691,
+     "Home": 95.3739580500575
+    },
+    "true rating": {
+     "1-2": 93.43510323238621,
+     "3": 99.3328054319817,
+     "4-5": 95.1735201789
+    },
+    "predicted rating": {
+     "3-4": 95.08671606013299,
+     "<3": 94.5676911283229,
+     ">=4": 97.06924114530638
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 335,
+     "low": 349
+    },
+    "item popularity": {
+     "high": 341,
+     "low": 343
+    },
+    "context (Location)": {
+     "Cinema": 354,
+     "Home": 330
+    },
+    "true rating": {
+     "1-2": 220,
+     "3": 140,
+     "4-5": 324
+    },
+    "predicted rating": {
+     "3-4": 214,
+     "<3": 269,
+     ">=4": 201
+    }
+   }
+  },
+  "mondrian (predicted rating)": {
+   "coverage": 95.65156576200413,
+   "width": 3.0567692301609246,
+   "set_size": 3.591382045929017,
+   "group_coverage": {
+    "user activity": {
+     "high": 95.86689434099597,
+     "low": 95.44605011871057
+    },
+    "item popularity": {
+     "high": 95.89961081625968,
+     "low": 95.40436473225749
+    },
+    "context (Location)": {
+     "Cinema": 95.47613128299403,
+     "Home": 95.83958411809557
+    },
+    "true rating": {
+     "1-2": 93.76567212349326,
+     "3": 97.58967040937546,
+     "4-5": 96.11626834781514
+    },
+    "predicted rating": {
+     "3-4": 95.62943406635513,
+     "<3": 95.71134991403801,
+     ">=4": 95.57757067428187
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 335,
+     "low": 349
+    },
+    "item popularity": {
+     "high": 341,
+     "low": 343
+    },
+    "context (Location)": {
+     "Cinema": 354,
+     "Home": 330
+    },
+    "true rating": {
+     "1-2": 220,
+     "3": 140,
+     "4-5": 324
+    },
+    "predicted rating": {
+     "3-4": 214,
+     "<3": 269,
+     ">=4": 201
+    }
+   }
+  }
+ },
+ "mistral Restaurant-H eps=0.1": {
+  "marginal": {
+   "coverage": 90.80628571428547,
+   "width": 2.1732357627984764,
+   "set_size": 2.5431771428571475,
+   "group_coverage": {
+    "user activity": {
+     "high": 92.56783458340712,
+     "low": 89.0538452855865
+    },
+    "item popularity": {
+     "high": 87.53025411888072,
+     "low": 93.74667376333791
+    },
+    "context (Context)": {
+     "Weekday at Home": 96.05758754394446,
+     "Weekday at School": 80.19606785033618,
+     "Weekday at Work": 93.9461863262035,
+     "Weekend at Home": 98.48732666637383,
+     "Weekend at School": 93.56293016610955,
+     "Weekend at Work": 81.55878540847013
+    },
+    "true rating": {
+     "1-2": 82.93692286990144,
+     "3": 88.04621907063488,
+     "4-5": 93.3727700670634
+    },
+    "predicted rating": {
+     "3-4": 84.07661498926723,
+     "<3": 82.80946533576616,
+     ">=4": 96.53034592736292
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 125,
+     "low": 125
+    },
+    "item popularity": {
+     "high": 118,
+     "low": 132
+    },
+    "context (Context)": {
+     "Weekday at Home": 45,
+     "Weekday at School": 48,
+     "Weekday at Work": 41,
+     "Weekend at Home": 33,
+     "Weekend at School": 55,
+     "Weekend at Work": 28
+    },
+    "true rating": {
+     "1-2": 49,
+     "3": 24,
+     "4-5": 177
+    },
+    "predicted rating": {
+     "3-4": 53,
+     "<3": 56,
+     ">=4": 141
+    }
+   }
+  },
+  "mondrian (user activity)": {
+   "coverage": 91.34971428571393,
+   "width": 2.2603223783655233,
+   "set_size": 2.6404971428571398,
+   "group_coverage": {
+    "user activity": {
+     "high": 91.537808818063,
+     "low": 91.147482756062
+    },
+    "item popularity": {
+     "high": 87.94851945159414,
+     "low": 94.40540054149564
+    },
+    "context (Context)": {
+     "Weekday at Home": 95.57537402974386,
+     "Weekday at School": 80.45332716350316,
+     "Weekday at Work": 94.9496502852376,
+     "Weekend at Home": 97.1305272064173,
+     "Weekend at School": 94.39926748101652,
+     "Weekend at Work": 85.2786459434323
+    },
+    "true rating": {
+     "1-2": 82.11788018280068,
+     "3": 91.05930561944898,
+     "4-5": 93.95376607199209
+    },
+    "predicted rating": {
+     "3-4": 85.76565419797308,
+     "<3": 82.46231422525122,
+     ">=4": 96.99873327473604
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 125,
+     "low": 125
+    },
+    "item popularity": {
+     "high": 118,
+     "low": 132
+    },
+    "context (Context)": {
+     "Weekday at Home": 45,
+     "Weekday at School": 48,
+     "Weekday at Work": 41,
+     "Weekend at Home": 33,
+     "Weekend at School": 55,
+     "Weekend at Work": 28
+    },
+    "true rating": {
+     "1-2": 49,
+     "3": 24,
+     "4-5": 177
+    },
+    "predicted rating": {
+     "3-4": 53,
+     "<3": 56,
+     ">=4": 141
+    }
+   }
+  },
+  "mondrian (item popularity)": {
+   "coverage": 91.26914285714257,
+   "width": 2.174598845339029,
+   "set_size": 2.5886628571428596,
+   "group_coverage": {
+    "user activity": {
+     "high": 93.18936889024744,
+     "low": 89.35618930980026
+    },
+    "item popularity": {
+     "high": 91.5775517533019,
+     "low": 90.97743976178036
+    },
+    "context (Context)": {
+     "Weekday at Home": 96.54480617799813,
+     "Weekday at School": 80.53315193452039,
+     "Weekday at Work": 95.1750923629636,
+     "Weekend at Home": 98.46405818666176,
+     "Weekend at School": 92.37157529031752,
+     "Weekend at Work": 84.95591250844573
+    },
+    "true rating": {
+     "1-2": 82.68375909942964,
+     "3": 93.1768646634135,
+     "4-5": 93.40529949351921
+    },
+    "predicted rating": {
+     "3-4": 84.85440903645345,
+     "<3": 82.27451766322503,
+     ">=4": 97.29201415632177
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 125,
+     "low": 125
+    },
+    "item popularity": {
+     "high": 118,
+     "low": 132
+    },
+    "context (Context)": {
+     "Weekday at Home": 45,
+     "Weekday at School": 48,
+     "Weekday at Work": 41,
+     "Weekend at Home": 33,
+     "Weekend at School": 55,
+     "Weekend at Work": 28
+    },
+    "true rating": {
+     "1-2": 49,
+     "3": 24,
+     "4-5": 177
+    },
+    "predicted rating": {
+     "3-4": 53,
+     "<3": 56,
+     ">=4": 141
+    }
+   }
+  },
+  "mondrian (predicted rating)": {
+   "coverage": 91.84285714285687,
+   "width": 2.0545099116413015,
+   "set_size": 2.4986057142857128,
+   "group_coverage": {
+    "user activity": {
+     "high": 94.17790877265011,
+     "low": 89.52198475555542
+    },
+    "item popularity": {
+     "high": 90.58612372175118,
+     "low": 92.96881951940806
+    },
+    "context (Context)": {
+     "Weekday at Home": 94.95241925259192,
+     "Weekday at School": 88.49817222489291,
+     "Weekday at Work": 89.85687384516564,
+     "Weekend at Home": 92.20953302810503,
+     "Weekend at School": 96.3929361469393,
+     "Weekend at Work": 86.11329331090656
+    },
+    "true rating": {
+     "1-2": 90.60354202752691,
+     "3": 79.39911157115121,
+     "4-5": 93.87263162196432
+    },
+    "predicted rating": {
+     "3-4": 93.05260084897401,
+     "<3": 93.1622648420807,
+     ">=4": 90.83926170349936
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 125,
+     "low": 125
+    },
+    "item popularity": {
+     "high": 118,
+     "low": 132
+    },
+    "context (Context)": {
+     "Weekday at Home": 45,
+     "Weekday at School": 48,
+     "Weekday at Work": 41,
+     "Weekend at Home": 33,
+     "Weekend at School": 55,
+     "Weekend at Work": 28
+    },
+    "true rating": {
+     "1-2": 49,
+     "3": 24,
+     "4-5": 177
+    },
+    "predicted rating": {
+     "3-4": 53,
+     "<3": 56,
+     ">=4": 141
+    }
+   }
+  }
+ },
+ "mistral Restaurant-H eps=0.05": {
+  "marginal": {
+   "coverage": 96.06342857142852,
+   "width": 2.8080379393293837,
+   "set_size": 3.3216628571428646,
+   "group_coverage": {
+    "user activity": {
+     "high": 97.25635453345433,
+     "low": 94.87613129835965
+    },
+    "item popularity": {
+     "high": 95.15910111461388,
+     "low": 96.87715351853022
+    },
+    "context (Context)": {
+     "Weekday at Home": 99.66769852156385,
+     "Weekday at School": 88.64140250800934,
+     "Weekday at Work": 98.33912202750355,
+     "Weekend at Home": 99.97185805422649,
+     "Weekend at School": 97.18585604992303,
+     "Weekend at Work": 92.99233499340183
+    },
+    "true rating": {
+     "1-2": 90.94792399682832,
+     "3": 98.4644630298098,
+     "4-5": 97.15639521215189
+    },
+    "predicted rating": {
+     "3-4": 94.85204548984791,
+     "<3": 91.6201996459855,
+     ">=4": 98.3103422128644
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 125,
+     "low": 125
+    },
+    "item popularity": {
+     "high": 118,
+     "low": 132
+    },
+    "context (Context)": {
+     "Weekday at Home": 45,
+     "Weekday at School": 48,
+     "Weekday at Work": 41,
+     "Weekend at Home": 33,
+     "Weekend at School": 55,
+     "Weekend at Work": 28
+    },
+    "true rating": {
+     "1-2": 49,
+     "3": 24,
+     "4-5": 177
+    },
+    "predicted rating": {
+     "3-4": 53,
+     "<3": 56,
+     ">=4": 141
+    }
+   }
+  },
+  "mondrian (user activity)": {
+   "coverage": 96.55485714285705,
+   "width": 3.032586360735123,
+   "set_size": 3.5569028571428576,
+   "group_coverage": {
+    "user activity": {
+     "high": 96.58412539231884,
+     "low": 96.48112369767226
+    },
+    "item popularity": {
+     "high": 95.74972969182937,
+     "low": 97.29008313156397
+    },
+    "context (Context)": {
+     "Weekday at Home": 99.1535009940433,
+     "Weekday at School": 90.81219967396336,
+     "Weekday at Work": 98.52987566800948,
+     "Weekend at Home": 99.67046459964558,
+     "Weekend at School": 97.50862397238969,
+     "Weekend at Work": 93.87196108548625
+    },
+    "true rating": {
+     "1-2": 92.32831696314045,
+     "3": 98.57968712503005,
+     "4-5": 97.46517631335345
+    },
+    "predicted rating": {
+     "3-4": 96.21390864262283,
+     "<3": 92.12371099720735,
+     ">=4": 98.46093176828691
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 125,
+     "low": 125
+    },
+    "item popularity": {
+     "high": 118,
+     "low": 132
+    },
+    "context (Context)": {
+     "Weekday at Home": 45,
+     "Weekday at School": 48,
+     "Weekday at Work": 41,
+     "Weekend at Home": 33,
+     "Weekend at School": 55,
+     "Weekend at Work": 28
+    },
+    "true rating": {
+     "1-2": 49,
+     "3": 24,
+     "4-5": 177
+    },
+    "predicted rating": {
+     "3-4": 53,
+     "<3": 56,
+     ">=4": 141
+    }
+   }
+  },
+  "mondrian (item popularity)": {
+   "coverage": 96.34571428571418,
+   "width": 2.944146016869721,
+   "set_size": 3.474948571428572,
+   "group_coverage": {
+    "user activity": {
+     "high": 98.1477794082353,
+     "low": 94.56283195912224
+    },
+    "item popularity": {
+     "high": 96.72130880640061,
+     "low": 95.97157496439344
+    },
+    "context (Context)": {
+     "Weekday at Home": 99.56326074291216,
+     "Weekday at School": 90.53859424514424,
+     "Weekday at Work": 98.35930901515107,
+     "Weekend at Home": 99.90489763059213,
+     "Weekend at School": 96.98331837178951,
+     "Weekend at Work": 92.78524531075207
+    },
+    "true rating": {
+     "1-2": 90.81394148492717,
+     "3": 97.80759043474063,
+     "4-5": 97.68757135116032
+    },
+    "predicted rating": {
+     "3-4": 94.45276051626627,
+     "<3": 93.35845257139216,
+     ">=4": 98.25652469291765
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 125,
+     "low": 125
+    },
+    "item popularity": {
+     "high": 118,
+     "low": 132
+    },
+    "context (Context)": {
+     "Weekday at Home": 45,
+     "Weekday at School": 48,
+     "Weekday at Work": 41,
+     "Weekend at Home": 33,
+     "Weekend at School": 55,
+     "Weekend at Work": 28
+    },
+    "true rating": {
+     "1-2": 49,
+     "3": 24,
+     "4-5": 177
+    },
+    "predicted rating": {
+     "3-4": 53,
+     "<3": 56,
+     ">=4": 141
+    }
+   }
+  },
+  "mondrian (predicted rating)": {
+   "coverage": 97.11085714285716,
+   "width": 2.745984447122175,
+   "set_size": 3.392502857142853,
+   "group_coverage": {
+    "user activity": {
+     "high": 98.91188727919447,
+     "low": 95.31942827658175
+    },
+    "item popularity": {
+     "high": 97.22203862607122,
+     "low": 97.0073879522439
+    },
+    "context (Context)": {
+     "Weekday at Home": 99.0266653626693,
+     "Weekday at School": 94.99033551683742,
+     "Weekday at Work": 95.51557704566473,
+     "Weekend at Home": 97.76277225815286,
+     "Weekend at School": 99.40494972205552,
+     "Weekend at Work": 94.70168817555295
+    },
+    "true rating": {
+     "1-2": 95.26820113616695,
+     "3": 87.51703936231429,
+     "4-5": 98.9546030481956
+    },
+    "predicted rating": {
+     "3-4": 99.0125161656077,
+     "<3": 98.8846170612442,
+     ">=4": 95.59523713255807
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 125,
+     "low": 125
+    },
+    "item popularity": {
+     "high": 118,
+     "low": 132
+    },
+    "context (Context)": {
+     "Weekday at Home": 45,
+     "Weekday at School": 48,
+     "Weekday at Work": 41,
+     "Weekend at Home": 33,
+     "Weekend at School": 55,
+     "Weekend at Work": 28
+    },
+    "true rating": {
+     "1-2": 49,
+     "3": 24,
+     "4-5": 177
+    },
+    "predicted rating": {
+     "3-4": 53,
+     "<3": 56,
+     ">=4": 141
+    }
+   }
+  }
+ },
+ "eurollm Restaurant-H eps=0.1": {
+  "marginal": {
+   "coverage": 90.80857142857116,
+   "width": 2.1801425754432584,
+   "set_size": 2.549314285714287,
+   "group_coverage": {
+    "user activity": {
+     "high": 91.74210527183864,
+     "low": 89.88019235128981
+    },
+    "item popularity": {
+     "high": 86.29976355664341,
+     "low": 94.85007861116408
+    },
+    "context (Context)": {
+     "Weekday at Home": 95.15242820750647,
+     "Weekday at School": 81.29629767769238,
+     "Weekday at Work": 94.22786284978214,
+     "Weekend at Home": 93.9827344146713,
+     "Weekend at School": 94.3331631246929,
+     "Weekend at Work": 84.51167895711
+    },
+    "true rating": {
+     "1-2": 83.33868647151425,
+     "3": 85.36999292320131,
+     "4-5": 93.61932076408594
+    },
+    "predicted rating": {
+     "3-4": 83.46467565805861,
+     "<3": 83.35335755762424,
+     ">=4": 96.73336522949016
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 125,
+     "low": 125
+    },
+    "item popularity": {
+     "high": 118,
+     "low": 132
+    },
+    "context (Context)": {
+     "Weekday at Home": 45,
+     "Weekday at School": 48,
+     "Weekday at Work": 41,
+     "Weekend at Home": 33,
+     "Weekend at School": 55,
+     "Weekend at Work": 28
+    },
+    "true rating": {
+     "1-2": 49,
+     "3": 24,
+     "4-5": 177
+    },
+    "predicted rating": {
+     "3-4": 59,
+     "<3": 52,
+     ">=4": 139
+    }
+   }
+  },
+  "mondrian (user activity)": {
+   "coverage": 91.33657142857112,
+   "width": 2.2491442542397815,
+   "set_size": 2.645000000000003,
+   "group_coverage": {
+    "user activity": {
+     "high": 91.49484053138065,
+     "low": 91.16606160927324
+    },
+    "item popularity": {
+     "high": 87.10737961803187,
+     "low": 95.13057870185395
+    },
+    "context (Context)": {
+     "Weekday at Home": 95.2121513444529,
+     "Weekday at School": 82.29393546306599,
+     "Weekday at Work": 94.5477373305982,
+     "Weekend at Home": 93.81135785563485,
+     "Weekend at School": 94.90441403414293,
+     "Weekend at Work": 86.0801081694625
+    },
+    "true rating": {
+     "1-2": 83.58652781503352,
+     "3": 87.58198916240578,
+     "4-5": 93.99051301304674
+    },
+    "predicted rating": {
+     "3-4": 84.58729046544026,
+     "<3": 83.49999448833142,
+     ">=4": 97.1460046229975
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 125,
+     "low": 125
+    },
+    "item popularity": {
+     "high": 118,
+     "low": 132
+    },
+    "context (Context)": {
+     "Weekday at Home": 45,
+     "Weekday at School": 48,
+     "Weekday at Work": 41,
+     "Weekend at Home": 33,
+     "Weekend at School": 55,
+     "Weekend at Work": 28
+    },
+    "true rating": {
+     "1-2": 49,
+     "3": 24,
+     "4-5": 177
+    },
+    "predicted rating": {
+     "3-4": 59,
+     "<3": 52,
+     ">=4": 139
+    }
+   }
+  },
+  "mondrian (item popularity)": {
+   "coverage": 91.23771428571408,
+   "width": 2.1155391726762867,
+   "set_size": 2.5220514285714306,
+   "group_coverage": {
+    "user activity": {
+     "high": 93.07425668330164,
+     "low": 89.41787651743843
+    },
+    "item popularity": {
+     "high": 91.55724338544114,
+     "low": 90.93477303823173
+    },
+    "context (Context)": {
+     "Weekday at Home": 95.11659323803686,
+     "Weekday at School": 83.9099551856577,
+     "Weekday at Work": 95.01756380873438,
+     "Weekend at Home": 93.03823949160979,
+     "Weekend at School": 92.61498916055614,
+     "Weekend at Work": 87.23323786008442
+    },
+    "true rating": {
+     "1-2": 83.83870051868321,
+     "3": 91.72389593739221,
+     "4-5": 93.22585415212122
+    },
+    "predicted rating": {
+     "3-4": 81.91712137031696,
+     "<3": 84.41758022212908,
+     ">=4": 97.78378724841691
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 125,
+     "low": 125
+    },
+    "item popularity": {
+     "high": 118,
+     "low": 132
+    },
+    "context (Context)": {
+     "Weekday at Home": 45,
+     "Weekday at School": 48,
+     "Weekday at Work": 41,
+     "Weekend at Home": 33,
+     "Weekend at School": 55,
+     "Weekend at Work": 28
+    },
+    "true rating": {
+     "1-2": 49,
+     "3": 24,
+     "4-5": 177
+    },
+    "predicted rating": {
+     "3-4": 59,
+     "<3": 52,
+     ">=4": 139
+    }
+   }
+  },
+  "mondrian (predicted rating)": {
+   "coverage": 91.74457142857113,
+   "width": 2.0517012249387685,
+   "set_size": 2.48862285714286,
+   "group_coverage": {
+    "user activity": {
+     "high": 95.1652293242887,
+     "low": 88.3631947983072
+    },
+    "item popularity": {
+     "high": 87.907048161339,
+     "low": 95.1902680741764
+    },
+    "context (Context)": {
+     "Weekday at Home": 93.21896149375861,
+     "Weekday at School": 87.42841203474507,
+     "Weekday at Work": 93.37244669328909,
+     "Weekend at Home": 91.80503476265417,
+     "Weekend at School": 95.39906471525235,
+     "Weekend at Work": 87.1905012585379
+    },
+    "true rating": {
+     "1-2": 91.38000202566029,
+     "3": 79.09286052902169,
+     "4-5": 93.55532034346238
+    },
+    "predicted rating": {
+     "3-4": 92.97092669112371,
+     "<3": 93.23083062257945,
+     ">=4": 90.6271116949374
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 125,
+     "low": 125
+    },
+    "item popularity": {
+     "high": 118,
+     "low": 132
+    },
+    "context (Context)": {
+     "Weekday at Home": 45,
+     "Weekday at School": 48,
+     "Weekday at Work": 41,
+     "Weekend at Home": 33,
+     "Weekend at School": 55,
+     "Weekend at Work": 28
+    },
+    "true rating": {
+     "1-2": 49,
+     "3": 24,
+     "4-5": 177
+    },
+    "predicted rating": {
+     "3-4": 59,
+     "<3": 52,
+     ">=4": 139
+    }
+   }
+  }
+ },
+ "eurollm Restaurant-H eps=0.05": {
+  "marginal": {
+   "coverage": 96.11028571428565,
+   "width": 2.7963868047371725,
+   "set_size": 3.29480571428571,
+   "group_coverage": {
+    "user activity": {
+     "high": 96.60633128129416,
+     "low": 95.6160563253381
+    },
+    "item popularity": {
+     "high": 94.69696662355429,
+     "low": 97.38004957440307
+    },
+    "context (Context)": {
+     "Weekday at Home": 98.98140997277487,
+     "Weekday at School": 91.12308846710495,
+     "Weekday at Work": 97.45841540319641,
+     "Weekend at Home": 98.76611886578131,
+     "Weekend at School": 97.03350491604165,
+     "Weekend at Work": 93.16342386455347
+    },
+    "true rating": {
+     "1-2": 91.28190782479648,
+     "3": 98.07913774494826,
+     "4-5": 97.18233793664895
+    },
+    "predicted rating": {
+     "3-4": 93.634741651601,
+     "<3": 91.39893082484689,
+     ">=4": 98.93041564612969
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 125,
+     "low": 125
+    },
+    "item popularity": {
+     "high": 118,
+     "low": 132
+    },
+    "context (Context)": {
+     "Weekday at Home": 45,
+     "Weekday at School": 48,
+     "Weekday at Work": 41,
+     "Weekend at Home": 33,
+     "Weekend at School": 55,
+     "Weekend at Work": 28
+    },
+    "true rating": {
+     "1-2": 49,
+     "3": 24,
+     "4-5": 177
+    },
+    "predicted rating": {
+     "3-4": 59,
+     "<3": 52,
+     ">=4": 139
+    }
+   }
+  },
+  "mondrian (user activity)": {
+   "coverage": 96.50399999999996,
+   "width": 2.9908062507153796,
+   "set_size": 3.5006514285714325,
+   "group_coverage": {
+    "user activity": {
+     "high": 96.5248962472791,
+     "low": 96.43479009935729
+    },
+    "item popularity": {
+     "high": 95.49754088837294,
+     "low": 97.41505177537452
+    },
+    "context (Context)": {
+     "Weekday at Home": 98.96966190441621,
+     "Weekday at School": 92.09924554114195,
+     "Weekday at Work": 97.6392855090208,
+     "Weekend at Home": 98.69231368216359,
+     "Weekend at School": 97.35647104434126,
+     "Weekend at Work": 94.22941361198342
+    },
+    "true rating": {
+     "1-2": 92.69804926973792,
+     "3": 97.70076177049795,
+     "4-5": 97.4131488295429
+    },
+    "predicted rating": {
+     "3-4": 94.89998580495667,
+     "<3": 92.04898455583691,
+     ">=4": 98.85890442807074
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 125,
+     "low": 125
+    },
+    "item popularity": {
+     "high": 118,
+     "low": 132
+    },
+    "context (Context)": {
+     "Weekday at Home": 45,
+     "Weekday at School": 48,
+     "Weekday at Work": 41,
+     "Weekend at Home": 33,
+     "Weekend at School": 55,
+     "Weekend at Work": 28
+    },
+    "true rating": {
+     "1-2": 49,
+     "3": 24,
+     "4-5": 177
+    },
+    "predicted rating": {
+     "3-4": 59,
+     "<3": 52,
+     ">=4": 139
+    }
+   }
+  },
+  "mondrian (item popularity)": {
+   "coverage": 96.30571428571423,
+   "width": 2.8365345685381946,
+   "set_size": 3.342394285714285,
+   "group_coverage": {
+    "user activity": {
+     "high": 97.74650942697058,
+     "low": 94.87975496246862
+    },
+    "item popularity": {
+     "high": 96.64675760020361,
+     "low": 95.95627959746643
+    },
+    "context (Context)": {
+     "Weekday at Home": 99.15591750959199,
+     "Weekday at School": 91.60635233171045,
+     "Weekday at Work": 97.42383608783261,
+     "Weekend at Home": 98.74835208558216,
+     "Weekend at School": 96.74188667607424,
+     "Weekend at Work": 94.401933776386
+    },
+    "true rating": {
+     "1-2": 90.27909633406122,
+     "3": 97.25271037585901,
+     "4-5": 97.85510308718315
+    },
+    "predicted rating": {
+     "3-4": 92.3342557588116,
+     "<3": 94.2348127081398,
+     ">=4": 98.77894664034133
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 125,
+     "low": 125
+    },
+    "item popularity": {
+     "high": 118,
+     "low": 132
+    },
+    "context (Context)": {
+     "Weekday at Home": 45,
+     "Weekday at School": 48,
+     "Weekday at Work": 41,
+     "Weekend at Home": 33,
+     "Weekend at School": 55,
+     "Weekend at Work": 28
+    },
+    "true rating": {
+     "1-2": 49,
+     "3": 24,
+     "4-5": 177
+    },
+    "predicted rating": {
+     "3-4": 59,
+     "<3": 52,
+     ">=4": 139
+    }
+   }
+  },
+  "mondrian (predicted rating)": {
+   "coverage": 97.0337142857142,
+   "width": 2.695490822110645,
+   "set_size": 3.3218628571428552,
+   "group_coverage": {
+    "user activity": {
+     "high": 98.86796074696782,
+     "low": 95.20685537270792
+    },
+    "item popularity": {
+     "high": 96.10925719288035,
+     "low": 97.86561424654762
+    },
+    "context (Context)": {
+     "Weekday at Home": 98.87035556120495,
+     "Weekday at School": 95.41075694142712,
+     "Weekday at Work": 96.3951158330215,
+     "Weekend at Home": 96.28175578691702,
+     "Weekend at School": 99.4355318156265,
+     "Weekend at Work": 93.9206006040382
+    },
+    "true rating": {
+     "1-2": 96.24483994404513,
+     "3": 85.33404523011352,
+     "4-5": 98.87398041316828
+    },
+    "predicted rating": {
+     "3-4": 98.15987667425361,
+     "<3": 99.2222586875027,
+     ">=4": 95.63373057527674
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 125,
+     "low": 125
+    },
+    "item popularity": {
+     "high": 118,
+     "low": 132
+    },
+    "context (Context)": {
+     "Weekday at Home": 45,
+     "Weekday at School": 48,
+     "Weekday at Work": 41,
+     "Weekend at Home": 33,
+     "Weekend at School": 55,
+     "Weekend at Work": 28
+    },
+    "true rating": {
+     "1-2": 49,
+     "3": 24,
+     "4-5": 177
+    },
+    "predicted rating": {
+     "3-4": 59,
+     "<3": 52,
+     ">=4": 139
+    }
+   }
+  }
+ },
+ "llama Restaurant-H eps=0.1": {
+  "marginal": {
+   "coverage": 90.83771428571394,
+   "width": 2.1653430609855753,
+   "set_size": 2.529114285714283,
+   "group_coverage": {
+    "user activity": {
+     "high": 91.77523549800057,
+     "low": 89.90614669668919
+    },
+    "item popularity": {
+     "high": 87.2646869058651,
+     "low": 94.04003512878745
+    },
+    "context (Context)": {
+     "Weekday at Home": 96.73225232603046,
+     "Weekday at School": 81.39566466298255,
+     "Weekday at Work": 94.37847237829288,
+     "Weekend at Home": 93.5218277776207,
+     "Weekend at School": 93.50582776687148,
+     "Weekend at Work": 84.03343967726809
+    },
+    "true rating": {
+     "1-2": 82.92078032593405,
+     "3": 87.38003894915678,
+     "4-5": 93.5030971431345
+    },
+    "predicted rating": {
+     "3-4": 84.16904168994147,
+     "<3": 83.37736902759761,
+     ">=4": 96.40459255278111
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 125,
+     "low": 125
+    },
+    "item popularity": {
+     "high": 118,
+     "low": 132
+    },
+    "context (Context)": {
+     "Weekday at Home": 45,
+     "Weekday at School": 48,
+     "Weekday at Work": 41,
+     "Weekend at Home": 33,
+     "Weekend at School": 55,
+     "Weekend at Work": 28
+    },
+    "true rating": {
+     "1-2": 49,
+     "3": 24,
+     "4-5": 177
+    },
+    "predicted rating": {
+     "3-4": 56,
+     "<3": 54,
+     ">=4": 140
+    }
+   }
+  },
+  "mondrian (user activity)": {
+   "coverage": 91.33599999999961,
+   "width": 2.2456009767887504,
+   "set_size": 2.633005714285717,
+   "group_coverage": {
+    "user activity": {
+     "high": 91.51175494177794,
+     "low": 91.14687210307265
+    },
+    "item popularity": {
+     "high": 87.82397791510476,
+     "low": 94.4913650060497
+    },
+    "context (Context)": {
+     "Weekday at Home": 96.236784476964,
+     "Weekday at School": 81.9801998397554,
+     "Weekday at Work": 94.77176001691832,
+     "Weekend at Home": 93.89203863753075,
+     "Weekend at School": 93.93493600919682,
+     "Weekend at Work": 86.49120090247992
+    },
+    "true rating": {
+     "1-2": 82.60012430950995,
+     "3": 89.48038511528853,
+     "4-5": 94.00388024740293
+    },
+    "predicted rating": {
+     "3-4": 85.64468530464522,
+     "<3": 83.17420796347048,
+     ">=4": 96.77807009874833
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 125,
+     "low": 125
+    },
+    "item popularity": {
+     "high": 118,
+     "low": 132
+    },
+    "context (Context)": {
+     "Weekday at Home": 45,
+     "Weekday at School": 48,
+     "Weekday at Work": 41,
+     "Weekend at Home": 33,
+     "Weekend at School": 55,
+     "Weekend at Work": 28
+    },
+    "true rating": {
+     "1-2": 49,
+     "3": 24,
+     "4-5": 177
+    },
+    "predicted rating": {
+     "3-4": 56,
+     "<3": 54,
+     ">=4": 140
+    }
+   }
+  },
+  "mondrian (item popularity)": {
+   "coverage": 91.23599999999972,
+   "width": 2.1519478591066616,
+   "set_size": 2.545382857142857,
+   "group_coverage": {
+    "user activity": {
+     "high": 93.0397254305373,
+     "low": 89.45251070707802
+    },
+    "item popularity": {
+     "high": 91.54561239043684,
+     "low": 90.9415986211534
+    },
+    "context (Context)": {
+     "Weekday at Home": 96.72090688083775,
+     "Weekday at School": 83.52797381535053,
+     "Weekday at Work": 94.84742034721879,
+     "Weekend at Home": 93.95429672562217,
+     "Weekend at School": 91.89801373408018,
+     "Weekend at Work": 85.89634438693376
+    },
+    "true rating": {
+     "1-2": 83.13045361095939,
+     "3": 92.91582750571544,
+     "4-5": 93.26432112279774
+    },
+    "predicted rating": {
+     "3-4": 83.77942589759411,
+     "<3": 83.5904330602365,
+     ">=4": 97.20457371976755
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 125,
+     "low": 125
+    },
+    "item popularity": {
+     "high": 118,
+     "low": 132
+    },
+    "context (Context)": {
+     "Weekday at Home": 45,
+     "Weekday at School": 48,
+     "Weekday at Work": 41,
+     "Weekend at Home": 33,
+     "Weekend at School": 55,
+     "Weekend at Work": 28
+    },
+    "true rating": {
+     "1-2": 49,
+     "3": 24,
+     "4-5": 177
+    },
+    "predicted rating": {
+     "3-4": 56,
+     "<3": 54,
+     ">=4": 140
+    }
+   }
+  },
+  "mondrian (predicted rating)": {
+   "coverage": 91.7919999999998,
+   "width": 2.0524399478333764,
+   "set_size": 2.4519428571428583,
+   "group_coverage": {
+    "user activity": {
+     "high": 94.8188447254812,
+     "low": 88.79308136935774
+    },
+    "item popularity": {
+     "high": 88.83434291458173,
+     "low": 94.4430010240044
+    },
+    "context (Context)": {
+     "Weekday at Home": 93.24439074760463,
+     "Weekday at School": 87.67456422191049,
+     "Weekday at Work": 92.70176797754274,
+     "Weekend at Home": 91.55770311941163,
+     "Weekend at School": 95.91907566776212,
+     "Weekend at Work": 87.33825074312476
+    },
+    "true rating": {
+     "1-2": 90.16686625203147,
+     "3": 79.48052664472573,
+     "4-5": 93.90156409171378
+    },
+    "predicted rating": {
+     "3-4": 92.95494591887181,
+     "<3": 93.03960609073158,
+     ">=4": 90.8162014335387
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 125,
+     "low": 125
+    },
+    "item popularity": {
+     "high": 118,
+     "low": 132
+    },
+    "context (Context)": {
+     "Weekday at Home": 45,
+     "Weekday at School": 48,
+     "Weekday at Work": 41,
+     "Weekend at Home": 33,
+     "Weekend at School": 55,
+     "Weekend at Work": 28
+    },
+    "true rating": {
+     "1-2": 49,
+     "3": 24,
+     "4-5": 177
+    },
+    "predicted rating": {
+     "3-4": 56,
+     "<3": 54,
+     ">=4": 140
+    }
+   }
+  }
+ },
+ "llama Restaurant-H eps=0.05": {
+  "marginal": {
+   "coverage": 96.09942857142845,
+   "width": 2.801215037182254,
+   "set_size": 3.295160000000003,
+   "group_coverage": {
+    "user activity": {
+     "high": 96.63616406499064,
+     "low": 95.56577053239361
+    },
+    "item popularity": {
+     "high": 94.77120976883904,
+     "low": 97.29087619919008
+    },
+    "context (Context)": {
+     "Weekday at Home": 99.21796424973107,
+     "Weekday at School": 90.80048474807239,
+     "Weekday at Work": 97.23883937391655,
+     "Weekend at Home": 99.44440384746744,
+     "Weekend at School": 96.60321895532164,
+     "Weekend at Work": 93.61878198514492
+    },
+    "true rating": {
+     "1-2": 90.5468090401932,
+     "3": 98.40715513732391,
+     "4-5": 97.32807818150985
+    },
+    "predicted rating": {
+     "3-4": 94.9807430070834,
+     "<3": 91.59405113345605,
+     ">=4": 98.29196594474311
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 125,
+     "low": 125
+    },
+    "item popularity": {
+     "high": 118,
+     "low": 132
+    },
+    "context (Context)": {
+     "Weekday at Home": 45,
+     "Weekday at School": 48,
+     "Weekday at Work": 41,
+     "Weekend at Home": 33,
+     "Weekend at School": 55,
+     "Weekend at Work": 28
+    },
+    "true rating": {
+     "1-2": 49,
+     "3": 24,
+     "4-5": 177
+    },
+    "predicted rating": {
+     "3-4": 56,
+     "<3": 54,
+     ">=4": 140
+    }
+   }
+  },
+  "mondrian (user activity)": {
+   "coverage": 96.50685714285711,
+   "width": 2.9973555990476184,
+   "set_size": 3.5212971428571445,
+   "group_coverage": {
+    "user activity": {
+     "high": 96.55102217387476,
+     "low": 96.4155017438429
+    },
+    "item popularity": {
+     "high": 95.68565153875494,
+     "low": 97.25538003996576
+    },
+    "context (Context)": {
+     "Weekday at Home": 99.32835127274925,
+     "Weekday at School": 91.8356289743427,
+     "Weekday at Work": 97.20867906399374,
+     "Weekend at Home": 99.0441938909629,
+     "Weekend at School": 97.00901459217883,
+     "Weekend at Work": 95.02377422482296
+    },
+    "true rating": {
+     "1-2": 92.28810576110348,
+     "3": 97.97923335666219,
+     "4-5": 97.49708606048505
+    },
+    "predicted rating": {
+     "3-4": 96.13670108338862,
+     "<3": 92.125472598223,
+     ">=4": 98.35157609328408
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 125,
+     "low": 125
+    },
+    "item popularity": {
+     "high": 118,
+     "low": 132
+    },
+    "context (Context)": {
+     "Weekday at Home": 45,
+     "Weekday at School": 48,
+     "Weekday at Work": 41,
+     "Weekend at Home": 33,
+     "Weekend at School": 55,
+     "Weekend at Work": 28
+    },
+    "true rating": {
+     "1-2": 49,
+     "3": 24,
+     "4-5": 177
+    },
+    "predicted rating": {
+     "3-4": 56,
+     "<3": 54,
+     ">=4": 140
+    }
+   }
+  },
+  "mondrian (item popularity)": {
+   "coverage": 96.3177142857142,
+   "width": 2.872278354948911,
+   "set_size": 3.378497142857137,
+   "group_coverage": {
+    "user activity": {
+     "high": 97.88574928194991,
+     "low": 94.76916853352341
+    },
+    "item popularity": {
+     "high": 96.62996815889893,
+     "low": 95.9971328807448
+    },
+    "context (Context)": {
+     "Weekday at Home": 99.57587650023913,
+     "Weekday at School": 91.66695030969866,
+     "Weekday at Work": 97.05778870028882,
+     "Weekend at Home": 99.03042715857255,
+     "Weekend at School": 96.32762621400897,
+     "Weekend at Work": 94.75541423055364
+    },
+    "true rating": {
+     "1-2": 90.19600358695008,
+     "3": 97.33490636829109,
+     "4-5": 97.8839252510025
+    },
+    "predicted rating": {
+     "3-4": 93.9991247991254,
+     "<3": 93.95984788703902,
+     ">=4": 98.16713267360603
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 125,
+     "low": 125
+    },
+    "item popularity": {
+     "high": 118,
+     "low": 132
+    },
+    "context (Context)": {
+     "Weekday at Home": 45,
+     "Weekday at School": 48,
+     "Weekday at Work": 41,
+     "Weekend at Home": 33,
+     "Weekend at School": 55,
+     "Weekend at Work": 28
+    },
+    "true rating": {
+     "1-2": 49,
+     "3": 24,
+     "4-5": 177
+    },
+    "predicted rating": {
+     "3-4": 56,
+     "<3": 54,
+     ">=4": 140
+    }
+   }
+  },
+  "mondrian (predicted rating)": {
+   "coverage": 97.126857142857,
+   "width": 2.763146389081177,
+   "set_size": 3.40546285714286,
+   "group_coverage": {
+    "user activity": {
+     "high": 98.92662446439004,
+     "low": 95.33682781951063
+    },
+    "item popularity": {
+     "high": 96.8275061100201,
+     "low": 97.39552319149215
+    },
+    "context (Context)": {
+     "Weekday at Home": 98.84002148818965,
+     "Weekday at School": 94.54947268770432,
+     "Weekday at Work": 96.68382254915139,
+     "Weekend at Home": 97.11743189066624,
+     "Weekend at School": 99.39249406647279,
+     "Weekend at Work": 94.96910040045954
+    },
+    "true rating": {
+     "1-2": 95.01534594916201,
+     "3": 87.83699147676332,
+     "4-5": 99.00171702923086
+    },
+    "predicted rating": {
+     "3-4": 98.71901399895114,
+     "<3": 98.8647009503316,
+     ">=4": 95.71020533556191
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 125,
+     "low": 125
+    },
+    "item popularity": {
+     "high": 118,
+     "low": 132
+    },
+    "context (Context)": {
+     "Weekday at Home": 45,
+     "Weekday at School": 48,
+     "Weekday at Work": 41,
+     "Weekend at Home": 33,
+     "Weekend at School": 55,
+     "Weekend at Work": 28
+    },
+    "true rating": {
+     "1-2": 49,
+     "3": 24,
+     "4-5": 177
+    },
+    "predicted rating": {
+     "3-4": 56,
+     "<3": 54,
+     ">=4": 140
+    }
+   }
+  }
+ },
+ "deepseek Restaurant-H eps=0.1": {
+  "marginal": {
+   "coverage": 90.76514285714259,
+   "width": 2.181370273161987,
+   "set_size": 2.5456857142857134,
+   "group_coverage": {
+    "user activity": {
+     "high": 91.45668255379181,
+     "low": 90.07769645057945
+    },
+    "item popularity": {
+     "high": 86.67310019940953,
+     "low": 94.4299940328672
+    },
+    "context (Context)": {
+     "Weekday at Home": 96.14748581326826,
+     "Weekday at School": 80.68158499514898,
+     "Weekday at Work": 94.92010371296185,
+     "Weekend at Home": 93.7250125003414,
+     "Weekend at School": 94.34224110577982,
+     "Weekend at Work": 82.86920937480605
+    },
+    "true rating": {
+     "1-2": 82.97641237144592,
+     "3": 86.60637337610417,
+     "4-5": 93.48934407201992
+    },
+    "predicted rating": {
+     "3-4": 83.50799267056345,
+     "<3": 84.13120668493886,
+     ">=4": 96.2581904348538
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 125,
+     "low": 125
+    },
+    "item popularity": {
+     "high": 118,
+     "low": 132
+    },
+    "context (Context)": {
+     "Weekday at Home": 45,
+     "Weekday at School": 48,
+     "Weekday at Work": 41,
+     "Weekend at Home": 33,
+     "Weekend at School": 55,
+     "Weekend at Work": 28
+    },
+    "true rating": {
+     "1-2": 49,
+     "3": 24,
+     "4-5": 177
+    },
+    "predicted rating": {
+     "3-4": 57,
+     "<3": 53,
+     ">=4": 140
+    }
+   }
+  },
+  "mondrian (user activity)": {
+   "coverage": 91.31314285714258,
+   "width": 2.2701625524384133,
+   "set_size": 2.6581542857142852,
+   "group_coverage": {
+    "user activity": {
+     "high": 91.50205505427263,
+     "low": 91.10971270533558
+    },
+    "item popularity": {
+     "high": 87.48625967106881,
+     "low": 94.74401719452946
+    },
+    "context (Context)": {
+     "Weekday at Home": 95.59007183203832,
+     "Weekday at School": 81.79797956452688,
+     "Weekday at Work": 95.19448525426601,
+     "Weekend at Home": 94.03590458608035,
+     "Weekend at School": 94.76967956371746,
+     "Weekend at Work": 85.19747353057123
+    },
+    "true rating": {
+     "1-2": 83.27495266902963,
+     "3": 88.96346897357516,
+     "4-5": 93.85541286066174
+    },
+    "predicted rating": {
+     "3-4": 84.87886047170238,
+     "<3": 84.2817808122694,
+     ">=4": 96.61400873552822
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 125,
+     "low": 125
+    },
+    "item popularity": {
+     "high": 118,
+     "low": 132
+    },
+    "context (Context)": {
+     "Weekday at Home": 45,
+     "Weekday at School": 48,
+     "Weekday at Work": 41,
+     "Weekend at Home": 33,
+     "Weekend at School": 55,
+     "Weekend at Work": 28
+    },
+    "true rating": {
+     "1-2": 49,
+     "3": 24,
+     "4-5": 177
+    },
+    "predicted rating": {
+     "3-4": 57,
+     "<3": 53,
+     ">=4": 140
+    }
+   }
+  },
+  "mondrian (item popularity)": {
+   "coverage": 91.25999999999978,
+   "width": 2.1751836633773007,
+   "set_size": 2.5726171428571445,
+   "group_coverage": {
+    "user activity": {
+     "high": 92.59663388188906,
+     "low": 89.93394838776808
+    },
+    "item popularity": {
+     "high": 91.58368443187204,
+     "low": 90.95093296042954
+    },
+    "context (Context)": {
+     "Weekday at Home": 95.63599028983168,
+     "Weekday at School": 82.79600818749576,
+     "Weekday at Work": 95.12473206409743,
+     "Weekend at Home": 94.66005147334097,
+     "Weekend at School": 92.971281155765,
+     "Weekend at Work": 85.775883024581
+    },
+    "true rating": {
+     "1-2": 83.81350906879521,
+     "3": 93.17203499733469,
+     "4-5": 93.0748667159646
+    },
+    "predicted rating": {
+     "3-4": 82.94573685214554,
+     "<3": 85.10754055144389,
+     ">=4": 97.0014609346811
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 125,
+     "low": 125
+    },
+    "item popularity": {
+     "high": 118,
+     "low": 132
+    },
+    "context (Context)": {
+     "Weekday at Home": 45,
+     "Weekday at School": 48,
+     "Weekday at Work": 41,
+     "Weekend at Home": 33,
+     "Weekend at School": 55,
+     "Weekend at Work": 28
+    },
+    "true rating": {
+     "1-2": 49,
+     "3": 24,
+     "4-5": 177
+    },
+    "predicted rating": {
+     "3-4": 57,
+     "<3": 53,
+     ">=4": 140
+    }
+   }
+  },
+  "mondrian (predicted rating)": {
+   "coverage": 91.83942857142826,
+   "width": 2.0853832813783564,
+   "set_size": 2.499897142857146,
+   "group_coverage": {
+    "user activity": {
+     "high": 93.98847440270633,
+     "low": 89.71225028321099
+    },
+    "item popularity": {
+     "high": 90.15876992656693,
+     "low": 93.34713492517099
+    },
+    "context (Context)": {
+     "Weekday at Home": 93.5871995287329,
+     "Weekday at School": 88.25282166338272,
+     "Weekday at Work": 92.86271750124752,
+     "Weekend at Home": 90.33115473533002,
+     "Weekend at School": 96.59856059281316,
+     "Weekend at Work": 86.07595241014675
+    },
+    "true rating": {
+     "1-2": 89.649961285192,
+     "3": 79.53364458071131,
+     "4-5": 94.1095631057146
+    },
+    "predicted rating": {
+     "3-4": 92.60290321006013,
+     "<3": 93.45376042713787,
+     ">=4": 90.87125192070759
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 125,
+     "low": 125
+    },
+    "item popularity": {
+     "high": 118,
+     "low": 132
+    },
+    "context (Context)": {
+     "Weekday at Home": 45,
+     "Weekday at School": 48,
+     "Weekday at Work": 41,
+     "Weekend at Home": 33,
+     "Weekend at School": 55,
+     "Weekend at Work": 28
+    },
+    "true rating": {
+     "1-2": 49,
+     "3": 24,
+     "4-5": 177
+    },
+    "predicted rating": {
+     "3-4": 57,
+     "<3": 53,
+     ">=4": 140
+    }
+   }
+  }
+ },
+ "deepseek Restaurant-H eps=0.05": {
+  "marginal": {
+   "coverage": 96.10914285714271,
+   "width": 2.8227773681502586,
+   "set_size": 3.3156228571428565,
+   "group_coverage": {
+    "user activity": {
+     "high": 96.4577565008167,
+     "low": 95.76154480362966
+    },
+    "item popularity": {
+     "high": 94.80122237252048,
+     "low": 97.2838210363933
+    },
+    "context (Context)": {
+     "Weekday at Home": 98.59066449667952,
+     "Weekday at School": 90.24399716683725,
+     "Weekday at Work": 97.65679097284684,
+     "Weekend at Home": 99.45577302066197,
+     "Weekend at School": 97.73935943833669,
+     "Weekend at Work": 92.81518363754248
+    },
+    "true rating": {
+     "1-2": 90.67690021418653,
+     "3": 98.40139284408028,
+     "4-5": 97.30524555822284
+    },
+    "predicted rating": {
+     "3-4": 94.75442790342896,
+     "<3": 91.82209410038301,
+     ">=4": 98.29078247997599
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 125,
+     "low": 125
+    },
+    "item popularity": {
+     "high": 118,
+     "low": 132
+    },
+    "context (Context)": {
+     "Weekday at Home": 45,
+     "Weekday at School": 48,
+     "Weekday at Work": 41,
+     "Weekend at Home": 33,
+     "Weekend at School": 55,
+     "Weekend at Work": 28
+    },
+    "true rating": {
+     "1-2": 49,
+     "3": 24,
+     "4-5": 177
+    },
+    "predicted rating": {
+     "3-4": 57,
+     "<3": 53,
+     ">=4": 140
+    }
+   }
+  },
+  "mondrian (user activity)": {
+   "coverage": 96.4925714285713,
+   "width": 3.0211756391421405,
+   "set_size": 3.539497142857141,
+   "group_coverage": {
+    "user activity": {
+     "high": 96.53472473741094,
+     "low": 96.39843492651286
+    },
+    "item popularity": {
+     "high": 95.65581637446495,
+     "low": 97.25155898926654
+    },
+    "context (Context)": {
+     "Weekday at Home": 98.75483232878128,
+     "Weekday at School": 91.76202281525336,
+     "Weekday at Work": 97.84484499974826,
+     "Weekend at Home": 98.91926528000539,
+     "Weekend at School": 97.51647184446527,
+     "Weekend at Work": 94.17405736019762
+    },
+    "true rating": {
+     "1-2": 92.21664818232752,
+     "3": 98.04923651127145,
+     "4-5": 97.48768861388896
+    },
+    "predicted rating": {
+     "3-4": 95.55026138871942,
+     "<3": 92.60199894965876,
+     ">=4": 98.35859254976526
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 125,
+     "low": 125
+    },
+    "item popularity": {
+     "high": 118,
+     "low": 132
+    },
+    "context (Context)": {
+     "Weekday at Home": 45,
+     "Weekday at School": 48,
+     "Weekday at Work": 41,
+     "Weekend at Home": 33,
+     "Weekend at School": 55,
+     "Weekend at Work": 28
+    },
+    "true rating": {
+     "1-2": 49,
+     "3": 24,
+     "4-5": 177
+    },
+    "predicted rating": {
+     "3-4": 57,
+     "<3": 53,
+     ">=4": 140
+    }
+   }
+  },
+  "mondrian (item popularity)": {
+   "coverage": 96.30857142857138,
+   "width": 2.8833978425073736,
+   "set_size": 3.3890857142857125,
+   "group_coverage": {
+    "user activity": {
+     "high": 97.54131147557345,
+     "low": 95.08823500811914
+    },
+    "item popularity": {
+     "high": 96.70523451146911,
+     "low": 95.90979083723126
+    },
+    "context (Context)": {
+     "Weekday at Home": 98.93929808596741,
+     "Weekday at School": 91.04745633075801,
+     "Weekday at Work": 97.68219327601271,
+     "Weekend at Home": 98.85240938525551,
+     "Weekend at School": 97.44352703988362,
+     "Weekend at Work": 93.86496954884629
+    },
+    "true rating": {
+     "1-2": 90.3799787172055,
+     "3": 97.72686949975886,
+     "4-5": 97.76369527482481
+    },
+    "predicted rating": {
+     "3-4": 93.08272152534407,
+     "<3": 94.78680739693868,
+     ">=4": 98.20541550414616
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 125,
+     "low": 125
+    },
+    "item popularity": {
+     "high": 118,
+     "low": 132
+    },
+    "context (Context)": {
+     "Weekday at Home": 45,
+     "Weekday at School": 48,
+     "Weekday at Work": 41,
+     "Weekend at Home": 33,
+     "Weekend at School": 55,
+     "Weekend at Work": 28
+    },
+    "true rating": {
+     "1-2": 49,
+     "3": 24,
+     "4-5": 177
+    },
+    "predicted rating": {
+     "3-4": 57,
+     "<3": 53,
+     ">=4": 140
+    }
+   }
+  },
+  "mondrian (predicted rating)": {
+   "coverage": 97.12285714285704,
+   "width": 2.7868310740959936,
+   "set_size": 3.4308228571428567,
+   "group_coverage": {
+    "user activity": {
+     "high": 98.88941194608746,
+     "low": 95.36353477563605
+    },
+    "item popularity": {
+     "high": 97.22122771158078,
+     "low": 97.0302764242399
+    },
+    "context (Context)": {
+     "Weekday at Home": 98.84516312482154,
+     "Weekday at School": 94.5874309322649,
+     "Weekday at Work": 96.79536356613517,
+     "Weekend at Home": 97.29769948898627,
+     "Weekend at School": 99.55423051443196,
+     "Weekend at Work": 94.17594425034493
+    },
+    "true rating": {
+     "1-2": 94.61200649453775,
+     "3": 87.93402793102115,
+     "4-5": 99.0978297941009
+    },
+    "predicted rating": {
+     "3-4": 98.4063525902102,
+     "<3": 99.1668723342052,
+     ">=4": 95.7233756388774
+    }
+   },
+   "group_n": {
+    "user activity": {
+     "high": 125,
+     "low": 125
+    },
+    "item popularity": {
+     "high": 118,
+     "low": 132
+    },
+    "context (Context)": {
+     "Weekday at Home": 45,
+     "Weekday at School": 48,
+     "Weekday at Work": 41,
+     "Weekend at Home": 33,
+     "Weekend at School": 55,
+     "Weekend at Work": 28
+    },
+    "true rating": {
+     "1-2": 49,
+     "3": 24,
+     "4-5": 177
+    },
+    "predicted rating": {
+     "3-4": 57,
+     "<3": 53,
+     ">=4": 140
+    }
+   }
+  }
+ }
+}

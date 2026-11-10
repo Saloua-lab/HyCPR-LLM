@@ -1,0 +1,62 @@
+[
+ {
+  "name": "mistral_v0_Tijuana-WH_seed1",
+  "done": "probs/variants/mistral_v0_Tijuana-WH_seed1_test.json",
+  "cmd": "( [ -f adapters/variants/mistral_v0_Tijuana-WH_seed1/adapter_config.json ] || python train.py --data data/variants/mistral_Tijuana-WH_val --base mistralai/Mistral-7B-Instruct-v0.2 --out adapters/variants/mistral_v0_Tijuana-WH_seed1 --seed 1 ) && python evaluate_probs.py --4bit --data data/variants/mistral_Tijuana-WH_val --split validation --adapter adapters/variants/mistral_v0_Tijuana-WH_seed1 --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/variants/mistral_v0_Tijuana-WH_seed1_validation.json && python evaluate_probs.py --4bit --data data/variants/mistral_Tijuana-WH_val --split test --adapter adapters/variants/mistral_v0_Tijuana-WH_seed1 --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/variants/mistral_v0_Tijuana-WH_seed1_test.json"
+ },
+ {
+  "name": "mistral_v0_Restaurant-H_seed1",
+  "done": "probs/variants/mistral_v0_Restaurant-H_seed1_test.json",
+  "cmd": "( [ -f adapters/variants/mistral_v0_Restaurant-H_seed1/adapter_config.json ] || python train.py --data data/variants/mistral_Restaurant-H_val --base mistralai/Mistral-7B-Instruct-v0.2 --out adapters/variants/mistral_v0_Restaurant-H_seed1 --seed 1 ) && python evaluate_probs.py --4bit --data data/variants/mistral_Restaurant-H_val --split validation --adapter adapters/variants/mistral_v0_Restaurant-H_seed1 --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/variants/mistral_v0_Restaurant-H_seed1_validation.json && python evaluate_probs.py --4bit --data data/variants/mistral_Restaurant-H_val --split test --adapter adapters/variants/mistral_v0_Restaurant-H_seed1 --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/variants/mistral_v0_Restaurant-H_seed1_test.json"
+ },
+ {
+  "name": "mistral_v0_LDOS-WH_seed1",
+  "done": "probs/variants/mistral_v0_LDOS-WH_seed1_test.json",
+  "cmd": "( [ -f adapters/variants/mistral_v0_LDOS-WH_seed1/adapter_config.json ] || python train.py --data data/variants/mistral_LDOS-WH_val --base mistralai/Mistral-7B-Instruct-v0.2 --out adapters/variants/mistral_v0_LDOS-WH_seed1 --seed 1 ) && python evaluate_probs.py --4bit --data data/variants/mistral_LDOS-WH_val --split validation --adapter adapters/variants/mistral_v0_LDOS-WH_seed1 --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/variants/mistral_v0_LDOS-WH_seed1_validation.json && python evaluate_probs.py --4bit --data data/variants/mistral_LDOS-WH_val --split test --adapter adapters/variants/mistral_v0_LDOS-WH_seed1 --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/variants/mistral_v0_LDOS-WH_seed1_test.json"
+ },
+ {
+  "name": "mistral_v0_Depaul-WH_seed1",
+  "done": "probs/variants/mistral_v0_Depaul-WH_seed1_test.json",
+  "cmd": "( [ -f adapters/variants/mistral_v0_Depaul-WH_seed1/adapter_config.json ] || python train.py --data data/variants/mistral_Depaul-WH_val --base mistralai/Mistral-7B-Instruct-v0.2 --out adapters/variants/mistral_v0_Depaul-WH_seed1 --seed 1 ) && python evaluate_probs.py --4bit --data data/variants/mistral_Depaul-WH_val --split validation --adapter adapters/variants/mistral_v0_Depaul-WH_seed1 --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/variants/mistral_v0_Depaul-WH_seed1_validation.json && python evaluate_probs.py --4bit --data data/variants/mistral_Depaul-WH_val --split test --adapter adapters/variants/mistral_v0_Depaul-WH_seed1 --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/variants/mistral_v0_Depaul-WH_seed1_test.json"
+ },
+ {
+  "name": "mistral_v0_LDOS-H_seed1",
+  "done": "probs/variants/mistral_v0_LDOS-H_seed1_test.json",
+  "cmd": "( [ -f adapters/variants/mistral_v0_LDOS-H_seed1/adapter_config.json ] || python train.py --data data/variants/mistral_LDOS-H_val --base mistralai/Mistral-7B-Instruct-v0.2 --out adapters/variants/mistral_v0_LDOS-H_seed1 --seed 1 ) && python evaluate_probs.py --4bit --data data/variants/mistral_LDOS-H_val --split validation --adapter adapters/variants/mistral_v0_LDOS-H_seed1 --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/variants/mistral_v0_LDOS-H_seed1_validation.json && python evaluate_probs.py --4bit --data data/variants/mistral_LDOS-H_val --split test --adapter adapters/variants/mistral_v0_LDOS-H_seed1 --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/variants/mistral_v0_LDOS-H_seed1_test.json"
+ },
+ {
+  "name": "mistral_v0_Depaul-H_seed1",
+  "done": "probs/variants/mistral_v0_Depaul-H_seed1_test.json",
+  "cmd": "( [ -f adapters/variants/mistral_v0_Depaul-H_seed1/adapter_config.json ] || python train.py --data data/variants/mistral_Depaul-H_val --base mistralai/Mistral-7B-Instruct-v0.2 --out adapters/variants/mistral_v0_Depaul-H_seed1 --seed 1 ) && python evaluate_probs.py --4bit --data data/variants/mistral_Depaul-H_val --split validation --adapter adapters/variants/mistral_v0_Depaul-H_seed1 --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/variants/mistral_v0_Depaul-H_seed1_validation.json && python evaluate_probs.py --4bit --data data/variants/mistral_Depaul-H_val --split test --adapter adapters/variants/mistral_v0_Depaul-H_seed1 --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/variants/mistral_v0_Depaul-H_seed1_test.json"
+ },
+ {
+  "name": "mistral_v0_Tijuana-WH_seed2",
+  "done": "probs/variants/mistral_v0_Tijuana-WH_seed2_test.json",
+  "cmd": "( [ -f adapters/variants/mistral_v0_Tijuana-WH_seed2/adapter_config.json ] || python train.py --data data/variants/mistral_Tijuana-WH_val --base mistralai/Mistral-7B-Instruct-v0.2 --out adapters/variants/mistral_v0_Tijuana-WH_seed2 --seed 2 ) && python evaluate_probs.py --4bit --data data/variants/mistral_Tijuana-WH_val --split validation --adapter adapters/variants/mistral_v0_Tijuana-WH_seed2 --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/variants/mistral_v0_Tijuana-WH_seed2_validation.json && python evaluate_probs.py --4bit --data data/variants/mistral_Tijuana-WH_val --split test --adapter adapters/variants/mistral_v0_Tijuana-WH_seed2 --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/variants/mistral_v0_Tijuana-WH_seed2_test.json"
+ },
+ {
+  "name": "mistral_v0_Restaurant-H_seed2",
+  "done": "probs/variants/mistral_v0_Restaurant-H_seed2_test.json",
+  "cmd": "( [ -f adapters/variants/mistral_v0_Restaurant-H_seed2/adapter_config.json ] || python train.py --data data/variants/mistral_Restaurant-H_val --base mistralai/Mistral-7B-Instruct-v0.2 --out adapters/variants/mistral_v0_Restaurant-H_seed2 --seed 2 ) && python evaluate_probs.py --4bit --data data/variants/mistral_Restaurant-H_val --split validation --adapter adapters/variants/mistral_v0_Restaurant-H_seed2 --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/variants/mistral_v0_Restaurant-H_seed2_validation.json && python evaluate_probs.py --4bit --data data/variants/mistral_Restaurant-H_val --split test --adapter adapters/variants/mistral_v0_Restaurant-H_seed2 --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/variants/mistral_v0_Restaurant-H_seed2_test.json"
+ },
+ {
+  "name": "mistral_v0_LDOS-WH_seed2",
+  "done": "probs/variants/mistral_v0_LDOS-WH_seed2_test.json",
+  "cmd": "( [ -f adapters/variants/mistral_v0_LDOS-WH_seed2/adapter_config.json ] || python train.py --data data/variants/mistral_LDOS-WH_val --base mistralai/Mistral-7B-Instruct-v0.2 --out adapters/variants/mistral_v0_LDOS-WH_seed2 --seed 2 ) && python evaluate_probs.py --4bit --data data/variants/mistral_LDOS-WH_val --split validation --adapter adapters/variants/mistral_v0_LDOS-WH_seed2 --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/variants/mistral_v0_LDOS-WH_seed2_validation.json && python evaluate_probs.py --4bit --data data/variants/mistral_LDOS-WH_val --split test --adapter adapters/variants/mistral_v0_LDOS-WH_seed2 --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/variants/mistral_v0_LDOS-WH_seed2_test.json"
+ },
+ {
+  "name": "mistral_v0_Depaul-WH_seed2",
+  "done": "probs/variants/mistral_v0_Depaul-WH_seed2_test.json",
+  "cmd": "( [ -f adapters/variants/mistral_v0_Depaul-WH_seed2/adapter_config.json ] || python train.py --data data/variants/mistral_Depaul-WH_val --base mistralai/Mistral-7B-Instruct-v0.2 --out adapters/variants/mistral_v0_Depaul-WH_seed2 --seed 2 ) && python evaluate_probs.py --4bit --data data/variants/mistral_Depaul-WH_val --split validation --adapter adapters/variants/mistral_v0_Depaul-WH_seed2 --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/variants/mistral_v0_Depaul-WH_seed2_validation.json && python evaluate_probs.py --4bit --data data/variants/mistral_Depaul-WH_val --split test --adapter adapters/variants/mistral_v0_Depaul-WH_seed2 --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/variants/mistral_v0_Depaul-WH_seed2_test.json"
+ },
+ {
+  "name": "mistral_v0_LDOS-H_seed2",
+  "done": "probs/variants/mistral_v0_LDOS-H_seed2_test.json",
+  "cmd": "( [ -f adapters/variants/mistral_v0_LDOS-H_seed2/adapter_config.json ] || python train.py --data data/variants/mistral_LDOS-H_val --base mistralai/Mistral-7B-Instruct-v0.2 --out adapters/variants/mistral_v0_LDOS-H_seed2 --seed 2 ) && python evaluate_probs.py --4bit --data data/variants/mistral_LDOS-H_val --split validation --adapter adapters/variants/mistral_v0_LDOS-H_seed2 --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/variants/mistral_v0_LDOS-H_seed2_validation.json && python evaluate_probs.py --4bit --data data/variants/mistral_LDOS-H_val --split test --adapter adapters/variants/mistral_v0_LDOS-H_seed2 --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/variants/mistral_v0_LDOS-H_seed2_test.json"
+ },
+ {
+  "name": "mistral_v0_Depaul-H_seed2",
+  "done": "probs/variants/mistral_v0_Depaul-H_seed2_test.json",
+  "cmd": "( [ -f adapters/variants/mistral_v0_Depaul-H_seed2/adapter_config.json ] || python train.py --data data/variants/mistral_Depaul-H_val --base mistralai/Mistral-7B-Instruct-v0.2 --out adapters/variants/mistral_v0_Depaul-H_seed2 --seed 2 ) && python evaluate_probs.py --4bit --data data/variants/mistral_Depaul-H_val --split validation --adapter adapters/variants/mistral_v0_Depaul-H_seed2 --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/variants/mistral_v0_Depaul-H_seed2_validation.json && python evaluate_probs.py --4bit --data data/variants/mistral_Depaul-H_val --split test --adapter adapters/variants/mistral_v0_Depaul-H_seed2 --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/variants/mistral_v0_Depaul-H_seed2_test.json"
+ }
+]

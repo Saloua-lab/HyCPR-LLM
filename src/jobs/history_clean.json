@@ -1,0 +1,17 @@
+[
+ {
+  "name": "history_mistral_clean_LDOS-H",
+  "done": "probs/history/mistral_clean_LDOS-H_k5.json",
+  "cmd": "python evaluate_probs.py --4bit --data data/LocationLDOSWithHisAvecMistral_noleak --adapter adapters/mistral_clean_LDOS-H --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/history/mistral_clean_LDOS-H.json --ks 0 1 2 3 4 5"
+ },
+ {
+  "name": "history_mistral_clean_Restaurant-H",
+  "done": "probs/history/mistral_clean_Restaurant-H_k5.json",
+  "cmd": "python evaluate_probs.py --4bit --data data/LocationRestaurantWithHisAvecMistral_noleak --adapter adapters/mistral_clean_Restaurant-H --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/history/mistral_clean_Restaurant-H.json --ks 0 1 2 3 4 5"
+ },
+ {
+  "name": "history_mistral_clean_Depaul-H",
+  "done": "probs/history/mistral_clean_Depaul-H_k5.json",
+  "cmd": "python evaluate_probs.py --4bit --data data/LocationDepaulWithHisAvecMistral_noleak --adapter adapters/mistral_clean_Depaul-H --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/history/mistral_clean_Depaul-H.json --ks 0 1 2 3 4 5"
+ }
+]

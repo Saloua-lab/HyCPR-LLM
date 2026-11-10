@@ -1,0 +1,102 @@
+{
+ "LDOS-H 0.1 abs": {
+  "share_le2": 14.38864353312303,
+  "cov_le2": 90.36988352372583,
+  "coverage": 90.29179810725553
+ },
+ "LDOS-H 0.1 normalized": {
+  "share_le2": 26.201261829653006,
+  "cov_le2": 75.66007139294591,
+  "coverage": 90.34984227129337
+ },
+ "LDOS-H 0.2 abs": {
+  "share_le2": 68.79305993690852,
+  "cov_le2": 76.00238163133125,
+  "coverage": 79.8813880126183
+ },
+ "LDOS-H 0.2 normalized": {
+  "share_le2": 48.536593059936905,
+  "cov_le2": 69.28233117625965,
+  "coverage": 80.05993690851734
+ },
+ "Depaul-H 0.1 abs": {
+  "share_le2": 19.153862212943633,
+  "cov_le2": 95.29351527803101,
+  "coverage": 90.30668058455115
+ },
+ "Depaul-H 0.1 normalized": {
+  "share_le2": 36.061377870563675,
+  "cov_le2": 81.4302047113865,
+  "coverage": 90.15407098121086
+ },
+ "Depaul-H 0.2 abs": {
+  "share_le2": 68.0517745302714,
+  "cov_le2": 79.9967697553925,
+  "coverage": 79.95615866388309
+ },
+ "Depaul-H 0.2 normalized": {
+  "share_le2": 58.18079331941545,
+  "cov_le2": 71.76815396661222,
+  "coverage": 79.88830897703549
+ },
+ "Restaurant-H 0.1 abs": {
+  "share_le2": 53.523428571428575,
+  "cov_le2": 94.94617656901677,
+  "coverage": 90.80628571428572
+ },
+ "Restaurant-H 0.1 normalized": {
+  "share_le2": 57.24514285714285,
+  "cov_le2": 86.75011301038312,
+  "coverage": 90.464
+ },
+ "Restaurant-H 0.2 abs": {
+  "share_le2": 97.20628571428573,
+  "cov_le2": 80.3309720029484,
+  "coverage": 80.17314285714285
+ },
+ "Restaurant-H 0.2 normalized": {
+  "share_le2": 77.84685714285715,
+  "cov_le2": 77.3888792261125,
+  "coverage": 80.04971428571427
+ },
+ "MovieLens-H 0.1 abs": {
+  "share_le2": 16.85385714285714,
+  "cov_le2": 79.43562158385512,
+  "coverage": 90.00750000000001
+ },
+ "MovieLens-H 0.1 normalized": {
+  "share_le2": 33.40628571428571,
+  "cov_le2": 85.40941576812438,
+  "coverage": 89.99578571428572
+ },
+ "MovieLens-H 0.2 abs": {
+  "share_le2": 80.42621428571428,
+  "cov_le2": 76.71455794151514,
+  "coverage": 80.04635714285713
+ },
+ "MovieLens-H 0.2 normalized": {
+  "share_le2": 77.09749999999998,
+  "cov_le2": 77.29170939533245,
+  "coverage": 80.09557142857143
+ },
+ "AmazonBooks-H 0.1 abs": {
+  "share_le2": 91.74357142857144,
+  "cov_le2": 89.87058733255459,
+  "coverage": 89.9777857142857
+ },
+ "AmazonBooks-H 0.1 normalized": {
+  "share_le2": 80.32014285714286,
+  "cov_le2": 90.53019948577618,
+  "coverage": 89.98464285714284
+ },
+ "AmazonBooks-H 0.2 abs": {
+  "share_le2": 100.0,
+  "cov_le2": 80.02757142857143,
+  "coverage": 80.02757142857143
+ },
+ "AmazonBooks-H 0.2 normalized": {
+  "share_le2": 97.60799999999999,
+  "cov_le2": 80.0328420250181,
+  "coverage": 79.99928571428572
+ }
+}

@@ -1,0 +1,32 @@
+[
+ {
+  "name": "llama_clean_LDOS-H",
+  "cmd": "( [ -f adapters/llama_clean_LDOS-H/adapter_config.json ] || python train.py --data data/LDOSWithHistoryLlama_noleak --base meta-llama/Llama-2-7b-chat-hf --out adapters/llama_clean_LDOS-H ) && python evaluate.py --data data/LDOSWithHistoryLlama_noleak --adapter adapters/llama_clean_LDOS-H --base meta-llama/Llama-2-7b-chat-hf --out results/llama_clean_LDOS-H.json",
+  "done": "results/llama_clean_LDOS-H.json"
+ },
+ {
+  "name": "llama_clean_Depaul-H",
+  "cmd": "( [ -f adapters/llama_clean_Depaul-H/adapter_config.json ] || python train.py --data data/LocationDepaulWithHisAvecLLama_noleak --base meta-llama/Llama-2-7b-chat-hf --out adapters/llama_clean_Depaul-H ) && python evaluate.py --data data/LocationDepaulWithHisAvecLLama_noleak --adapter adapters/llama_clean_Depaul-H --base meta-llama/Llama-2-7b-chat-hf --out results/llama_clean_Depaul-H.json",
+  "done": "results/llama_clean_Depaul-H.json"
+ },
+ {
+  "name": "llama_clean_Restaurant-H",
+  "cmd": "( [ -f adapters/llama_clean_Restaurant-H/adapter_config.json ] || python train.py --data data/LocationRestaurantWithHisAvecLLama_noleak --base meta-llama/Llama-2-7b-chat-hf --out adapters/llama_clean_Restaurant-H ) && python evaluate.py --data data/LocationRestaurantWithHisAvecLLama_noleak --adapter adapters/llama_clean_Restaurant-H --base meta-llama/Llama-2-7b-chat-hf --out results/llama_clean_Restaurant-H.json",
+  "done": "results/llama_clean_Restaurant-H.json"
+ },
+ {
+  "name": "eurollm_clean_LDOS-H",
+  "cmd": "( [ -f adapters/eurollm_clean_LDOS-H/adapter_config.json ] || python train.py --data data/LocationLDOSWithH_noleak --base utter-project/EuroLLM-9B-Instruct --out adapters/eurollm_clean_LDOS-H ) && python evaluate.py --data data/LocationLDOSWithH_noleak --adapter adapters/eurollm_clean_LDOS-H --base utter-project/EuroLLM-9B-Instruct --out results/eurollm_clean_LDOS-H.json",
+  "done": "results/eurollm_clean_LDOS-H.json"
+ },
+ {
+  "name": "eurollm_clean_Depaul-H",
+  "cmd": "( [ -f adapters/eurollm_clean_Depaul-H/adapter_config.json ] || python train.py --data data/LocationDepaulAvecHis_noleak --base utter-project/EuroLLM-9B-Instruct --out adapters/eurollm_clean_Depaul-H ) && python evaluate.py --data data/LocationDepaulAvecHis_noleak --adapter adapters/eurollm_clean_Depaul-H --base utter-project/EuroLLM-9B-Instruct --out results/eurollm_clean_Depaul-H.json",
+  "done": "results/eurollm_clean_Depaul-H.json"
+ },
+ {
+  "name": "eurollm_clean_Restaurant-H",
+  "cmd": "( [ -f adapters/eurollm_clean_Restaurant-H/adapter_config.json ] || python train.py --data data/LocationRestaurantAvecHis_noleak --base utter-project/EuroLLM-9B-Instruct --out adapters/eurollm_clean_Restaurant-H ) && python evaluate.py --data data/LocationRestaurantAvecHis_noleak --adapter adapters/eurollm_clean_Restaurant-H --base utter-project/EuroLLM-9B-Instruct --out results/eurollm_clean_Restaurant-H.json",
+  "done": "results/eurollm_clean_Restaurant-H.json"
+ }
+]

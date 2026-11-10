@@ -1,0 +1,106 @@
+{
+ "direct": {
+  "LDOS": {
+   "llm_calls": 1.0,
+   "prompt_tokens": 198.4446902654867,
+   "new_tokens": 4.508849557522124,
+   "seconds": 0.0748504321132086,
+   "batch": 32,
+   "gpu": "NVIDIA H100 80GB HBM3"
+  },
+  "Depaul": {
+   "llm_calls": 1.0,
+   "prompt_tokens": 126.70906432748538,
+   "new_tokens": 29.84795321637427,
+   "seconds": 0.06629724774444312,
+   "batch": 32,
+   "gpu": "NVIDIA H100 80GB HBM3"
+  },
+  "Tijuana": {
+   "llm_calls": 1.0,
+   "prompt_tokens": 138.944,
+   "new_tokens": 30.0,
+   "seconds": 0.12815061664581298,
+   "batch": 32,
+   "gpu": "NVIDIA H100 80GB HBM3"
+  }
+ },
+ "direct_tools": {
+  "LDOS": {
+   "llm_calls": 1.0,
+   "prompt_tokens": 551.5442477876106,
+   "new_tokens": 19.486725663716815,
+   "seconds": 0.15936587025633955,
+   "batch": 32,
+   "gpu": "NVIDIA H100 80GB HBM3"
+  },
+  "Depaul": {
+   "llm_calls": 1.0,
+   "prompt_tokens": 399.3201754385965,
+   "new_tokens": 29.849415204678362,
+   "seconds": 0.12480141405473676,
+   "batch": 32,
+   "gpu": "NVIDIA H100 80GB HBM3"
+  },
+  "Tijuana": {
+   "llm_calls": 1.0,
+   "prompt_tokens": 376.868,
+   "new_tokens": 29.78,
+   "seconds": 0.14729687309265135,
+   "batch": 32,
+   "gpu": "NVIDIA H100 80GB HBM3"
+  }
+ },
+ "react_notools": {
+  "LDOS": {
+   "llm_calls": 1.0,
+   "prompt_tokens": 327.4446902654867,
+   "new_tokens": 216.43362831858408,
+   "seconds": 0.8637813751676441,
+   "batch": 32,
+   "gpu": "NVIDIA H100 80GB HBM3"
+  },
+  "Depaul": {
+   "llm_calls": 1.0,
+   "prompt_tokens": 255.70906432748538,
+   "new_tokens": 176.45906432748538,
+   "seconds": 0.6159450966015196,
+   "batch": 32,
+   "gpu": "NVIDIA H100 80GB HBM3"
+  },
+  "Tijuana": {
+   "llm_calls": 1.0,
+   "prompt_tokens": 267.944,
+   "new_tokens": 226.684,
+   "seconds": 1.5458103923797608,
+   "batch": 32,
+   "gpu": "NVIDIA H100 80GB HBM3"
+  }
+ },
+ "react_all": {
+  "LDOS": {
+   "llm_calls": 4.013274336283186,
+   "prompt_tokens": 2690.079646017699,
+   "new_tokens": 257.5575221238938,
+   "seconds": 2.1693730755189877,
+   "batch": 32,
+   "gpu": "NVIDIA H100 80GB HBM3"
+  },
+  "Depaul": {
+   "llm_calls": 4.662280701754386,
+   "prompt_tokens": 2680.8611111111113,
+   "new_tokens": 247.98830409356725,
+   "seconds": 1.3825291782094722,
+   "batch": 32,
+   "gpu": "NVIDIA H100 80GB HBM3"
+  },
+  "Tijuana": {
+   "llm_calls": 4.412,
+   "prompt_tokens": 2552.148,
+   "new_tokens": 271.816,
+   "seconds": 2.9232801189422606,
+   "batch": 32,
+   "gpu": "NVIDIA H100 80GB HBM3"
+  }
+ }
+}

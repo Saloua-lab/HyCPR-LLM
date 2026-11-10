@@ -1,0 +1,19 @@
+# created by the scripts (large)
+src/data/
+src/adapters/
+src/cf/
+src/logs/
+src/sweep/
+# datasets and third-party code: see the README of each folder
+raw_data/*
+!raw_data/README.md
+small_data/*
+!small_data/README.md
+external/*
+!external/README.md
+# environment
+.venv/
+.hf_cache/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

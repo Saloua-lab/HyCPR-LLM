@@ -1,0 +1,32 @@
+[
+ {
+  "name": "deepseek_full_YELP-H",
+  "done": "probs/deepseek_YELP-H_val.json",
+  "cmd": "python train.py --data data/YELP-H --base deepseek-ai/deepseek-llm-7b-chat --out adapters/deepseek_full_YELP-H --epochs 2 && python evaluate_probs.py --4bit --data data/YELP-H --adapter adapters/deepseek_full_YELP-H --base deepseek-ai/deepseek-llm-7b-chat --out probs/deepseek_YELP-H.json && python evaluate_probs.py --4bit --data data/YELP-H_val --adapter adapters/deepseek_full_YELP-H --base deepseek-ai/deepseek-llm-7b-chat --out probs/deepseek_YELP-H_val.json"
+ },
+ {
+  "name": "llama_full_YELP-H",
+  "done": "probs/llama_YELP-H_val.json",
+  "cmd": "python train.py --data data/YELP-H --base meta-llama/Llama-2-7b-chat-hf --out adapters/llama_full_YELP-H --epochs 2 && python evaluate_probs.py --4bit --data data/YELP-H --adapter adapters/llama_full_YELP-H --base meta-llama/Llama-2-7b-chat-hf --out probs/llama_YELP-H.json && python evaluate_probs.py --4bit --data data/YELP-H_val --adapter adapters/llama_full_YELP-H --base meta-llama/Llama-2-7b-chat-hf --out probs/llama_YELP-H_val.json"
+ },
+ {
+  "name": "eurollm_full_YELP-H",
+  "done": "probs/eurollm_YELP-H_val.json",
+  "cmd": "python train.py --data data/YELP-H --base utter-project/EuroLLM-9B-Instruct --out adapters/eurollm_full_YELP-H --epochs 2 && python evaluate_probs.py --4bit --data data/YELP-H --adapter adapters/eurollm_full_YELP-H --base utter-project/EuroLLM-9B-Instruct --out probs/eurollm_YELP-H.json && python evaluate_probs.py --4bit --data data/YELP-H_val --adapter adapters/eurollm_full_YELP-H --base utter-project/EuroLLM-9B-Instruct --out probs/eurollm_YELP-H_val.json"
+ },
+ {
+  "name": "deepseek_full_YELP-WH",
+  "done": "probs/deepseek_YELP-WH_val.json",
+  "cmd": "python train.py --data data/YELP-WH --base deepseek-ai/deepseek-llm-7b-chat --out adapters/deepseek_full_YELP-WH --epochs 2 && python evaluate_probs.py --4bit --data data/YELP-WH --adapter adapters/deepseek_full_YELP-WH --base deepseek-ai/deepseek-llm-7b-chat --out probs/deepseek_YELP-WH.json && python evaluate_probs.py --4bit --data data/YELP-WH_val --adapter adapters/deepseek_full_YELP-WH --base deepseek-ai/deepseek-llm-7b-chat --out probs/deepseek_YELP-WH_val.json"
+ },
+ {
+  "name": "llama_full_YELP-WH",
+  "done": "probs/llama_YELP-WH_val.json",
+  "cmd": "python train.py --data data/YELP-WH --base meta-llama/Llama-2-7b-chat-hf --out adapters/llama_full_YELP-WH --epochs 2 && python evaluate_probs.py --4bit --data data/YELP-WH --adapter adapters/llama_full_YELP-WH --base meta-llama/Llama-2-7b-chat-hf --out probs/llama_YELP-WH.json && python evaluate_probs.py --4bit --data data/YELP-WH_val --adapter adapters/llama_full_YELP-WH --base meta-llama/Llama-2-7b-chat-hf --out probs/llama_YELP-WH_val.json"
+ },
+ {
+  "name": "eurollm_full_YELP-WH",
+  "done": "probs/eurollm_YELP-WH_val.json",
+  "cmd": "python train.py --data data/YELP-WH --base utter-project/EuroLLM-9B-Instruct --out adapters/eurollm_full_YELP-WH --epochs 2 && python evaluate_probs.py --4bit --data data/YELP-WH --adapter adapters/eurollm_full_YELP-WH --base utter-project/EuroLLM-9B-Instruct --out probs/eurollm_YELP-WH.json && python evaluate_probs.py --4bit --data data/YELP-WH_val --adapter adapters/eurollm_full_YELP-WH --base utter-project/EuroLLM-9B-Instruct --out probs/eurollm_YELP-WH_val.json"
+ }
+]

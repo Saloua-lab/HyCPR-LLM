@@ -1,0 +1,42 @@
+[
+ {
+  "name": "mistral_seed1_full_MovieLens-H",
+  "done": "probs/mistral_seed1_full_MovieLens-H_val.json",
+  "cmd": "( [ -f adapters/mistral_seed1_full_MovieLens-H/adapter_config.json ] || python train.py --data data/MovieLens-H --base mistralai/Mistral-7B-Instruct-v0.2 --out adapters/mistral_seed1_full_MovieLens-H --epochs 2 --seed 1 ) && python evaluate_probs.py --4bit --data data/MovieLens-H --adapter adapters/mistral_seed1_full_MovieLens-H --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/mistral_seed1_full_MovieLens-H.json && python evaluate_probs.py --4bit --data data/MovieLens-H_val --adapter adapters/mistral_seed1_full_MovieLens-H --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/mistral_seed1_full_MovieLens-H_val.json"
+ },
+ {
+  "name": "deepseek_full_MovieLens-H",
+  "done": "probs/deepseek_full_MovieLens-H_val.json",
+  "cmd": "( [ -f adapters/deepseek_full_MovieLens-H/adapter_config.json ] || python train.py --data data/MovieLens-H --base deepseek-ai/deepseek-llm-7b-chat --out adapters/deepseek_full_MovieLens-H --epochs 2 ) && python evaluate_probs.py --4bit --data data/MovieLens-H --adapter adapters/deepseek_full_MovieLens-H --base deepseek-ai/deepseek-llm-7b-chat --out probs/deepseek_full_MovieLens-H.json && python evaluate_probs.py --4bit --data data/MovieLens-H_val --adapter adapters/deepseek_full_MovieLens-H --base deepseek-ai/deepseek-llm-7b-chat --out probs/deepseek_full_MovieLens-H_val.json"
+ },
+ {
+  "name": "llama_full_MovieLens-H",
+  "done": "probs/llama_full_MovieLens-H_val.json",
+  "cmd": "( [ -f adapters/llama_full_MovieLens-H/adapter_config.json ] || python train.py --data data/MovieLens-H --base meta-llama/Llama-2-7b-chat-hf --out adapters/llama_full_MovieLens-H --epochs 2 ) && python evaluate_probs.py --4bit --data data/MovieLens-H --adapter adapters/llama_full_MovieLens-H --base meta-llama/Llama-2-7b-chat-hf --out probs/llama_full_MovieLens-H.json && python evaluate_probs.py --4bit --data data/MovieLens-H_val --adapter adapters/llama_full_MovieLens-H --base meta-llama/Llama-2-7b-chat-hf --out probs/llama_full_MovieLens-H_val.json"
+ },
+ {
+  "name": "eurollm_full_MovieLens-H",
+  "done": "probs/eurollm_full_MovieLens-H_val.json",
+  "cmd": "( [ -f adapters/eurollm_full_MovieLens-H/adapter_config.json ] || python train.py --data data/MovieLens-H --base utter-project/EuroLLM-9B-Instruct --out adapters/eurollm_full_MovieLens-H --epochs 2 ) && python evaluate_probs.py --4bit --data data/MovieLens-H --adapter adapters/eurollm_full_MovieLens-H --base utter-project/EuroLLM-9B-Instruct --out probs/eurollm_full_MovieLens-H.json && python evaluate_probs.py --4bit --data data/MovieLens-H_val --adapter adapters/eurollm_full_MovieLens-H --base utter-project/EuroLLM-9B-Instruct --out probs/eurollm_full_MovieLens-H_val.json"
+ },
+ {
+  "name": "mistral_seed1_full_AmazonBooks-H",
+  "done": "probs/mistral_seed1_full_AmazonBooks-H_val.json",
+  "cmd": "( [ -f adapters/mistral_seed1_full_AmazonBooks-H/adapter_config.json ] || python train.py --data data/AmazonBooks-H --base mistralai/Mistral-7B-Instruct-v0.2 --out adapters/mistral_seed1_full_AmazonBooks-H --epochs 2 --seed 1 ) && python evaluate_probs.py --4bit --data data/AmazonBooks-H --adapter adapters/mistral_seed1_full_AmazonBooks-H --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/mistral_seed1_full_AmazonBooks-H.json && python evaluate_probs.py --4bit --data data/AmazonBooks-H_val --adapter adapters/mistral_seed1_full_AmazonBooks-H --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/mistral_seed1_full_AmazonBooks-H_val.json"
+ },
+ {
+  "name": "deepseek_full_AmazonBooks-H",
+  "done": "probs/deepseek_full_AmazonBooks-H_val.json",
+  "cmd": "( [ -f adapters/deepseek_full_AmazonBooks-H/adapter_config.json ] || python train.py --data data/AmazonBooks-H --base deepseek-ai/deepseek-llm-7b-chat --out adapters/deepseek_full_AmazonBooks-H --epochs 2 ) && python evaluate_probs.py --4bit --data data/AmazonBooks-H --adapter adapters/deepseek_full_AmazonBooks-H --base deepseek-ai/deepseek-llm-7b-chat --out probs/deepseek_full_AmazonBooks-H.json && python evaluate_probs.py --4bit --data data/AmazonBooks-H_val --adapter adapters/deepseek_full_AmazonBooks-H --base deepseek-ai/deepseek-llm-7b-chat --out probs/deepseek_full_AmazonBooks-H_val.json"
+ },
+ {
+  "name": "llama_full_AmazonBooks-H",
+  "done": "probs/llama_full_AmazonBooks-H_val.json",
+  "cmd": "( [ -f adapters/llama_full_AmazonBooks-H/adapter_config.json ] || python train.py --data data/AmazonBooks-H --base meta-llama/Llama-2-7b-chat-hf --out adapters/llama_full_AmazonBooks-H --epochs 2 ) && python evaluate_probs.py --4bit --data data/AmazonBooks-H --adapter adapters/llama_full_AmazonBooks-H --base meta-llama/Llama-2-7b-chat-hf --out probs/llama_full_AmazonBooks-H.json && python evaluate_probs.py --4bit --data data/AmazonBooks-H_val --adapter adapters/llama_full_AmazonBooks-H --base meta-llama/Llama-2-7b-chat-hf --out probs/llama_full_AmazonBooks-H_val.json"
+ },
+ {
+  "name": "eurollm_full_AmazonBooks-H",
+  "done": "probs/eurollm_full_AmazonBooks-H_val.json",
+  "cmd": "( [ -f adapters/eurollm_full_AmazonBooks-H/adapter_config.json ] || python train.py --data data/AmazonBooks-H --base utter-project/EuroLLM-9B-Instruct --out adapters/eurollm_full_AmazonBooks-H --epochs 2 ) && python evaluate_probs.py --4bit --data data/AmazonBooks-H --adapter adapters/eurollm_full_AmazonBooks-H --base utter-project/EuroLLM-9B-Instruct --out probs/eurollm_full_AmazonBooks-H.json && python evaluate_probs.py --4bit --data data/AmazonBooks-H_val --adapter adapters/eurollm_full_AmazonBooks-H --base utter-project/EuroLLM-9B-Instruct --out probs/eurollm_full_AmazonBooks-H_val.json"
+ }
+]

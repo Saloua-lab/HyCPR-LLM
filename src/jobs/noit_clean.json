@@ -1,0 +1,62 @@
+[
+ {
+  "name": "mistral_noitclean_LDOS-H",
+  "done": "probs/mistral_noitclean_LDOS-H.json",
+  "cmd": "( [ -f adapters/mistral_noitclean_LDOS-H/adapter_config.json ] || python train.py --data data/LocationLDOSWithHisAvecMistral_noleak --base mistralai/Mistral-7B-v0.1 --out adapters/mistral_noitclean_LDOS-H ) && python evaluate_probs.py --4bit --data data/LocationLDOSWithHisAvecMistral_noleak --adapter adapters/mistral_noitclean_LDOS-H --base mistralai/Mistral-7B-v0.1 --out probs/mistral_noitclean_LDOS-H.json"
+ },
+ {
+  "name": "mistral_noitclean_Depaul-H",
+  "done": "probs/mistral_noitclean_Depaul-H.json",
+  "cmd": "( [ -f adapters/mistral_noitclean_Depaul-H/adapter_config.json ] || python train.py --data data/LocationDepaulWithHisAvecMistral_noleak --base mistralai/Mistral-7B-v0.1 --out adapters/mistral_noitclean_Depaul-H ) && python evaluate_probs.py --4bit --data data/LocationDepaulWithHisAvecMistral_noleak --adapter adapters/mistral_noitclean_Depaul-H --base mistralai/Mistral-7B-v0.1 --out probs/mistral_noitclean_Depaul-H.json"
+ },
+ {
+  "name": "mistral_noitclean_Restaurant-H",
+  "done": "probs/mistral_noitclean_Restaurant-H.json",
+  "cmd": "( [ -f adapters/mistral_noitclean_Restaurant-H/adapter_config.json ] || python train.py --data data/LocationRestaurantWithHisAvecMistral_noleak --base mistralai/Mistral-7B-v0.1 --out adapters/mistral_noitclean_Restaurant-H ) && python evaluate_probs.py --4bit --data data/LocationRestaurantWithHisAvecMistral_noleak --adapter adapters/mistral_noitclean_Restaurant-H --base mistralai/Mistral-7B-v0.1 --out probs/mistral_noitclean_Restaurant-H.json"
+ },
+ {
+  "name": "deepseek_noitclean_LDOS-H",
+  "done": "probs/deepseek_noitclean_LDOS-H.json",
+  "cmd": "( [ -f adapters/deepseek_noitclean_LDOS-H/adapter_config.json ] || python train.py --data data/LocationLDOSWithH_noleak --base deepseek-ai/deepseek-llm-7b-base --out adapters/deepseek_noitclean_LDOS-H ) && python evaluate_probs.py --4bit --data data/LocationLDOSWithH_noleak --adapter adapters/deepseek_noitclean_LDOS-H --base deepseek-ai/deepseek-llm-7b-base --out probs/deepseek_noitclean_LDOS-H.json"
+ },
+ {
+  "name": "deepseek_noitclean_Depaul-H",
+  "done": "probs/deepseek_noitclean_Depaul-H.json",
+  "cmd": "( [ -f adapters/deepseek_noitclean_Depaul-H/adapter_config.json ] || python train.py --data data/LocationDepaulAvecHis_noleak --base deepseek-ai/deepseek-llm-7b-base --out adapters/deepseek_noitclean_Depaul-H ) && python evaluate_probs.py --4bit --data data/LocationDepaulAvecHis_noleak --adapter adapters/deepseek_noitclean_Depaul-H --base deepseek-ai/deepseek-llm-7b-base --out probs/deepseek_noitclean_Depaul-H.json"
+ },
+ {
+  "name": "deepseek_noitclean_Restaurant-H",
+  "done": "probs/deepseek_noitclean_Restaurant-H.json",
+  "cmd": "( [ -f adapters/deepseek_noitclean_Restaurant-H/adapter_config.json ] || python train.py --data data/LocationRestaurantAvecHis_noleak --base deepseek-ai/deepseek-llm-7b-base --out adapters/deepseek_noitclean_Restaurant-H ) && python evaluate_probs.py --4bit --data data/LocationRestaurantAvecHis_noleak --adapter adapters/deepseek_noitclean_Restaurant-H --base deepseek-ai/deepseek-llm-7b-base --out probs/deepseek_noitclean_Restaurant-H.json"
+ },
+ {
+  "name": "llama_noitclean_LDOS-H",
+  "done": "probs/llama_noitclean_LDOS-H.json",
+  "cmd": "( [ -f adapters/llama_noitclean_LDOS-H/adapter_config.json ] || python train.py --data data/LDOSWithHistoryLlama_noleak --base meta-llama/Llama-2-7b-hf --out adapters/llama_noitclean_LDOS-H ) && python evaluate_probs.py --4bit --data data/LDOSWithHistoryLlama_noleak --adapter adapters/llama_noitclean_LDOS-H --base meta-llama/Llama-2-7b-hf --out probs/llama_noitclean_LDOS-H.json"
+ },
+ {
+  "name": "llama_noitclean_Depaul-H",
+  "done": "probs/llama_noitclean_Depaul-H.json",
+  "cmd": "( [ -f adapters/llama_noitclean_Depaul-H/adapter_config.json ] || python train.py --data data/LocationDepaulWithHisAvecLLama_noleak --base meta-llama/Llama-2-7b-hf --out adapters/llama_noitclean_Depaul-H ) && python evaluate_probs.py --4bit --data data/LocationDepaulWithHisAvecLLama_noleak --adapter adapters/llama_noitclean_Depaul-H --base meta-llama/Llama-2-7b-hf --out probs/llama_noitclean_Depaul-H.json"
+ },
+ {
+  "name": "llama_noitclean_Restaurant-H",
+  "done": "probs/llama_noitclean_Restaurant-H.json",
+  "cmd": "( [ -f adapters/llama_noitclean_Restaurant-H/adapter_config.json ] || python train.py --data data/LocationRestaurantWithHisAvecLLama_noleak --base meta-llama/Llama-2-7b-hf --out adapters/llama_noitclean_Restaurant-H ) && python evaluate_probs.py --4bit --data data/LocationRestaurantWithHisAvecLLama_noleak --adapter adapters/llama_noitclean_Restaurant-H --base meta-llama/Llama-2-7b-hf --out probs/llama_noitclean_Restaurant-H.json"
+ },
+ {
+  "name": "eurollm_noitclean_LDOS-H",
+  "done": "probs/eurollm_noitclean_LDOS-H.json",
+  "cmd": "( [ -f adapters/eurollm_noitclean_LDOS-H/adapter_config.json ] || python train.py --data data/LocationLDOSWithH_noleak --base utter-project/EuroLLM-9B --out adapters/eurollm_noitclean_LDOS-H ) && python evaluate_probs.py --4bit --data data/LocationLDOSWithH_noleak --adapter adapters/eurollm_noitclean_LDOS-H --base utter-project/EuroLLM-9B --out probs/eurollm_noitclean_LDOS-H.json"
+ },
+ {
+  "name": "eurollm_noitclean_Depaul-H",
+  "done": "probs/eurollm_noitclean_Depaul-H.json",
+  "cmd": "( [ -f adapters/eurollm_noitclean_Depaul-H/adapter_config.json ] || python train.py --data data/LocationDepaulAvecHis_noleak --base utter-project/EuroLLM-9B --out adapters/eurollm_noitclean_Depaul-H ) && python evaluate_probs.py --4bit --data data/LocationDepaulAvecHis_noleak --adapter adapters/eurollm_noitclean_Depaul-H --base utter-project/EuroLLM-9B --out probs/eurollm_noitclean_Depaul-H.json"
+ },
+ {
+  "name": "eurollm_noitclean_Restaurant-H",
+  "done": "probs/eurollm_noitclean_Restaurant-H.json",
+  "cmd": "( [ -f adapters/eurollm_noitclean_Restaurant-H/adapter_config.json ] || python train.py --data data/LocationRestaurantAvecHis_noleak --base utter-project/EuroLLM-9B --out adapters/eurollm_noitclean_Restaurant-H ) && python evaluate_probs.py --4bit --data data/LocationRestaurantAvecHis_noleak --adapter adapters/eurollm_noitclean_Restaurant-H --base utter-project/EuroLLM-9B --out probs/eurollm_noitclean_Restaurant-H.json"
+ }
+]

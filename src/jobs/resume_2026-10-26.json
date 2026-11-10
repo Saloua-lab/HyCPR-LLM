@@ -1,0 +1,12 @@
+[
+ {
+  "name": "mistral_full_AmazonBooks-H",
+  "cmd": "python train.py --data data/AmazonBooks-H --base mistralai/Mistral-7B-Instruct-v0.2 --out adapters/mistral_full_AmazonBooks-H --epochs 2 && python evaluate.py --data data/AmazonBooks-H --adapter adapters/mistral_full_AmazonBooks-H --base mistralai/Mistral-7B-Instruct-v0.2 --out results/mistral_full_AmazonBooks-H.json",
+  "done": "results/mistral_full_AmazonBooks-H.json"
+ },
+ {
+  "name": "mistral_full_YELP-H",
+  "cmd": "python train.py --data data/YELP-H --base mistralai/Mistral-7B-Instruct-v0.2 --out adapters/mistral_full_YELP-H --epochs 2 && python evaluate.py --data data/YELP-H --adapter adapters/mistral_full_YELP-H --base mistralai/Mistral-7B-Instruct-v0.2 --out results/mistral_full_YELP-H.json",
+  "done": "results/mistral_full_YELP-H.json"
+ }
+]

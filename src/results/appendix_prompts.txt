@@ -1,0 +1,42 @@
+<Alpaca prompt of the request (Figure 3), without the answer marker>
+
+Solve this task in the ReAct format, alternating Thought, Action and Observation steps.
+  You can use these tools, which look up the past ratings of the recommender's database:
+- user_ratings[]: returns the user's past ratings (count, mean, distribution and a few
+  rated items)
+- item_ratings[]: returns the ratings that other users gave to this item (count and
+  mean)
+- similar_items[]: returns the user's past ratings of items similar to this one (same
+  genre, actor, director or cast member)
+- context_ratings[]: returns how the user rated items in the same context, and the mean
+  rating of all users in that context
+- Finish[r]: give the final answer, the predicted rating r between 1 and 5.
+Write one Thought and one Action per step, for example:
+Thought 1: ...
+Action 1: user_ratings[]
+The Observation is then returned to you. Use at most 5 tools, then finish with "Action
+  N: Finish[r]".
+=====
+<Alpaca prompt of the request (Figure 3), without the answer marker>
+
+Answer in the ReAct format. Alternate Thought, Action and Observation lines, for
+  example:
+Thought 1: I should analyze the user's profile and whether they typically enjoy this
+  kind of item.
+Action 1: Check general preferences of similar users for this genre.
+Observation 1: ...
+Thought 2: Consider the context.
+Action 2: Assess context compatibility with the item.
+Observation 2: ...
+Finish with "Action N: Finish[r]" where r is the predicted rating, an integer from 1 to
+  5.
+=====
+def reflection_prompting(true_rating, user_prompt, model_response):   # Fig. 5, verbatim apart from the prints
+    reflection_prompt = "The following is a previous prediction you made to a given prediction request.\n\n"
+    reflection_prompt += "##User Prompt##\n\n"
+    reflection_prompt += user_prompt.replace("[/INST]", "").replace("[INST]", "") + "\n"
+    reflection_prompt += "##Your Response##\n"
+    reflection_prompt += model_response + "\n"
+    reflection_prompt += "The true rating is " + str(true_rating) + ". It's clear that you're not predicting well, so learn the rules and reflect on why you didn't predict well.\n"
+    reflection_prompt += "So can you reflect on why you are not predicting accurately? Think about the rules, summarize them, and answer a new improving question.Here, I will provide you with a new prediction prompt.\n\n"
+    return reflection_prompt

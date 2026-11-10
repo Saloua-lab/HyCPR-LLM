@@ -1,0 +1,182 @@
+[
+ {
+  "name": "llama_v0_Depaul-H_seed1",
+  "done": "probs/variants/llama_v0_Depaul-H_seed1_test.json",
+  "cmd": "( [ -f adapters/variants/llama_v0_Depaul-H_seed1/adapter_config.json ] || python train.py --data data/variants/llama_Depaul-H_val --base meta-llama/Llama-2-7b-chat-hf --out adapters/variants/llama_v0_Depaul-H_seed1 --seed 1 ) && python evaluate_probs.py --4bit --data data/variants/llama_Depaul-H_val --split validation --adapter adapters/variants/llama_v0_Depaul-H_seed1 --base meta-llama/Llama-2-7b-chat-hf --out probs/variants/llama_v0_Depaul-H_seed1_validation.json && python evaluate_probs.py --4bit --data data/variants/llama_Depaul-H_val --split test --adapter adapters/variants/llama_v0_Depaul-H_seed1 --base meta-llama/Llama-2-7b-chat-hf --out probs/variants/llama_v0_Depaul-H_seed1_test.json"
+ },
+ {
+  "name": "eurollm_v0_Depaul-H_seed1",
+  "done": "probs/variants/eurollm_v0_Depaul-H_seed1_test.json",
+  "cmd": "( [ -f adapters/variants/eurollm_v0_Depaul-H_seed1/adapter_config.json ] || python train.py --data data/variants/eurollm_Depaul-H_val --base utter-project/EuroLLM-9B-Instruct --out adapters/variants/eurollm_v0_Depaul-H_seed1 --seed 1 ) && python evaluate_probs.py --4bit --data data/variants/eurollm_Depaul-H_val --split validation --adapter adapters/variants/eurollm_v0_Depaul-H_seed1 --base utter-project/EuroLLM-9B-Instruct --out probs/variants/eurollm_v0_Depaul-H_seed1_validation.json && python evaluate_probs.py --4bit --data data/variants/eurollm_Depaul-H_val --split test --adapter adapters/variants/eurollm_v0_Depaul-H_seed1 --base utter-project/EuroLLM-9B-Instruct --out probs/variants/eurollm_v0_Depaul-H_seed1_test.json"
+ },
+ {
+  "name": "deepseek_v0_Depaul-H_seed1",
+  "done": "probs/variants/deepseek_v0_Depaul-H_seed1_test.json",
+  "cmd": "( [ -f adapters/variants/deepseek_v0_Depaul-H_seed1/adapter_config.json ] || python train.py --data data/variants/deepseek_Depaul-H_val --base deepseek-ai/deepseek-llm-7b-chat --out adapters/variants/deepseek_v0_Depaul-H_seed1 --seed 1 ) && python evaluate_probs.py --4bit --data data/variants/deepseek_Depaul-H_val --split validation --adapter adapters/variants/deepseek_v0_Depaul-H_seed1 --base deepseek-ai/deepseek-llm-7b-chat --out probs/variants/deepseek_v0_Depaul-H_seed1_validation.json && python evaluate_probs.py --4bit --data data/variants/deepseek_Depaul-H_val --split test --adapter adapters/variants/deepseek_v0_Depaul-H_seed1 --base deepseek-ai/deepseek-llm-7b-chat --out probs/variants/deepseek_v0_Depaul-H_seed1_test.json"
+ },
+ {
+  "name": "llama_v0_LDOS-H_seed1",
+  "done": "probs/variants/llama_v0_LDOS-H_seed1_test.json",
+  "cmd": "( [ -f adapters/variants/llama_v0_LDOS-H_seed1/adapter_config.json ] || python train.py --data data/variants/llama_LDOS-H_val --base meta-llama/Llama-2-7b-chat-hf --out adapters/variants/llama_v0_LDOS-H_seed1 --seed 1 ) && python evaluate_probs.py --4bit --data data/variants/llama_LDOS-H_val --split validation --adapter adapters/variants/llama_v0_LDOS-H_seed1 --base meta-llama/Llama-2-7b-chat-hf --out probs/variants/llama_v0_LDOS-H_seed1_validation.json && python evaluate_probs.py --4bit --data data/variants/llama_LDOS-H_val --split test --adapter adapters/variants/llama_v0_LDOS-H_seed1 --base meta-llama/Llama-2-7b-chat-hf --out probs/variants/llama_v0_LDOS-H_seed1_test.json"
+ },
+ {
+  "name": "eurollm_v0_LDOS-H_seed1",
+  "done": "probs/variants/eurollm_v0_LDOS-H_seed1_test.json",
+  "cmd": "( [ -f adapters/variants/eurollm_v0_LDOS-H_seed1/adapter_config.json ] || python train.py --data data/variants/eurollm_LDOS-H_val --base utter-project/EuroLLM-9B-Instruct --out adapters/variants/eurollm_v0_LDOS-H_seed1 --seed 1 ) && python evaluate_probs.py --4bit --data data/variants/eurollm_LDOS-H_val --split validation --adapter adapters/variants/eurollm_v0_LDOS-H_seed1 --base utter-project/EuroLLM-9B-Instruct --out probs/variants/eurollm_v0_LDOS-H_seed1_validation.json && python evaluate_probs.py --4bit --data data/variants/eurollm_LDOS-H_val --split test --adapter adapters/variants/eurollm_v0_LDOS-H_seed1 --base utter-project/EuroLLM-9B-Instruct --out probs/variants/eurollm_v0_LDOS-H_seed1_test.json"
+ },
+ {
+  "name": "deepseek_v0_LDOS-H_seed1",
+  "done": "probs/variants/deepseek_v0_LDOS-H_seed1_test.json",
+  "cmd": "( [ -f adapters/variants/deepseek_v0_LDOS-H_seed1/adapter_config.json ] || python train.py --data data/variants/deepseek_LDOS-H_val --base deepseek-ai/deepseek-llm-7b-chat --out adapters/variants/deepseek_v0_LDOS-H_seed1 --seed 1 ) && python evaluate_probs.py --4bit --data data/variants/deepseek_LDOS-H_val --split validation --adapter adapters/variants/deepseek_v0_LDOS-H_seed1 --base deepseek-ai/deepseek-llm-7b-chat --out probs/variants/deepseek_v0_LDOS-H_seed1_validation.json && python evaluate_probs.py --4bit --data data/variants/deepseek_LDOS-H_val --split test --adapter adapters/variants/deepseek_v0_LDOS-H_seed1 --base deepseek-ai/deepseek-llm-7b-chat --out probs/variants/deepseek_v0_LDOS-H_seed1_test.json"
+ },
+ {
+  "name": "llama_v0_Depaul-WH_seed1",
+  "done": "probs/variants/llama_v0_Depaul-WH_seed1_test.json",
+  "cmd": "( [ -f adapters/variants/llama_v0_Depaul-WH_seed1/adapter_config.json ] || python train.py --data data/variants/llama_Depaul-WH_val --base meta-llama/Llama-2-7b-chat-hf --out adapters/variants/llama_v0_Depaul-WH_seed1 --seed 1 ) && python evaluate_probs.py --4bit --data data/variants/llama_Depaul-WH_val --split validation --adapter adapters/variants/llama_v0_Depaul-WH_seed1 --base meta-llama/Llama-2-7b-chat-hf --out probs/variants/llama_v0_Depaul-WH_seed1_validation.json && python evaluate_probs.py --4bit --data data/variants/llama_Depaul-WH_val --split test --adapter adapters/variants/llama_v0_Depaul-WH_seed1 --base meta-llama/Llama-2-7b-chat-hf --out probs/variants/llama_v0_Depaul-WH_seed1_test.json"
+ },
+ {
+  "name": "eurollm_v0_Depaul-WH_seed1",
+  "done": "probs/variants/eurollm_v0_Depaul-WH_seed1_test.json",
+  "cmd": "( [ -f adapters/variants/eurollm_v0_Depaul-WH_seed1/adapter_config.json ] || python train.py --data data/variants/eurollm_Depaul-WH_val --base utter-project/EuroLLM-9B-Instruct --out adapters/variants/eurollm_v0_Depaul-WH_seed1 --seed 1 ) && python evaluate_probs.py --4bit --data data/variants/eurollm_Depaul-WH_val --split validation --adapter adapters/variants/eurollm_v0_Depaul-WH_seed1 --base utter-project/EuroLLM-9B-Instruct --out probs/variants/eurollm_v0_Depaul-WH_seed1_validation.json && python evaluate_probs.py --4bit --data data/variants/eurollm_Depaul-WH_val --split test --adapter adapters/variants/eurollm_v0_Depaul-WH_seed1 --base utter-project/EuroLLM-9B-Instruct --out probs/variants/eurollm_v0_Depaul-WH_seed1_test.json"
+ },
+ {
+  "name": "deepseek_v0_Depaul-WH_seed1",
+  "done": "probs/variants/deepseek_v0_Depaul-WH_seed1_test.json",
+  "cmd": "( [ -f adapters/variants/deepseek_v0_Depaul-WH_seed1/adapter_config.json ] || python train.py --data data/variants/deepseek_Depaul-WH_val --base deepseek-ai/deepseek-llm-7b-chat --out adapters/variants/deepseek_v0_Depaul-WH_seed1 --seed 1 ) && python evaluate_probs.py --4bit --data data/variants/deepseek_Depaul-WH_val --split validation --adapter adapters/variants/deepseek_v0_Depaul-WH_seed1 --base deepseek-ai/deepseek-llm-7b-chat --out probs/variants/deepseek_v0_Depaul-WH_seed1_validation.json && python evaluate_probs.py --4bit --data data/variants/deepseek_Depaul-WH_val --split test --adapter adapters/variants/deepseek_v0_Depaul-WH_seed1 --base deepseek-ai/deepseek-llm-7b-chat --out probs/variants/deepseek_v0_Depaul-WH_seed1_test.json"
+ },
+ {
+  "name": "llama_v0_LDOS-WH_seed1",
+  "done": "probs/variants/llama_v0_LDOS-WH_seed1_test.json",
+  "cmd": "( [ -f adapters/variants/llama_v0_LDOS-WH_seed1/adapter_config.json ] || python train.py --data data/variants/llama_LDOS-WH_val --base meta-llama/Llama-2-7b-chat-hf --out adapters/variants/llama_v0_LDOS-WH_seed1 --seed 1 ) && python evaluate_probs.py --4bit --data data/variants/llama_LDOS-WH_val --split validation --adapter adapters/variants/llama_v0_LDOS-WH_seed1 --base meta-llama/Llama-2-7b-chat-hf --out probs/variants/llama_v0_LDOS-WH_seed1_validation.json && python evaluate_probs.py --4bit --data data/variants/llama_LDOS-WH_val --split test --adapter adapters/variants/llama_v0_LDOS-WH_seed1 --base meta-llama/Llama-2-7b-chat-hf --out probs/variants/llama_v0_LDOS-WH_seed1_test.json"
+ },
+ {
+  "name": "eurollm_v0_LDOS-WH_seed1",
+  "done": "probs/variants/eurollm_v0_LDOS-WH_seed1_test.json",
+  "cmd": "( [ -f adapters/variants/eurollm_v0_LDOS-WH_seed1/adapter_config.json ] || python train.py --data data/variants/eurollm_LDOS-WH_val --base utter-project/EuroLLM-9B-Instruct --out adapters/variants/eurollm_v0_LDOS-WH_seed1 --seed 1 ) && python evaluate_probs.py --4bit --data data/variants/eurollm_LDOS-WH_val --split validation --adapter adapters/variants/eurollm_v0_LDOS-WH_seed1 --base utter-project/EuroLLM-9B-Instruct --out probs/variants/eurollm_v0_LDOS-WH_seed1_validation.json && python evaluate_probs.py --4bit --data data/variants/eurollm_LDOS-WH_val --split test --adapter adapters/variants/eurollm_v0_LDOS-WH_seed1 --base utter-project/EuroLLM-9B-Instruct --out probs/variants/eurollm_v0_LDOS-WH_seed1_test.json"
+ },
+ {
+  "name": "deepseek_v0_LDOS-WH_seed1",
+  "done": "probs/variants/deepseek_v0_LDOS-WH_seed1_test.json",
+  "cmd": "( [ -f adapters/variants/deepseek_v0_LDOS-WH_seed1/adapter_config.json ] || python train.py --data data/variants/deepseek_LDOS-WH_val --base deepseek-ai/deepseek-llm-7b-chat --out adapters/variants/deepseek_v0_LDOS-WH_seed1 --seed 1 ) && python evaluate_probs.py --4bit --data data/variants/deepseek_LDOS-WH_val --split validation --adapter adapters/variants/deepseek_v0_LDOS-WH_seed1 --base deepseek-ai/deepseek-llm-7b-chat --out probs/variants/deepseek_v0_LDOS-WH_seed1_validation.json && python evaluate_probs.py --4bit --data data/variants/deepseek_LDOS-WH_val --split test --adapter adapters/variants/deepseek_v0_LDOS-WH_seed1 --base deepseek-ai/deepseek-llm-7b-chat --out probs/variants/deepseek_v0_LDOS-WH_seed1_test.json"
+ },
+ {
+  "name": "llama_v0_Restaurant-H_seed1",
+  "done": "probs/variants/llama_v0_Restaurant-H_seed1_test.json",
+  "cmd": "( [ -f adapters/variants/llama_v0_Restaurant-H_seed1/adapter_config.json ] || python train.py --data data/variants/llama_Restaurant-H_val --base meta-llama/Llama-2-7b-chat-hf --out adapters/variants/llama_v0_Restaurant-H_seed1 --seed 1 ) && python evaluate_probs.py --4bit --data data/variants/llama_Restaurant-H_val --split validation --adapter adapters/variants/llama_v0_Restaurant-H_seed1 --base meta-llama/Llama-2-7b-chat-hf --out probs/variants/llama_v0_Restaurant-H_seed1_validation.json && python evaluate_probs.py --4bit --data data/variants/llama_Restaurant-H_val --split test --adapter adapters/variants/llama_v0_Restaurant-H_seed1 --base meta-llama/Llama-2-7b-chat-hf --out probs/variants/llama_v0_Restaurant-H_seed1_test.json"
+ },
+ {
+  "name": "eurollm_v0_Restaurant-H_seed1",
+  "done": "probs/variants/eurollm_v0_Restaurant-H_seed1_test.json",
+  "cmd": "( [ -f adapters/variants/eurollm_v0_Restaurant-H_seed1/adapter_config.json ] || python train.py --data data/variants/eurollm_Restaurant-H_val --base utter-project/EuroLLM-9B-Instruct --out adapters/variants/eurollm_v0_Restaurant-H_seed1 --seed 1 ) && python evaluate_probs.py --4bit --data data/variants/eurollm_Restaurant-H_val --split validation --adapter adapters/variants/eurollm_v0_Restaurant-H_seed1 --base utter-project/EuroLLM-9B-Instruct --out probs/variants/eurollm_v0_Restaurant-H_seed1_validation.json && python evaluate_probs.py --4bit --data data/variants/eurollm_Restaurant-H_val --split test --adapter adapters/variants/eurollm_v0_Restaurant-H_seed1 --base utter-project/EuroLLM-9B-Instruct --out probs/variants/eurollm_v0_Restaurant-H_seed1_test.json"
+ },
+ {
+  "name": "deepseek_v0_Restaurant-H_seed1",
+  "done": "probs/variants/deepseek_v0_Restaurant-H_seed1_test.json",
+  "cmd": "( [ -f adapters/variants/deepseek_v0_Restaurant-H_seed1/adapter_config.json ] || python train.py --data data/variants/deepseek_Restaurant-H_val --base deepseek-ai/deepseek-llm-7b-chat --out adapters/variants/deepseek_v0_Restaurant-H_seed1 --seed 1 ) && python evaluate_probs.py --4bit --data data/variants/deepseek_Restaurant-H_val --split validation --adapter adapters/variants/deepseek_v0_Restaurant-H_seed1 --base deepseek-ai/deepseek-llm-7b-chat --out probs/variants/deepseek_v0_Restaurant-H_seed1_validation.json && python evaluate_probs.py --4bit --data data/variants/deepseek_Restaurant-H_val --split test --adapter adapters/variants/deepseek_v0_Restaurant-H_seed1 --base deepseek-ai/deepseek-llm-7b-chat --out probs/variants/deepseek_v0_Restaurant-H_seed1_test.json"
+ },
+ {
+  "name": "llama_v0_Tijuana-WH_seed1",
+  "done": "probs/variants/llama_v0_Tijuana-WH_seed1_test.json",
+  "cmd": "( [ -f adapters/variants/llama_v0_Tijuana-WH_seed1/adapter_config.json ] || python train.py --data data/variants/llama_Tijuana-WH_val --base meta-llama/Llama-2-7b-chat-hf --out adapters/variants/llama_v0_Tijuana-WH_seed1 --seed 1 ) && python evaluate_probs.py --4bit --data data/variants/llama_Tijuana-WH_val --split validation --adapter adapters/variants/llama_v0_Tijuana-WH_seed1 --base meta-llama/Llama-2-7b-chat-hf --out probs/variants/llama_v0_Tijuana-WH_seed1_validation.json && python evaluate_probs.py --4bit --data data/variants/llama_Tijuana-WH_val --split test --adapter adapters/variants/llama_v0_Tijuana-WH_seed1 --base meta-llama/Llama-2-7b-chat-hf --out probs/variants/llama_v0_Tijuana-WH_seed1_test.json"
+ },
+ {
+  "name": "eurollm_v0_Tijuana-WH_seed1",
+  "done": "probs/variants/eurollm_v0_Tijuana-WH_seed1_test.json",
+  "cmd": "( [ -f adapters/variants/eurollm_v0_Tijuana-WH_seed1/adapter_config.json ] || python train.py --data data/variants/eurollm_Tijuana-WH_val --base utter-project/EuroLLM-9B-Instruct --out adapters/variants/eurollm_v0_Tijuana-WH_seed1 --seed 1 ) && python evaluate_probs.py --4bit --data data/variants/eurollm_Tijuana-WH_val --split validation --adapter adapters/variants/eurollm_v0_Tijuana-WH_seed1 --base utter-project/EuroLLM-9B-Instruct --out probs/variants/eurollm_v0_Tijuana-WH_seed1_validation.json && python evaluate_probs.py --4bit --data data/variants/eurollm_Tijuana-WH_val --split test --adapter adapters/variants/eurollm_v0_Tijuana-WH_seed1 --base utter-project/EuroLLM-9B-Instruct --out probs/variants/eurollm_v0_Tijuana-WH_seed1_test.json"
+ },
+ {
+  "name": "deepseek_v0_Tijuana-WH_seed1",
+  "done": "probs/variants/deepseek_v0_Tijuana-WH_seed1_test.json",
+  "cmd": "( [ -f adapters/variants/deepseek_v0_Tijuana-WH_seed1/adapter_config.json ] || python train.py --data data/variants/deepseek_Tijuana-WH_val --base deepseek-ai/deepseek-llm-7b-chat --out adapters/variants/deepseek_v0_Tijuana-WH_seed1 --seed 1 ) && python evaluate_probs.py --4bit --data data/variants/deepseek_Tijuana-WH_val --split validation --adapter adapters/variants/deepseek_v0_Tijuana-WH_seed1 --base deepseek-ai/deepseek-llm-7b-chat --out probs/variants/deepseek_v0_Tijuana-WH_seed1_validation.json && python evaluate_probs.py --4bit --data data/variants/deepseek_Tijuana-WH_val --split test --adapter adapters/variants/deepseek_v0_Tijuana-WH_seed1 --base deepseek-ai/deepseek-llm-7b-chat --out probs/variants/deepseek_v0_Tijuana-WH_seed1_test.json"
+ },
+ {
+  "name": "llama_v0_Depaul-H_seed2",
+  "done": "probs/variants/llama_v0_Depaul-H_seed2_test.json",
+  "cmd": "( [ -f adapters/variants/llama_v0_Depaul-H_seed2/adapter_config.json ] || python train.py --data data/variants/llama_Depaul-H_val --base meta-llama/Llama-2-7b-chat-hf --out adapters/variants/llama_v0_Depaul-H_seed2 --seed 2 ) && python evaluate_probs.py --4bit --data data/variants/llama_Depaul-H_val --split validation --adapter adapters/variants/llama_v0_Depaul-H_seed2 --base meta-llama/Llama-2-7b-chat-hf --out probs/variants/llama_v0_Depaul-H_seed2_validation.json && python evaluate_probs.py --4bit --data data/variants/llama_Depaul-H_val --split test --adapter adapters/variants/llama_v0_Depaul-H_seed2 --base meta-llama/Llama-2-7b-chat-hf --out probs/variants/llama_v0_Depaul-H_seed2_test.json"
+ },
+ {
+  "name": "eurollm_v0_Depaul-H_seed2",
+  "done": "probs/variants/eurollm_v0_Depaul-H_seed2_test.json",
+  "cmd": "( [ -f adapters/variants/eurollm_v0_Depaul-H_seed2/adapter_config.json ] || python train.py --data data/variants/eurollm_Depaul-H_val --base utter-project/EuroLLM-9B-Instruct --out adapters/variants/eurollm_v0_Depaul-H_seed2 --seed 2 ) && python evaluate_probs.py --4bit --data data/variants/eurollm_Depaul-H_val --split validation --adapter adapters/variants/eurollm_v0_Depaul-H_seed2 --base utter-project/EuroLLM-9B-Instruct --out probs/variants/eurollm_v0_Depaul-H_seed2_validation.json && python evaluate_probs.py --4bit --data data/variants/eurollm_Depaul-H_val --split test --adapter adapters/variants/eurollm_v0_Depaul-H_seed2 --base utter-project/EuroLLM-9B-Instruct --out probs/variants/eurollm_v0_Depaul-H_seed2_test.json"
+ },
+ {
+  "name": "deepseek_v0_Depaul-H_seed2",
+  "done": "probs/variants/deepseek_v0_Depaul-H_seed2_test.json",
+  "cmd": "( [ -f adapters/variants/deepseek_v0_Depaul-H_seed2/adapter_config.json ] || python train.py --data data/variants/deepseek_Depaul-H_val --base deepseek-ai/deepseek-llm-7b-chat --out adapters/variants/deepseek_v0_Depaul-H_seed2 --seed 2 ) && python evaluate_probs.py --4bit --data data/variants/deepseek_Depaul-H_val --split validation --adapter adapters/variants/deepseek_v0_Depaul-H_seed2 --base deepseek-ai/deepseek-llm-7b-chat --out probs/variants/deepseek_v0_Depaul-H_seed2_validation.json && python evaluate_probs.py --4bit --data data/variants/deepseek_Depaul-H_val --split test --adapter adapters/variants/deepseek_v0_Depaul-H_seed2 --base deepseek-ai/deepseek-llm-7b-chat --out probs/variants/deepseek_v0_Depaul-H_seed2_test.json"
+ },
+ {
+  "name": "llama_v0_LDOS-H_seed2",
+  "done": "probs/variants/llama_v0_LDOS-H_seed2_test.json",
+  "cmd": "( [ -f adapters/variants/llama_v0_LDOS-H_seed2/adapter_config.json ] || python train.py --data data/variants/llama_LDOS-H_val --base meta-llama/Llama-2-7b-chat-hf --out adapters/variants/llama_v0_LDOS-H_seed2 --seed 2 ) && python evaluate_probs.py --4bit --data data/variants/llama_LDOS-H_val --split validation --adapter adapters/variants/llama_v0_LDOS-H_seed2 --base meta-llama/Llama-2-7b-chat-hf --out probs/variants/llama_v0_LDOS-H_seed2_validation.json && python evaluate_probs.py --4bit --data data/variants/llama_LDOS-H_val --split test --adapter adapters/variants/llama_v0_LDOS-H_seed2 --base meta-llama/Llama-2-7b-chat-hf --out probs/variants/llama_v0_LDOS-H_seed2_test.json"
+ },
+ {
+  "name": "eurollm_v0_LDOS-H_seed2",
+  "done": "probs/variants/eurollm_v0_LDOS-H_seed2_test.json",
+  "cmd": "( [ -f adapters/variants/eurollm_v0_LDOS-H_seed2/adapter_config.json ] || python train.py --data data/variants/eurollm_LDOS-H_val --base utter-project/EuroLLM-9B-Instruct --out adapters/variants/eurollm_v0_LDOS-H_seed2 --seed 2 ) && python evaluate_probs.py --4bit --data data/variants/eurollm_LDOS-H_val --split validation --adapter adapters/variants/eurollm_v0_LDOS-H_seed2 --base utter-project/EuroLLM-9B-Instruct --out probs/variants/eurollm_v0_LDOS-H_seed2_validation.json && python evaluate_probs.py --4bit --data data/variants/eurollm_LDOS-H_val --split test --adapter adapters/variants/eurollm_v0_LDOS-H_seed2 --base utter-project/EuroLLM-9B-Instruct --out probs/variants/eurollm_v0_LDOS-H_seed2_test.json"
+ },
+ {
+  "name": "deepseek_v0_LDOS-H_seed2",
+  "done": "probs/variants/deepseek_v0_LDOS-H_seed2_test.json",
+  "cmd": "( [ -f adapters/variants/deepseek_v0_LDOS-H_seed2/adapter_config.json ] || python train.py --data data/variants/deepseek_LDOS-H_val --base deepseek-ai/deepseek-llm-7b-chat --out adapters/variants/deepseek_v0_LDOS-H_seed2 --seed 2 ) && python evaluate_probs.py --4bit --data data/variants/deepseek_LDOS-H_val --split validation --adapter adapters/variants/deepseek_v0_LDOS-H_seed2 --base deepseek-ai/deepseek-llm-7b-chat --out probs/variants/deepseek_v0_LDOS-H_seed2_validation.json && python evaluate_probs.py --4bit --data data/variants/deepseek_LDOS-H_val --split test --adapter adapters/variants/deepseek_v0_LDOS-H_seed2 --base deepseek-ai/deepseek-llm-7b-chat --out probs/variants/deepseek_v0_LDOS-H_seed2_test.json"
+ },
+ {
+  "name": "llama_v0_Depaul-WH_seed2",
+  "done": "probs/variants/llama_v0_Depaul-WH_seed2_test.json",
+  "cmd": "( [ -f adapters/variants/llama_v0_Depaul-WH_seed2/adapter_config.json ] || python train.py --data data/variants/llama_Depaul-WH_val --base meta-llama/Llama-2-7b-chat-hf --out adapters/variants/llama_v0_Depaul-WH_seed2 --seed 2 ) && python evaluate_probs.py --4bit --data data/variants/llama_Depaul-WH_val --split validation --adapter adapters/variants/llama_v0_Depaul-WH_seed2 --base meta-llama/Llama-2-7b-chat-hf --out probs/variants/llama_v0_Depaul-WH_seed2_validation.json && python evaluate_probs.py --4bit --data data/variants/llama_Depaul-WH_val --split test --adapter adapters/variants/llama_v0_Depaul-WH_seed2 --base meta-llama/Llama-2-7b-chat-hf --out probs/variants/llama_v0_Depaul-WH_seed2_test.json"
+ },
+ {
+  "name": "eurollm_v0_Depaul-WH_seed2",
+  "done": "probs/variants/eurollm_v0_Depaul-WH_seed2_test.json",
+  "cmd": "( [ -f adapters/variants/eurollm_v0_Depaul-WH_seed2/adapter_config.json ] || python train.py --data data/variants/eurollm_Depaul-WH_val --base utter-project/EuroLLM-9B-Instruct --out adapters/variants/eurollm_v0_Depaul-WH_seed2 --seed 2 ) && python evaluate_probs.py --4bit --data data/variants/eurollm_Depaul-WH_val --split validation --adapter adapters/variants/eurollm_v0_Depaul-WH_seed2 --base utter-project/EuroLLM-9B-Instruct --out probs/variants/eurollm_v0_Depaul-WH_seed2_validation.json && python evaluate_probs.py --4bit --data data/variants/eurollm_Depaul-WH_val --split test --adapter adapters/variants/eurollm_v0_Depaul-WH_seed2 --base utter-project/EuroLLM-9B-Instruct --out probs/variants/eurollm_v0_Depaul-WH_seed2_test.json"
+ },
+ {
+  "name": "deepseek_v0_Depaul-WH_seed2",
+  "done": "probs/variants/deepseek_v0_Depaul-WH_seed2_test.json",
+  "cmd": "( [ -f adapters/variants/deepseek_v0_Depaul-WH_seed2/adapter_config.json ] || python train.py --data data/variants/deepseek_Depaul-WH_val --base deepseek-ai/deepseek-llm-7b-chat --out adapters/variants/deepseek_v0_Depaul-WH_seed2 --seed 2 ) && python evaluate_probs.py --4bit --data data/variants/deepseek_Depaul-WH_val --split validation --adapter adapters/variants/deepseek_v0_Depaul-WH_seed2 --base deepseek-ai/deepseek-llm-7b-chat --out probs/variants/deepseek_v0_Depaul-WH_seed2_validation.json && python evaluate_probs.py --4bit --data data/variants/deepseek_Depaul-WH_val --split test --adapter adapters/variants/deepseek_v0_Depaul-WH_seed2 --base deepseek-ai/deepseek-llm-7b-chat --out probs/variants/deepseek_v0_Depaul-WH_seed2_test.json"
+ },
+ {
+  "name": "llama_v0_LDOS-WH_seed2",
+  "done": "probs/variants/llama_v0_LDOS-WH_seed2_test.json",
+  "cmd": "( [ -f adapters/variants/llama_v0_LDOS-WH_seed2/adapter_config.json ] || python train.py --data data/variants/llama_LDOS-WH_val --base meta-llama/Llama-2-7b-chat-hf --out adapters/variants/llama_v0_LDOS-WH_seed2 --seed 2 ) && python evaluate_probs.py --4bit --data data/variants/llama_LDOS-WH_val --split validation --adapter adapters/variants/llama_v0_LDOS-WH_seed2 --base meta-llama/Llama-2-7b-chat-hf --out probs/variants/llama_v0_LDOS-WH_seed2_validation.json && python evaluate_probs.py --4bit --data data/variants/llama_LDOS-WH_val --split test --adapter adapters/variants/llama_v0_LDOS-WH_seed2 --base meta-llama/Llama-2-7b-chat-hf --out probs/variants/llama_v0_LDOS-WH_seed2_test.json"
+ },
+ {
+  "name": "eurollm_v0_LDOS-WH_seed2",
+  "done": "probs/variants/eurollm_v0_LDOS-WH_seed2_test.json",
+  "cmd": "( [ -f adapters/variants/eurollm_v0_LDOS-WH_seed2/adapter_config.json ] || python train.py --data data/variants/eurollm_LDOS-WH_val --base utter-project/EuroLLM-9B-Instruct --out adapters/variants/eurollm_v0_LDOS-WH_seed2 --seed 2 ) && python evaluate_probs.py --4bit --data data/variants/eurollm_LDOS-WH_val --split validation --adapter adapters/variants/eurollm_v0_LDOS-WH_seed2 --base utter-project/EuroLLM-9B-Instruct --out probs/variants/eurollm_v0_LDOS-WH_seed2_validation.json && python evaluate_probs.py --4bit --data data/variants/eurollm_LDOS-WH_val --split test --adapter adapters/variants/eurollm_v0_LDOS-WH_seed2 --base utter-project/EuroLLM-9B-Instruct --out probs/variants/eurollm_v0_LDOS-WH_seed2_test.json"
+ },
+ {
+  "name": "deepseek_v0_LDOS-WH_seed2",
+  "done": "probs/variants/deepseek_v0_LDOS-WH_seed2_test.json",
+  "cmd": "( [ -f adapters/variants/deepseek_v0_LDOS-WH_seed2/adapter_config.json ] || python train.py --data data/variants/deepseek_LDOS-WH_val --base deepseek-ai/deepseek-llm-7b-chat --out adapters/variants/deepseek_v0_LDOS-WH_seed2 --seed 2 ) && python evaluate_probs.py --4bit --data data/variants/deepseek_LDOS-WH_val --split validation --adapter adapters/variants/deepseek_v0_LDOS-WH_seed2 --base deepseek-ai/deepseek-llm-7b-chat --out probs/variants/deepseek_v0_LDOS-WH_seed2_validation.json && python evaluate_probs.py --4bit --data data/variants/deepseek_LDOS-WH_val --split test --adapter adapters/variants/deepseek_v0_LDOS-WH_seed2 --base deepseek-ai/deepseek-llm-7b-chat --out probs/variants/deepseek_v0_LDOS-WH_seed2_test.json"
+ },
+ {
+  "name": "llama_v0_Restaurant-H_seed2",
+  "done": "probs/variants/llama_v0_Restaurant-H_seed2_test.json",
+  "cmd": "( [ -f adapters/variants/llama_v0_Restaurant-H_seed2/adapter_config.json ] || python train.py --data data/variants/llama_Restaurant-H_val --base meta-llama/Llama-2-7b-chat-hf --out adapters/variants/llama_v0_Restaurant-H_seed2 --seed 2 ) && python evaluate_probs.py --4bit --data data/variants/llama_Restaurant-H_val --split validation --adapter adapters/variants/llama_v0_Restaurant-H_seed2 --base meta-llama/Llama-2-7b-chat-hf --out probs/variants/llama_v0_Restaurant-H_seed2_validation.json && python evaluate_probs.py --4bit --data data/variants/llama_Restaurant-H_val --split test --adapter adapters/variants/llama_v0_Restaurant-H_seed2 --base meta-llama/Llama-2-7b-chat-hf --out probs/variants/llama_v0_Restaurant-H_seed2_test.json"
+ },
+ {
+  "name": "eurollm_v0_Restaurant-H_seed2",
+  "done": "probs/variants/eurollm_v0_Restaurant-H_seed2_test.json",
+  "cmd": "( [ -f adapters/variants/eurollm_v0_Restaurant-H_seed2/adapter_config.json ] || python train.py --data data/variants/eurollm_Restaurant-H_val --base utter-project/EuroLLM-9B-Instruct --out adapters/variants/eurollm_v0_Restaurant-H_seed2 --seed 2 ) && python evaluate_probs.py --4bit --data data/variants/eurollm_Restaurant-H_val --split validation --adapter adapters/variants/eurollm_v0_Restaurant-H_seed2 --base utter-project/EuroLLM-9B-Instruct --out probs/variants/eurollm_v0_Restaurant-H_seed2_validation.json && python evaluate_probs.py --4bit --data data/variants/eurollm_Restaurant-H_val --split test --adapter adapters/variants/eurollm_v0_Restaurant-H_seed2 --base utter-project/EuroLLM-9B-Instruct --out probs/variants/eurollm_v0_Restaurant-H_seed2_test.json"
+ },
+ {
+  "name": "deepseek_v0_Restaurant-H_seed2",
+  "done": "probs/variants/deepseek_v0_Restaurant-H_seed2_test.json",
+  "cmd": "( [ -f adapters/variants/deepseek_v0_Restaurant-H_seed2/adapter_config.json ] || python train.py --data data/variants/deepseek_Restaurant-H_val --base deepseek-ai/deepseek-llm-7b-chat --out adapters/variants/deepseek_v0_Restaurant-H_seed2 --seed 2 ) && python evaluate_probs.py --4bit --data data/variants/deepseek_Restaurant-H_val --split validation --adapter adapters/variants/deepseek_v0_Restaurant-H_seed2 --base deepseek-ai/deepseek-llm-7b-chat --out probs/variants/deepseek_v0_Restaurant-H_seed2_validation.json && python evaluate_probs.py --4bit --data data/variants/deepseek_Restaurant-H_val --split test --adapter adapters/variants/deepseek_v0_Restaurant-H_seed2 --base deepseek-ai/deepseek-llm-7b-chat --out probs/variants/deepseek_v0_Restaurant-H_seed2_test.json"
+ },
+ {
+  "name": "llama_v0_Tijuana-WH_seed2",
+  "done": "probs/variants/llama_v0_Tijuana-WH_seed2_test.json",
+  "cmd": "( [ -f adapters/variants/llama_v0_Tijuana-WH_seed2/adapter_config.json ] || python train.py --data data/variants/llama_Tijuana-WH_val --base meta-llama/Llama-2-7b-chat-hf --out adapters/variants/llama_v0_Tijuana-WH_seed2 --seed 2 ) && python evaluate_probs.py --4bit --data data/variants/llama_Tijuana-WH_val --split validation --adapter adapters/variants/llama_v0_Tijuana-WH_seed2 --base meta-llama/Llama-2-7b-chat-hf --out probs/variants/llama_v0_Tijuana-WH_seed2_validation.json && python evaluate_probs.py --4bit --data data/variants/llama_Tijuana-WH_val --split test --adapter adapters/variants/llama_v0_Tijuana-WH_seed2 --base meta-llama/Llama-2-7b-chat-hf --out probs/variants/llama_v0_Tijuana-WH_seed2_test.json"
+ },
+ {
+  "name": "eurollm_v0_Tijuana-WH_seed2",
+  "done": "probs/variants/eurollm_v0_Tijuana-WH_seed2_test.json",
+  "cmd": "( [ -f adapters/variants/eurollm_v0_Tijuana-WH_seed2/adapter_config.json ] || python train.py --data data/variants/eurollm_Tijuana-WH_val --base utter-project/EuroLLM-9B-Instruct --out adapters/variants/eurollm_v0_Tijuana-WH_seed2 --seed 2 ) && python evaluate_probs.py --4bit --data data/variants/eurollm_Tijuana-WH_val --split validation --adapter adapters/variants/eurollm_v0_Tijuana-WH_seed2 --base utter-project/EuroLLM-9B-Instruct --out probs/variants/eurollm_v0_Tijuana-WH_seed2_validation.json && python evaluate_probs.py --4bit --data data/variants/eurollm_Tijuana-WH_val --split test --adapter adapters/variants/eurollm_v0_Tijuana-WH_seed2 --base utter-project/EuroLLM-9B-Instruct --out probs/variants/eurollm_v0_Tijuana-WH_seed2_test.json"
+ },
+ {
+  "name": "deepseek_v0_Tijuana-WH_seed2",
+  "done": "probs/variants/deepseek_v0_Tijuana-WH_seed2_test.json",
+  "cmd": "( [ -f adapters/variants/deepseek_v0_Tijuana-WH_seed2/adapter_config.json ] || python train.py --data data/variants/deepseek_Tijuana-WH_val --base deepseek-ai/deepseek-llm-7b-chat --out adapters/variants/deepseek_v0_Tijuana-WH_seed2 --seed 2 ) && python evaluate_probs.py --4bit --data data/variants/deepseek_Tijuana-WH_val --split validation --adapter adapters/variants/deepseek_v0_Tijuana-WH_seed2 --base deepseek-ai/deepseek-llm-7b-chat --out probs/variants/deepseek_v0_Tijuana-WH_seed2_validation.json && python evaluate_probs.py --4bit --data data/variants/deepseek_Tijuana-WH_val --split test --adapter adapters/variants/deepseek_v0_Tijuana-WH_seed2 --base deepseek-ai/deepseek-llm-7b-chat --out probs/variants/deepseek_v0_Tijuana-WH_seed2_test.json"
+ }
+]

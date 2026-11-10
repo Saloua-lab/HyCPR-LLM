@@ -1,0 +1,12 @@
+[
+ {
+  "name": "mistral_YELP-H_val",
+  "done": "probs/mistral_YELP-H_val.json",
+  "cmd": "until [ -f data/YELP-H_val/dataset_dict.json ]; do sleep 20; done && python evaluate_probs.py --4bit --data data/YELP-H_val --adapter adapters/mistral_full_YELP-H --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/mistral_YELP-H_val.json"
+ },
+ {
+  "name": "mistral_YELP-WH_val",
+  "done": "probs/mistral_YELP-WH_val.json",
+  "cmd": "until [ -f data/YELP-WH_val/dataset_dict.json ]; do sleep 20; done && python evaluate_probs.py --4bit --data data/YELP-WH_val --adapter adapters/mistral_full_YELP-WH --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/mistral_YELP-WH_val.json"
+ }
+]

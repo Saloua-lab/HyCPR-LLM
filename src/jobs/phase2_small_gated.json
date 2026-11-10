@@ -1,0 +1,32 @@
+[
+ {
+  "name": "llama_noit_LDOS-H",
+  "cmd": "python train.py --data ../small_data/Datasets/LDOSWithHistoryLlama --base meta-llama/Llama-2-7b-hf --out adapters/llama_noit_LDOS-H && python evaluate.py --data data/LDOSWithHistoryLlama_noleak --adapter adapters/llama_noit_LDOS-H --base meta-llama/Llama-2-7b-hf --out results/llama_noit_LDOS-H_noleak.json && python evaluate.py --data ../small_data/Datasets/LDOSWithHistoryLlama --adapter adapters/llama_noit_LDOS-H --base meta-llama/Llama-2-7b-hf --out results/llama_noit_LDOS-H.json",
+  "done": "results/llama_noit_LDOS-H.json"
+ },
+ {
+  "name": "llama_noit_Depaul-H",
+  "cmd": "python train.py --data ../small_data/LocationDepaulWithHisAvecLLama --base meta-llama/Llama-2-7b-hf --out adapters/llama_noit_Depaul-H && python evaluate.py --data data/LocationDepaulWithHisAvecLLama_noleak --adapter adapters/llama_noit_Depaul-H --base meta-llama/Llama-2-7b-hf --out results/llama_noit_Depaul-H_noleak.json && python evaluate.py --data ../small_data/LocationDepaulWithHisAvecLLama --adapter adapters/llama_noit_Depaul-H --base meta-llama/Llama-2-7b-hf --out results/llama_noit_Depaul-H.json",
+  "done": "results/llama_noit_Depaul-H.json"
+ },
+ {
+  "name": "llama_noit_Restaurant-H",
+  "cmd": "python train.py --data ../small_data/LocationRestaurantWithHisAvecLLama --base meta-llama/Llama-2-7b-hf --out adapters/llama_noit_Restaurant-H && python evaluate.py --data data/LocationRestaurantWithHisAvecLLama_noleak --adapter adapters/llama_noit_Restaurant-H --base meta-llama/Llama-2-7b-hf --out results/llama_noit_Restaurant-H_noleak.json && python evaluate.py --data ../small_data/LocationRestaurantWithHisAvecLLama --adapter adapters/llama_noit_Restaurant-H --base meta-llama/Llama-2-7b-hf --out results/llama_noit_Restaurant-H.json",
+  "done": "results/llama_noit_Restaurant-H.json"
+ },
+ {
+  "name": "eurollm_noit_LDOS-H",
+  "cmd": "python train.py --data ../small_data/LocationLDOSWithH --base utter-project/EuroLLM-9B --out adapters/eurollm_noit_LDOS-H && python evaluate.py --data data/LocationLDOSWithH_noleak --adapter adapters/eurollm_noit_LDOS-H --base utter-project/EuroLLM-9B --out results/eurollm_noit_LDOS-H_noleak.json && python evaluate.py --data ../small_data/LocationLDOSWithH --adapter adapters/eurollm_noit_LDOS-H --base utter-project/EuroLLM-9B --out results/eurollm_noit_LDOS-H.json",
+  "done": "results/eurollm_noit_LDOS-H.json"
+ },
+ {
+  "name": "eurollm_noit_Depaul-H",
+  "cmd": "python train.py --data ../small_data/LocationDepaulAvecHis --base utter-project/EuroLLM-9B --out adapters/eurollm_noit_Depaul-H && python evaluate.py --data data/LocationDepaulAvecHis_noleak --adapter adapters/eurollm_noit_Depaul-H --base utter-project/EuroLLM-9B --out results/eurollm_noit_Depaul-H_noleak.json && python evaluate.py --data ../small_data/LocationDepaulAvecHis --adapter adapters/eurollm_noit_Depaul-H --base utter-project/EuroLLM-9B --out results/eurollm_noit_Depaul-H.json",
+  "done": "results/eurollm_noit_Depaul-H.json"
+ },
+ {
+  "name": "eurollm_noit_Restaurant-H",
+  "cmd": "python train.py --data ../small_data/LocationRestaurantAvecHis --base utter-project/EuroLLM-9B --out adapters/eurollm_noit_Restaurant-H && python evaluate.py --data data/LocationRestaurantAvecHis_noleak --adapter adapters/eurollm_noit_Restaurant-H --base utter-project/EuroLLM-9B --out results/eurollm_noit_Restaurant-H_noleak.json && python evaluate.py --data ../small_data/LocationRestaurantAvecHis --adapter adapters/eurollm_noit_Restaurant-H --base utter-project/EuroLLM-9B --out results/eurollm_noit_Restaurant-H.json",
+  "done": "results/eurollm_noit_Restaurant-H.json"
+ }
+]

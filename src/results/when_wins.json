@@ -1,0 +1,419 @@
+{
+ "summary": {
+  "n": 40,
+  "spearman_rmse": 0.6198874296435273,
+  "spearman_mae": 0.8705440900562852,
+  "spearman_gap_w": -0.6776526089289304,
+  "close": {
+   "n": 12,
+   "hycpr_below_best": 1.0
+  },
+  "far": {
+   "n": 28,
+   "hycpr_below_best": 0.5357142857142857,
+   "median_w": 0.25
+  }
+ },
+ "rows": [
+  {
+   "setting": "LDOS-WH",
+   "llm": "mistral",
+   "w": 0.45,
+   "best": "DeepFM",
+   "llm_gap_rmse": 0.18874031216466247,
+   "hycpr_gap_rmse": 0.038772795861007014,
+   "llm_gap_mae": 0.06965732754344467,
+   "hycpr_gap_mae": 0.010854249580364628
+  },
+  {
+   "setting": "LDOS-WH",
+   "llm": "eurollm",
+   "w": 0.6,
+   "best": "DeepFM",
+   "llm_gap_rmse": 0.1717143926357223,
+   "hycpr_gap_rmse": 0.0657835016050552,
+   "llm_gap_mae": 0.08533602604134582,
+   "hycpr_gap_mae": 0.029697636209402245
+  },
+  {
+   "setting": "LDOS-WH",
+   "llm": "llama",
+   "w": 0.35,
+   "best": "DeepFM",
+   "llm_gap_rmse": 0.17353022599914603,
+   "hycpr_gap_rmse": 0.0380351077056178,
+   "llm_gap_mae": 0.07713573504545357,
+   "hycpr_gap_mae": 0.01789743165979285
+  },
+  {
+   "setting": "LDOS-WH",
+   "llm": "deepseek",
+   "w": 0.55,
+   "best": "DeepFM",
+   "llm_gap_rmse": 0.13417131522978498,
+   "hycpr_gap_rmse": 0.03175909266627086,
+   "llm_gap_mae": 0.05820917340454945,
+   "hycpr_gap_mae": 0.008673866244996886
+  },
+  {
+   "setting": "Depaul-WH",
+   "llm": "mistral",
+   "w": 0.1,
+   "best": "FM",
+   "llm_gap_rmse": 0.3922523112887769,
+   "hycpr_gap_rmse": -0.004055046931095818,
+   "llm_gap_mae": 0.4498874483626767,
+   "hycpr_gap_mae": 0.054748952788807315
+  },
+  {
+   "setting": "Depaul-WH",
+   "llm": "eurollm",
+   "w": 0.1,
+   "best": "FM",
+   "llm_gap_rmse": 0.38550171545542067,
+   "hycpr_gap_rmse": -0.004363090620903787,
+   "llm_gap_mae": 0.44495872292261596,
+   "hycpr_gap_mae": 0.05508590246237299
+  },
+  {
+   "setting": "Depaul-WH",
+   "llm": "llama",
+   "w": 0.1,
+   "best": "FM",
+   "llm_gap_rmse": 0.3938377390031872,
+   "hycpr_gap_rmse": -0.0038777276500558955,
+   "llm_gap_mae": 0.4509432691151565,
+   "hycpr_gap_mae": 0.05506946940714086
+  },
+  {
+   "setting": "Depaul-WH",
+   "llm": "deepseek",
+   "w": 0.15,
+   "best": "FM",
+   "llm_gap_rmse": 0.38551742854553017,
+   "hycpr_gap_rmse": -0.0029208855290451252,
+   "llm_gap_mae": 0.445316586138117,
+   "hycpr_gap_mae": 0.0684240797293012
+  },
+  {
+   "setting": "Tijuana-WH",
+   "llm": "mistral",
+   "w": 0.25,
+   "best": "DeepFM",
+   "llm_gap_rmse": 0.2785990310128007,
+   "hycpr_gap_rmse": -0.0026135093435563084,
+   "llm_gap_mae": 0.21111950568222532,
+   "hycpr_gap_mae": 0.035747909421049384
+  },
+  {
+   "setting": "Tijuana-WH",
+   "llm": "eurollm",
+   "w": 0.45,
+   "best": "DeepFM",
+   "llm_gap_rmse": 0.2664158303463481,
+   "hycpr_gap_rmse": 0.04176014668869388,
+   "llm_gap_mae": 0.2310848346049575,
+   "hycpr_gap_mae": 0.08202546216331824
+  },
+  {
+   "setting": "Tijuana-WH",
+   "llm": "llama",
+   "w": 0.25,
+   "best": "DeepFM",
+   "llm_gap_rmse": 0.35782116678186926,
+   "hycpr_gap_rmse": 0.016974214847779612,
+   "llm_gap_mae": 0.31618723813593347,
+   "hycpr_gap_mae": 0.05945123359854959
+  },
+  {
+   "setting": "Tijuana-WH",
+   "llm": "deepseek",
+   "w": 0.0,
+   "best": "DeepFM",
+   "llm_gap_rmse": 0.3978521878179865,
+   "hycpr_gap_rmse": 0.0,
+   "llm_gap_mae": 0.41305043980951445,
+   "hycpr_gap_mae": 0.0
+  },
+  {
+   "setting": "LDOS-H",
+   "llm": "mistral",
+   "w": 0.6,
+   "best": "DeepFM",
+   "llm_gap_rmse": 0.06228403562463991,
+   "hycpr_gap_rmse": -0.02710478800888305,
+   "llm_gap_mae": 0.01939070239219165,
+   "hycpr_gap_mae": -0.03386453656592403
+  },
+  {
+   "setting": "LDOS-H",
+   "llm": "eurollm",
+   "w": 0.7,
+   "best": "DeepFM",
+   "llm_gap_rmse": 0.11025529027419179,
+   "hycpr_gap_rmse": 0.028064933204251075,
+   "llm_gap_mae": 0.07836940922708402,
+   "hycpr_gap_mae": 0.022581574379478497
+  },
+  {
+   "setting": "LDOS-H",
+   "llm": "llama",
+   "w": 0.7,
+   "best": "DeepFM",
+   "llm_gap_rmse": 0.11192089040490605,
+   "hycpr_gap_rmse": 0.029113381598947385,
+   "llm_gap_mae": 0.10395707776998797,
+   "hycpr_gap_mae": 0.03502075677392924
+  },
+  {
+   "setting": "LDOS-H",
+   "llm": "deepseek",
+   "w": 0.65,
+   "best": "DeepFM",
+   "llm_gap_rmse": 0.08702120450635253,
+   "hycpr_gap_rmse": 0.00022502494890463964,
+   "llm_gap_mae": 0.06573786310718843,
+   "hycpr_gap_mae": 0.004224395509069945
+  },
+  {
+   "setting": "Depaul-H",
+   "llm": "mistral",
+   "w": 0.55,
+   "best": "FM",
+   "llm_gap_rmse": 0.16709825116009236,
+   "hycpr_gap_rmse": 0.01316980377436705,
+   "llm_gap_mae": 0.05106552997360292,
+   "hycpr_gap_mae": -0.0007771569339497519
+  },
+  {
+   "setting": "Depaul-H",
+   "llm": "eurollm",
+   "w": 0.2,
+   "best": "FM",
+   "llm_gap_rmse": 0.21161380605751867,
+   "hycpr_gap_rmse": -0.0025384406028594597,
+   "llm_gap_mae": 0.11256438626724197,
+   "hycpr_gap_mae": 0.03648030261542312
+  },
+  {
+   "setting": "Depaul-H",
+   "llm": "llama",
+   "w": 0.3,
+   "best": "FM",
+   "llm_gap_rmse": 0.10740719952459898,
+   "hycpr_gap_rmse": -0.025287108687363946,
+   "llm_gap_mae": 0.041392642216551256,
+   "hycpr_gap_mae": 0.012943108413523197
+  },
+  {
+   "setting": "Depaul-H",
+   "llm": "deepseek",
+   "w": 0.4,
+   "best": "FM",
+   "llm_gap_rmse": 0.16367275155392236,
+   "hycpr_gap_rmse": -0.00340590476634961,
+   "llm_gap_mae": 0.10437346955388282,
+   "hycpr_gap_mae": 0.008286501563684379
+  },
+  {
+   "setting": "Restaurant-H",
+   "llm": "mistral",
+   "w": 0.4,
+   "best": "DeepFM",
+   "llm_gap_rmse": 0.1781154177390426,
+   "hycpr_gap_rmse": 0.016306712219252617,
+   "llm_gap_mae": 0.08996760907335061,
+   "hycpr_gap_mae": 0.02501513018686846
+  },
+  {
+   "setting": "Restaurant-H",
+   "llm": "eurollm",
+   "w": 0.1,
+   "best": "DeepFM",
+   "llm_gap_rmse": 0.21698034992488135,
+   "hycpr_gap_rmse": -0.0037924338636964317,
+   "llm_gap_mae": 0.1293146983030194,
+   "hycpr_gap_mae": 0.0075864815246403094
+  },
+  {
+   "setting": "Restaurant-H",
+   "llm": "llama",
+   "w": 0.2,
+   "best": "DeepFM",
+   "llm_gap_rmse": 0.24017802623959905,
+   "hycpr_gap_rmse": -0.0023316620135181987,
+   "llm_gap_mae": 0.18699646994515978,
+   "hycpr_gap_mae": 0.024771551084636412
+  },
+  {
+   "setting": "Restaurant-H",
+   "llm": "deepseek",
+   "w": 0.25,
+   "best": "DeepFM",
+   "llm_gap_rmse": 0.2309573092548366,
+   "hycpr_gap_rmse": 0.0080220263413604,
+   "llm_gap_mae": 0.16105820936318332,
+   "hycpr_gap_mae": 0.0331671824715562
+  },
+  {
+   "setting": "YELP-WH",
+   "llm": "mistral",
+   "w": 0.2,
+   "best": "BiasedMF",
+   "llm_gap_rmse": 0.05650603415510558,
+   "hycpr_gap_rmse": -0.0028607442358357105,
+   "llm_gap_mae": 0.058843914723082036,
+   "hycpr_gap_mae": 0.006492806149658192
+  },
+  {
+   "setting": "YELP-WH",
+   "llm": "eurollm",
+   "w": 0.15,
+   "best": "BiasedMF",
+   "llm_gap_rmse": 0.06765738417534539,
+   "hycpr_gap_rmse": -0.0009795565386712113,
+   "llm_gap_mae": 0.07681823159963819,
+   "hycpr_gap_mae": 0.007889028347365046
+  },
+  {
+   "setting": "YELP-WH",
+   "llm": "llama",
+   "w": 0.2,
+   "best": "BiasedMF",
+   "llm_gap_rmse": 0.0631111655656349,
+   "hycpr_gap_rmse": -0.0016524430405655544,
+   "llm_gap_mae": 0.06582618703856136,
+   "hycpr_gap_mae": 0.00837299933354374
+  },
+  {
+   "setting": "YELP-WH",
+   "llm": "deepseek",
+   "w": 0.15,
+   "best": "BiasedMF",
+   "llm_gap_rmse": 0.06783354914089057,
+   "hycpr_gap_rmse": -0.0007838463331288903,
+   "llm_gap_mae": 0.07029067745743667,
+   "hycpr_gap_mae": 0.0078118557889494955
+  },
+  {
+   "setting": "YELP-H",
+   "llm": "mistral",
+   "w": 0.45,
+   "best": "BiasedMF",
+   "llm_gap_rmse": -0.00918525636543821,
+   "hycpr_gap_rmse": -0.02515992551997126,
+   "llm_gap_mae": -0.021863709005410792,
+   "hycpr_gap_mae": -0.01985528432884609
+  },
+  {
+   "setting": "YELP-H",
+   "llm": "eurollm",
+   "w": 0.4,
+   "best": "BiasedMF",
+   "llm_gap_rmse": -0.011161184632498378,
+   "hycpr_gap_rmse": -0.02485093136920169,
+   "llm_gap_mae": -0.02241059381503141,
+   "hycpr_gap_mae": -0.018608737036446166
+  },
+  {
+   "setting": "YELP-H",
+   "llm": "llama",
+   "w": 0.45,
+   "best": "BiasedMF",
+   "llm_gap_rmse": -0.005359069584590204,
+   "hycpr_gap_rmse": -0.0226060532089557,
+   "llm_gap_mae": -0.014588242735917412,
+   "hycpr_gap_mae": -0.016247508027414814
+  },
+  {
+   "setting": "YELP-H",
+   "llm": "deepseek",
+   "w": 0.4,
+   "best": "BiasedMF",
+   "llm_gap_rmse": -0.008716910596826555,
+   "hycpr_gap_rmse": -0.024151426037715695,
+   "llm_gap_mae": -0.019286405689548647,
+   "hycpr_gap_mae": -0.017174171288683926
+  },
+  {
+   "setting": "MovieLens-H",
+   "llm": "mistral",
+   "w": 0.85,
+   "best": "BiasedMF",
+   "llm_gap_rmse": -0.021622692502003216,
+   "hycpr_gap_rmse": -0.03536941179551445,
+   "llm_gap_mae": -0.014936163543279757,
+   "hycpr_gap_mae": -0.025027808421531073
+  },
+  {
+   "setting": "MovieLens-H",
+   "llm": "eurollm",
+   "w": 0.85,
+   "best": "BiasedMF",
+   "llm_gap_rmse": -0.015958181260251947,
+   "hycpr_gap_rmse": -0.03048090514728341,
+   "llm_gap_mae": -0.016452195957463167,
+   "hycpr_gap_mae": -0.0256717394048952
+  },
+  {
+   "setting": "MovieLens-H",
+   "llm": "llama",
+   "w": 0.85,
+   "best": "BiasedMF",
+   "llm_gap_rmse": -0.01768287605366692,
+   "hycpr_gap_rmse": -0.03203799763910842,
+   "llm_gap_mae": -0.015835704634442727,
+   "hycpr_gap_mae": -0.025183094101065118
+  },
+  {
+   "setting": "MovieLens-H",
+   "llm": "deepseek",
+   "w": 0.85,
+   "best": "BiasedMF",
+   "llm_gap_rmse": -0.015432147661292306,
+   "hycpr_gap_rmse": -0.030186975787551917,
+   "llm_gap_mae": -0.01520997623589937,
+   "hycpr_gap_mae": -0.02577830172913531
+  },
+  {
+   "setting": "AmazonBooks-H",
+   "llm": "mistral",
+   "w": 0.6,
+   "best": "MLP",
+   "llm_gap_rmse": -0.024725028630722568,
+   "hycpr_gap_rmse": -0.03392476842120673,
+   "llm_gap_mae": 0.003991698835685398,
+   "hycpr_gap_mae": -0.005654808385611831
+  },
+  {
+   "setting": "AmazonBooks-H",
+   "llm": "eurollm",
+   "w": 0.5,
+   "best": "MLP",
+   "llm_gap_rmse": -0.006316477821658895,
+   "hycpr_gap_rmse": -0.02319090965708015,
+   "llm_gap_mae": 0.027670500862412184,
+   "hycpr_gap_mae": 0.004475063101621379
+  },
+  {
+   "setting": "AmazonBooks-H",
+   "llm": "llama",
+   "w": 0.6,
+   "best": "MLP",
+   "llm_gap_rmse": -0.018424522177986624,
+   "hycpr_gap_rmse": -0.03011706169808348,
+   "llm_gap_mae": 0.011970592672805647,
+   "hycpr_gap_mae": -0.0019740954821783063
+  },
+  {
+   "setting": "AmazonBooks-H",
+   "llm": "deepseek",
+   "w": 0.55,
+   "best": "MLP",
+   "llm_gap_rmse": -0.014060042120183525,
+   "hycpr_gap_rmse": -0.027110785568375984,
+   "llm_gap_mae": 0.01866119588921722,
+   "hycpr_gap_mae": 0.0012887610054437282
+  }
+ ]
+}

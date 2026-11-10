@@ -1,0 +1,122 @@
+[
+ {
+  "name": "probs_mistral_LDOS-WH",
+  "cmd": "python evaluate_probs.py --4bit --data ../small_data/LocationLDOSWithoutHis --adapter ../small_data/ldos-recommendation-modelLDOSNOHistory --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/mistral_LDOS-WH.json",
+  "done": "probs/mistral_LDOS-WH.json"
+ },
+ {
+  "name": "probs_mistral_LDOS-WH_cand-newmodel",
+  "cmd": "python evaluate_probs.py --4bit --data ../small_data/LocationLDOSWithoutHis --adapter ../small_data/newmodel --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/mistral_LDOS-WH_cand-newmodel.json",
+  "done": "probs/mistral_LDOS-WH_cand-newmodel.json"
+ },
+ {
+  "name": "probs_mistral_LDOS-WH_cand-newmodelAlpaca",
+  "cmd": "python evaluate_probs.py --4bit --data ../small_data/LocationLDOSWithoutHis --adapter ../small_data/new-modelAlpaca --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/mistral_LDOS-WH_cand-newmodelAlpaca.json",
+  "done": "probs/mistral_LDOS-WH_cand-newmodelAlpaca.json"
+ },
+ {
+  "name": "probs_mistral_Depaul-WH",
+  "cmd": "python evaluate_probs.py --4bit --data ../small_data/Datasets/DepaulNoHistory --adapter ../small_data/ldos-recommendation-modelDepaulNoH --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/mistral_Depaul-WH.json",
+  "done": "probs/mistral_Depaul-WH.json"
+ },
+ {
+  "name": "probs_mistral_Depaul-WH_cand-ckpt1500",
+  "cmd": "python evaluate_probs.py --4bit --data ../small_data/Datasets/DepaulNoHistory --adapter ../small_data/resultsDepaulNoHistory/checkpoint-1500 --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/mistral_Depaul-WH_cand-ckpt1500.json",
+  "done": "probs/mistral_Depaul-WH_cand-ckpt1500.json"
+ },
+ {
+  "name": "probs_mistral_Tijuana-WH",
+  "cmd": "python evaluate_probs.py --4bit --data ../small_data/LocationTRestaurantWithoutHis --adapter ../small_data/Restaurant-recommendation-model1WithoutHist --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/mistral_Tijuana-WH.json",
+  "done": "probs/mistral_Tijuana-WH.json"
+ },
+ {
+  "name": "probs_mistral_LDOS-H_noleak",
+  "cmd": "python evaluate_probs.py --4bit --data data/LocationLDOSWithHisAvecMistral_noleak --adapter ../small_data/LDOS-modelWithHistMistral --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/mistral_LDOS-H_noleak.json",
+  "done": "probs/mistral_LDOS-H_noleak.json"
+ },
+ {
+  "name": "probs_mistral_Depaul-H_noleak",
+  "cmd": "python evaluate_probs.py --4bit --data data/LocationDepaulWithHisAvecMistral_noleak --adapter ../small_data/Depaul-recommendation-modelWithHist --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/mistral_Depaul-H_noleak.json",
+  "done": "probs/mistral_Depaul-H_noleak.json"
+ },
+ {
+  "name": "probs_mistral_Restaurant-H_noleak",
+  "cmd": "python evaluate_probs.py --4bit --data data/LocationRestaurantWithHisAvecMistral_noleak --adapter ../small_data/Restaurant-modelWithHistMistral --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/mistral_Restaurant-H_noleak.json",
+  "done": "probs/mistral_Restaurant-H_noleak.json"
+ },
+ {
+  "name": "probs_mistral_LDOS-H_leaky",
+  "cmd": "python evaluate_probs.py --4bit --data ../small_data/LocationLDOSWithHisAvecMistral --adapter ../small_data/LDOS-modelWithHistMistral --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/mistral_LDOS-H_leaky.json",
+  "done": "probs/mistral_LDOS-H_leaky.json"
+ },
+ {
+  "name": "probs_mistral_Depaul-H_leaky",
+  "cmd": "python evaluate_probs.py --4bit --data ../small_data/LocationDepaulWithHisAvecMistral --adapter ../small_data/Depaul-recommendation-modelWithHist --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/mistral_Depaul-H_leaky.json",
+  "done": "probs/mistral_Depaul-H_leaky.json"
+ },
+ {
+  "name": "probs_mistral_Restaurant-H_leaky",
+  "cmd": "python evaluate_probs.py --4bit --data ../small_data/LocationRestaurantWithHisAvecMistral --adapter ../small_data/Restaurant-modelWithHistMistral --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/mistral_Restaurant-H_leaky.json",
+  "done": "probs/mistral_Restaurant-H_leaky.json"
+ },
+ {
+  "name": "probs_mistral_YELP-WH",
+  "cmd": "python evaluate_probs.py --4bit --data data/YELP-WH --adapter adapters/mistral_full_YELP-WH --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/mistral_YELP-WH.json",
+  "done": "probs/mistral_YELP-WH.json"
+ },
+ {
+  "name": "probs_mistral_YELP-H",
+  "cmd": "python evaluate_probs.py --4bit --data data/YELP-H --adapter adapters/mistral_full_YELP-H --base mistralai/Mistral-7B-Instruct-v0.2 --out probs/mistral_YELP-H.json",
+  "done": "probs/mistral_YELP-H.json"
+ },
+ {
+  "name": "probs_mistral_noit_Restaurant-H_noleak",
+  "cmd": "python evaluate_probs.py --4bit --data data/LocationRestaurantWithHisAvecMistral_noleak --adapter adapters/mistral_noit_Restaurant-H --base mistralai/Mistral-7B-v0.1 --out probs/mistral_noit_Restaurant-H_noleak.json",
+  "done": "probs/mistral_noit_Restaurant-H_noleak.json"
+ },
+ {
+  "name": "probs_deepseek_LDOS-WH",
+  "cmd": "python evaluate_probs.py --4bit --data ../small_data/LocationLDOSWithoutHis --adapter adapters/deepseek_full_LDOS-WH --base deepseek-ai/deepseek-llm-7b-chat --out probs/deepseek_LDOS-WH.json",
+  "done": "probs/deepseek_LDOS-WH.json"
+ },
+ {
+  "name": "probs_deepseek_Depaul-WH",
+  "cmd": "python evaluate_probs.py --4bit --data ../small_data/Datasets/DepaulNoHistory --adapter adapters/deepseek_full_Depaul-WH --base deepseek-ai/deepseek-llm-7b-chat --out probs/deepseek_Depaul-WH.json",
+  "done": "probs/deepseek_Depaul-WH.json"
+ },
+ {
+  "name": "probs_deepseek_Tijuana-WH",
+  "cmd": "python evaluate_probs.py --4bit --data ../small_data/LocationRestaurantSansHis --adapter adapters/deepseek_full_Tijuana-WH --base deepseek-ai/deepseek-llm-7b-chat --out probs/deepseek_Tijuana-WH.json",
+  "done": "probs/deepseek_Tijuana-WH.json"
+ },
+ {
+  "name": "probs_deepseek_LDOS-H_noleak",
+  "cmd": "python evaluate_probs.py --4bit --data data/LocationLDOSWithH_noleak --adapter adapters/deepseek_full_LDOS-H --base deepseek-ai/deepseek-llm-7b-chat --out probs/deepseek_LDOS-H_noleak.json",
+  "done": "probs/deepseek_LDOS-H_noleak.json"
+ },
+ {
+  "name": "probs_deepseek_Depaul-H_noleak",
+  "cmd": "python evaluate_probs.py --4bit --data data/LocationDepaulAvecHis_noleak --adapter adapters/deepseek_full_Depaul-H --base deepseek-ai/deepseek-llm-7b-chat --out probs/deepseek_Depaul-H_noleak.json",
+  "done": "probs/deepseek_Depaul-H_noleak.json"
+ },
+ {
+  "name": "probs_deepseek_Restaurant-H_noleak",
+  "cmd": "python evaluate_probs.py --4bit --data data/LocationRestaurantAvecHis_noleak --adapter adapters/deepseek_full_Restaurant-H --base deepseek-ai/deepseek-llm-7b-chat --out probs/deepseek_Restaurant-H_noleak.json",
+  "done": "probs/deepseek_Restaurant-H_noleak.json"
+ },
+ {
+  "name": "probs_deepseek_LDOS-H_leaky",
+  "cmd": "python evaluate_probs.py --4bit --data ../small_data/LocationLDOSWithH --adapter adapters/deepseek_full_LDOS-H --base deepseek-ai/deepseek-llm-7b-chat --out probs/deepseek_LDOS-H_leaky.json",
+  "done": "probs/deepseek_LDOS-H_leaky.json"
+ },
+ {
+  "name": "probs_deepseek_Depaul-H_leaky",
+  "cmd": "python evaluate_probs.py --4bit --data ../small_data/LocationDepaulAvecHis --adapter adapters/deepseek_full_Depaul-H --base deepseek-ai/deepseek-llm-7b-chat --out probs/deepseek_Depaul-H_leaky.json",
+  "done": "probs/deepseek_Depaul-H_leaky.json"
+ },
+ {
+  "name": "probs_deepseek_Restaurant-H_leaky",
+  "cmd": "python evaluate_probs.py --4bit --data ../small_data/LocationRestaurantAvecHis --adapter adapters/deepseek_full_Restaurant-H --base deepseek-ai/deepseek-llm-7b-chat --out probs/deepseek_Restaurant-H_leaky.json",
+  "done": "probs/deepseek_Restaurant-H_leaky.json"
+ }
+]

@@ -1,0 +1,1082 @@
+{
+ "mistral LDOS-H 0.1": {
+  "abs": {
+   "coverage": 90.29179810725549,
+   "set_size": 2.936088328075712,
+   "low_coverage": 46.04665163508606
+  },
+  "normalized": {
+   "coverage": 90.34984227129334,
+   "set_size": 3.1688580441640406,
+   "low_coverage": 63.07571593845989
+  },
+  "cqr": {
+   "coverage": 90.29842271293369,
+   "set_size": 3.1698201892744438,
+   "low_coverage": 59.33365220753826
+  },
+  "ordinal_aps": {
+   "coverage": 91.71451104100959,
+   "set_size": 3.4245804416403804,
+   "low_coverage": 64.03146050637409
+  },
+  "abs_llm": {
+   "coverage": 90.29558359621444,
+   "set_size": 3.0971041009463676,
+   "low_coverage": 46.12353614920278
+  }
+ },
+ "mistral LDOS-H 0.05": {
+  "abs": {
+   "coverage": 95.4766561514194,
+   "set_size": 3.487662460567821,
+   "low_coverage": 70.05095740721463
+  },
+  "normalized": {
+   "coverage": 95.49274447949524,
+   "set_size": 3.857085173501574,
+   "low_coverage": 83.33989036695925
+  },
+  "cqr": {
+   "coverage": 95.58012618296529,
+   "set_size": 3.7030189274447975,
+   "low_coverage": 77.97216130593914
+  },
+  "ordinal_aps": {
+   "coverage": 95.69179810725561,
+   "set_size": 3.940485804416405,
+   "low_coverage": 75.55243876421531
+  },
+  "abs_llm": {
+   "coverage": 95.52113564668774,
+   "set_size": 3.5667318611987398,
+   "low_coverage": 67.40453290357979
+  }
+ },
+ "eurollm LDOS-H 0.1": {
+  "abs": {
+   "coverage": 90.20126182965284,
+   "set_size": 3.093400630914832,
+   "low_coverage": 54.884376381663955
+  },
+  "normalized": {
+   "coverage": 90.40567823343835,
+   "set_size": 3.3351041009463755,
+   "low_coverage": 55.453582523426135
+  },
+  "cqr": {
+   "coverage": 90.3615141955836,
+   "set_size": 3.16577287066246,
+   "low_coverage": 55.821311368727
+  },
+  "ordinal_aps": {
+   "coverage": 90.32807570977906,
+   "set_size": 3.470810725552053,
+   "low_coverage": 61.36109743767861
+  },
+  "abs_llm": {
+   "coverage": 90.3264984227129,
+   "set_size": 3.3167476340694027,
+   "low_coverage": 53.739297347777004
+  }
+ },
+ "eurollm LDOS-H 0.05": {
+  "abs": {
+   "coverage": 95.45993690851738,
+   "set_size": 3.677646687697162,
+   "low_coverage": 74.2325865203396
+  },
+  "normalized": {
+   "coverage": 95.55394321766556,
+   "set_size": 3.9893091482649763,
+   "low_coverage": 72.27083063163538
+  },
+  "cqr": {
+   "coverage": 95.50567823343853,
+   "set_size": 3.8066687697160884,
+   "low_coverage": 71.58962274067369
+  },
+  "ordinal_aps": {
+   "coverage": 95.46151419558356,
+   "set_size": 4.1321482649842265,
+   "low_coverage": 81.89593426855272
+  },
+  "abs_llm": {
+   "coverage": 95.5552050473186,
+   "set_size": 3.84923659305994,
+   "low_coverage": 71.44016611062952
+  }
+ },
+ "llama LDOS-H 0.1": {
+  "abs": {
+   "coverage": 90.26971608832814,
+   "set_size": 3.088558359621449,
+   "low_coverage": 55.46804489405792
+  },
+  "normalized": {
+   "coverage": 90.34195583596217,
+   "set_size": 3.2813848580441647,
+   "low_coverage": 63.61492063787921
+  },
+  "cqr": {
+   "coverage": 90.3324921135648,
+   "set_size": 3.3979842271293315,
+   "low_coverage": 68.18486173609898
+  },
+  "ordinal_aps": {
+   "coverage": 90.58107255520505,
+   "set_size": 3.476318611987379,
+   "low_coverage": 69.0378823245182
+  },
+  "abs_llm": {
+   "coverage": 90.28170347003164,
+   "set_size": 3.2448170347003162,
+   "low_coverage": 60.46218297312303
+  }
+ },
+ "llama LDOS-H 0.05": {
+  "abs": {
+   "coverage": 95.54132492113568,
+   "set_size": 3.637476340694007,
+   "low_coverage": 72.44230570696243
+  },
+  "normalized": {
+   "coverage": 95.50000000000003,
+   "set_size": 3.965400630914827,
+   "low_coverage": 80.2904536235799
+  },
+  "cqr": {
+   "coverage": 95.55899053627755,
+   "set_size": 3.967236593059934,
+   "low_coverage": 80.46126459770171
+  },
+  "ordinal_aps": {
+   "coverage": 95.58769716088325,
+   "set_size": 3.884249211356474,
+   "low_coverage": 78.28207978576387
+  },
+  "abs_llm": {
+   "coverage": 95.53470031545751,
+   "set_size": 3.7890283911671974,
+   "low_coverage": 72.34954392749789
+  }
+ },
+ "deepseek LDOS-H 0.1": {
+  "abs": {
+   "coverage": 90.29148264984222,
+   "set_size": 3.0314132492113552,
+   "low_coverage": 49.10918452227463
+  },
+  "normalized": {
+   "coverage": 90.3807570977917,
+   "set_size": 3.137012618296528,
+   "low_coverage": 52.41436338623817
+  },
+  "cqr": {
+   "coverage": 90.36656151419545,
+   "set_size": 3.3848706624605733,
+   "low_coverage": 66.42229417346803
+  },
+  "ordinal_aps": {
+   "coverage": 90.78801261829662,
+   "set_size": 3.438252365930597,
+   "low_coverage": 64.42683844301747
+  },
+  "abs_llm": {
+   "coverage": 90.43722397476333,
+   "set_size": 3.2445835962145098,
+   "low_coverage": 59.79328200375389
+  }
+ },
+ "deepseek LDOS-H 0.05": {
+  "abs": {
+   "coverage": 95.51829652996835,
+   "set_size": 3.5470283911671894,
+   "low_coverage": 72.90319963293652
+  },
+  "normalized": {
+   "coverage": 95.57318611987387,
+   "set_size": 3.8255078864353305,
+   "low_coverage": 70.97728795148515
+  },
+  "cqr": {
+   "coverage": 95.50977917981066,
+   "set_size": 4.032290220820196,
+   "low_coverage": 81.64192063054922
+  },
+  "ordinal_aps": {
+   "coverage": 95.57129337539422,
+   "set_size": 4.066703470031542,
+   "low_coverage": 82.20735278849736
+  },
+  "abs_llm": {
+   "coverage": 95.53406940063095,
+   "set_size": 3.822596214511044,
+   "low_coverage": 71.31808508894275
+  }
+ },
+ "mistral Depaul-H 0.1": {
+  "abs": {
+   "coverage": 90.30668058455115,
+   "set_size": 3.055665970772449,
+   "low_coverage": 84.54421607853776
+  },
+  "normalized": {
+   "coverage": 90.15407098121085,
+   "set_size": 3.2041127348642995,
+   "low_coverage": 90.80167776566027
+  },
+  "cqr": {
+   "coverage": 90.23674321503128,
+   "set_size": 3.006542797494782,
+   "low_coverage": 88.19675818643088
+  },
+  "ordinal_aps": {
+   "coverage": 90.89478079331943,
+   "set_size": 3.4944822546972834,
+   "low_coverage": 84.78202597693296
+  },
+  "abs_llm": {
+   "coverage": 90.2110647181629,
+   "set_size": 3.1650146137787076,
+   "low_coverage": 84.93434135037639
+  }
+ },
+ "mistral Depaul-H 0.05": {
+  "abs": {
+   "coverage": 95.21607515657617,
+   "set_size": 3.6238121085595,
+   "low_coverage": 91.1297192013119
+  },
+  "normalized": {
+   "coverage": 95.03632567849682,
+   "set_size": 3.695887265135703,
+   "low_coverage": 94.92557609340598
+  },
+  "cqr": {
+   "coverage": 95.07139874739039,
+   "set_size": 3.4156471816283944,
+   "low_coverage": 93.08676138988709
+  },
+  "ordinal_aps": {
+   "coverage": 95.15135699373694,
+   "set_size": 4.089974947807925,
+   "low_coverage": 91.17380950625403
+  },
+  "abs_llm": {
+   "coverage": 95.12734864300626,
+   "set_size": 3.945684759916492,
+   "low_coverage": 89.99194476692661
+  }
+ },
+ "eurollm Depaul-H 0.1": {
+  "abs": {
+   "coverage": 90.37620041753661,
+   "set_size": 2.912995824634656,
+   "low_coverage": 87.77597189533071
+  },
+  "normalized": {
+   "coverage": 90.42233820459299,
+   "set_size": 3.352277661795406,
+   "low_coverage": 87.34835463170322
+  },
+  "cqr": {
+   "coverage": 90.37933194154489,
+   "set_size": 3.0403340292275565,
+   "low_coverage": 88.61174094734528
+  },
+  "ordinal_aps": {
+   "coverage": 90.86388308977025,
+   "set_size": 3.737250521920665,
+   "low_coverage": 85.9435368958089
+  },
+  "abs_llm": {
+   "coverage": 90.2759916492693,
+   "set_size": 3.5152025052192055,
+   "low_coverage": 84.26783755743548
+  }
+ },
+ "eurollm Depaul-H 0.05": {
+  "abs": {
+   "coverage": 95.23903966597072,
+   "set_size": 3.4714634655532377,
+   "low_coverage": 93.28787112014616
+  },
+  "normalized": {
+   "coverage": 95.16826722338192,
+   "set_size": 3.8011983298538636,
+   "low_coverage": 92.42488651783167
+  },
+  "cqr": {
+   "coverage": 95.21002087682668,
+   "set_size": 3.5571461377870572,
+   "low_coverage": 93.51595699161372
+  },
+  "ordinal_aps": {
+   "coverage": 95.24175365344458,
+   "set_size": 4.3800229645093935,
+   "low_coverage": 92.84484140168328
+  },
+  "abs_llm": {
+   "coverage": 95.08663883089766,
+   "set_size": 4.008995824634658,
+   "low_coverage": 90.77536391436036
+  }
+ },
+ "llama Depaul-H 0.1": {
+  "abs": {
+   "coverage": 90.4229645093947,
+   "set_size": 2.9115135699373718,
+   "low_coverage": 87.00864140446498
+  },
+  "normalized": {
+   "coverage": 90.27202505219202,
+   "set_size": 3.396064718162839,
+   "low_coverage": 91.58110289570739
+  },
+  "cqr": {
+   "coverage": 90.33549060542795,
+   "set_size": 3.050415448851773,
+   "low_coverage": 88.08180247996962
+  },
+  "ordinal_aps": {
+   "coverage": 91.28872651356993,
+   "set_size": 3.4885281837160798,
+   "low_coverage": 89.88932977796684
+  },
+  "abs_llm": {
+   "coverage": 90.26096033402919,
+   "set_size": 3.03428601252609,
+   "low_coverage": 87.5799252296441
+  }
+ },
+ "llama Depaul-H 0.05": {
+  "abs": {
+   "coverage": 95.24008350730692,
+   "set_size": 3.3859331941544872,
+   "low_coverage": 93.77143261485256
+  },
+  "normalized": {
+   "coverage": 95.15177453027147,
+   "set_size": 3.793993736951979,
+   "low_coverage": 96.32314312197434
+  },
+  "cqr": {
+   "coverage": 95.21064718162823,
+   "set_size": 3.4943089770354896,
+   "low_coverage": 94.74797997778207
+  },
+  "ordinal_aps": {
+   "coverage": 95.23319415448861,
+   "set_size": 4.031954070981206,
+   "low_coverage": 93.13837498205028
+  },
+  "abs_llm": {
+   "coverage": 95.13590814196239,
+   "set_size": 3.7139707724425923,
+   "low_coverage": 91.53511057695943
+  }
+ },
+ "deepseek Depaul-H 0.1": {
+  "abs": {
+   "coverage": 90.36033402922754,
+   "set_size": 2.9549603340292276,
+   "low_coverage": 86.91184291675145
+  },
+  "normalized": {
+   "coverage": 90.2943632567851,
+   "set_size": 3.202824634655532,
+   "low_coverage": 88.66534764850223
+  },
+  "cqr": {
+   "coverage": 90.3784968684761,
+   "set_size": 2.9960250521920675,
+   "low_coverage": 88.41476437783325
+  },
+  "ordinal_aps": {
+   "coverage": 91.33382045929012,
+   "set_size": 3.5861732776617967,
+   "low_coverage": 88.62581916211414
+  },
+  "abs_llm": {
+   "coverage": 90.22776617954084,
+   "set_size": 3.2563924843423817,
+   "low_coverage": 83.78461902357805
+  }
+ },
+ "deepseek Depaul-H 0.05": {
+  "abs": {
+   "coverage": 95.18684759916486,
+   "set_size": 3.465319415448851,
+   "low_coverage": 93.58754571457246
+  },
+  "normalized": {
+   "coverage": 95.14801670146137,
+   "set_size": 3.7981336116910245,
+   "low_coverage": 94.02852351462751
+  },
+  "cqr": {
+   "coverage": 95.22734864300635,
+   "set_size": 3.531196242171187,
+   "low_coverage": 94.2512279426289
+  },
+  "ordinal_aps": {
+   "coverage": 95.26659707724401,
+   "set_size": 4.220688935281842,
+   "low_coverage": 93.24535115402315
+  },
+  "abs_llm": {
+   "coverage": 95.08141962421716,
+   "set_size": 3.9872275574112725,
+   "low_coverage": 89.76334981599533
+  }
+ },
+ "mistral Restaurant-H 0.1": {
+  "abs": {
+   "coverage": 90.80628571428547,
+   "set_size": 2.5431771428571475,
+   "low_coverage": 82.93692286990147
+  },
+  "normalized": {
+   "coverage": 90.4639999999998,
+   "set_size": 2.389920000000003,
+   "low_coverage": 87.04858879616057
+  },
+  "cqr": {
+   "coverage": 90.71828571428551,
+   "set_size": 2.7341142857142864,
+   "low_coverage": 86.65299854927866
+  },
+  "ordinal_aps": {
+   "coverage": 94.05371428571405,
+   "set_size": 3.701160000000005,
+   "low_coverage": 81.54888039481128
+  },
+  "abs_llm": {
+   "coverage": 90.82114285714249,
+   "set_size": 2.994914285714286,
+   "low_coverage": 76.90668966601179
+  }
+ },
+ "mistral Restaurant-H 0.05": {
+  "abs": {
+   "coverage": 96.06342857142852,
+   "set_size": 3.3216628571428646,
+   "low_coverage": 90.94792399682828
+  },
+  "normalized": {
+   "coverage": 95.91257142857141,
+   "set_size": 3.094645714285714,
+   "low_coverage": 92.83990123362958
+  },
+  "cqr": {
+   "coverage": 96.03714285714271,
+   "set_size": 3.342388571428571,
+   "low_coverage": 92.13193432269742
+  },
+  "ordinal_aps": {
+   "coverage": 96.26742857142841,
+   "set_size": 4.238045714285715,
+   "low_coverage": 85.65016633726309
+  },
+  "abs_llm": {
+   "coverage": 96.006857142857,
+   "set_size": 3.638754285714288,
+   "low_coverage": 88.81958823476377
+  }
+ },
+ "eurollm Restaurant-H 0.1": {
+  "abs": {
+   "coverage": 90.80857142857116,
+   "set_size": 2.549314285714287,
+   "low_coverage": 83.33868647151432
+  },
+  "normalized": {
+   "coverage": 90.57828571428543,
+   "set_size": 2.6687771428571443,
+   "low_coverage": 88.03610192413731
+  },
+  "cqr": {
+   "coverage": 90.77028571428544,
+   "set_size": 2.903999999999995,
+   "low_coverage": 90.45055989477791
+  },
+  "ordinal_aps": {
+   "coverage": 91.41142857142825,
+   "set_size": 3.7734228571428607,
+   "low_coverage": 88.3508119036362
+  },
+  "abs_llm": {
+   "coverage": 90.693714285714,
+   "set_size": 3.0220800000000025,
+   "low_coverage": 75.21590772983991
+  }
+ },
+ "eurollm Restaurant-H 0.05": {
+  "abs": {
+   "coverage": 96.11028571428565,
+   "set_size": 3.29480571428571,
+   "low_coverage": 91.28190782479639
+  },
+  "normalized": {
+   "coverage": 95.87542857142834,
+   "set_size": 3.1626628571428532,
+   "low_coverage": 94.58386405881558
+  },
+  "cqr": {
+   "coverage": 96.07885714285702,
+   "set_size": 3.3765371428571425,
+   "low_coverage": 99.29775215675481
+  },
+  "ordinal_aps": {
+   "coverage": 95.99771428571422,
+   "set_size": 4.4965828571428546,
+   "low_coverage": 94.60909213913504
+  },
+  "abs_llm": {
+   "coverage": 95.94628571428555,
+   "set_size": 3.7254171428571445,
+   "low_coverage": 87.688618561445
+  }
+ },
+ "llama Restaurant-H 0.1": {
+  "abs": {
+   "coverage": 90.83771428571394,
+   "set_size": 2.529114285714283,
+   "low_coverage": 82.92078032593413
+  },
+  "normalized": {
+   "coverage": 90.65085714285686,
+   "set_size": 2.5291314285714304,
+   "low_coverage": 91.39824584266859
+  },
+  "cqr": {
+   "coverage": 90.73428571428542,
+   "set_size": 2.6882685714285683,
+   "low_coverage": 91.58347680675236
+  },
+  "ordinal_aps": {
+   "coverage": 92.73142857142844,
+   "set_size": 3.709805714285713,
+   "low_coverage": 80.49631670606884
+  },
+  "abs_llm": {
+   "coverage": 90.81828571428548,
+   "set_size": 3.200125714285713,
+   "low_coverage": 75.801255426356
+  }
+ },
+ "llama Restaurant-H 0.05": {
+  "abs": {
+   "coverage": 96.09942857142845,
+   "set_size": 3.295160000000003,
+   "low_coverage": 90.5468090401932
+  },
+  "normalized": {
+   "coverage": 95.94971428571424,
+   "set_size": 3.1091714285714285,
+   "low_coverage": 93.53368728993647
+  },
+  "cqr": {
+   "coverage": 95.97657142857126,
+   "set_size": 3.2688342857142842,
+   "low_coverage": 95.4882682408539
+  },
+  "ordinal_aps": {
+   "coverage": 96.00057142857128,
+   "set_size": 4.4693999999999985,
+   "low_coverage": 89.63538188880314
+  },
+  "abs_llm": {
+   "coverage": 96.0308571428569,
+   "set_size": 3.7047657142857155,
+   "low_coverage": 86.59572091648849
+  }
+ },
+ "deepseek Restaurant-H 0.1": {
+  "abs": {
+   "coverage": 90.76514285714259,
+   "set_size": 2.5456857142857134,
+   "low_coverage": 82.97641237144602
+  },
+  "normalized": {
+   "coverage": 90.73428571428545,
+   "set_size": 2.6031428571428545,
+   "low_coverage": 90.80664555775378
+  },
+  "cqr": {
+   "coverage": 90.74342857142838,
+   "set_size": 2.8369085714285642,
+   "low_coverage": 90.48285852934482
+  },
+  "ordinal_aps": {
+   "coverage": 92.33485714285695,
+   "set_size": 3.925097142857147,
+   "low_coverage": 82.90110527575958
+  },
+  "abs_llm": {
+   "coverage": 90.78628571428541,
+   "set_size": 3.2975371428571436,
+   "low_coverage": 76.5831735354139
+  }
+ },
+ "deepseek Restaurant-H 0.05": {
+  "abs": {
+   "coverage": 96.10914285714271,
+   "set_size": 3.3156228571428565,
+   "low_coverage": 90.67690021418647
+  },
+  "normalized": {
+   "coverage": 95.96057142857137,
+   "set_size": 3.2525371428571415,
+   "low_coverage": 93.65053243536647
+  },
+  "cqr": {
+   "coverage": 95.95885714285694,
+   "set_size": 3.389508571428573,
+   "low_coverage": 94.02757945093883
+  },
+  "ordinal_aps": {
+   "coverage": 96.11999999999975,
+   "set_size": 4.545320000000002,
+   "low_coverage": 91.68750869230718
+  },
+  "abs_llm": {
+   "coverage": 96.07942857142851,
+   "set_size": 3.7599200000000073,
+   "low_coverage": 88.03201268058467
+  }
+ },
+ "mistral MovieLens-H 0.1": {
+  "abs": {
+   "coverage": 90.00749999999974,
+   "set_size": 2.8324821428571476,
+   "low_coverage": 63.47574195805109
+  },
+  "normalized": {
+   "coverage": 89.99578571428555,
+   "set_size": 2.7576521428571414,
+   "low_coverage": 68.20077513469921
+  },
+  "cqr": {
+   "coverage": 90.0065714285713,
+   "set_size": 3.0368478571428605,
+   "low_coverage": 72.2094273830108
+  },
+  "ordinal_aps": {
+   "coverage": 90.01649999999985,
+   "set_size": 2.908007857142855,
+   "low_coverage": 75.45986001659149
+  },
+  "abs_llm": {
+   "coverage": 90.00099999999992,
+   "set_size": 2.8696385714285686,
+   "low_coverage": 64.86679006346769
+  }
+ },
+ "mistral MovieLens-H 0.05": {
+  "abs": {
+   "coverage": 95.01614285714297,
+   "set_size": 3.2797249999999987,
+   "low_coverage": 79.11997230776056
+  },
+  "normalized": {
+   "coverage": 94.96235714285734,
+   "set_size": 3.212097142857141,
+   "low_coverage": 81.25492740473733
+  },
+  "cqr": {
+   "coverage": 95.00685714285706,
+   "set_size": 3.64114,
+   "low_coverage": 82.0105117341156
+  },
+  "ordinal_aps": {
+   "coverage": 95.00628571428577,
+   "set_size": 3.3702828571428554,
+   "low_coverage": 85.73643405096199
+  },
+  "abs_llm": {
+   "coverage": 94.98278571428571,
+   "set_size": 3.350552857142859,
+   "low_coverage": 80.29513635604722
+  }
+ },
+ "eurollm MovieLens-H 0.1": {
+  "abs": {
+   "coverage": 89.99607142857131,
+   "set_size": 2.8475007142857134,
+   "low_coverage": 62.039658055178634
+  },
+  "normalized": {
+   "coverage": 90.00707142857128,
+   "set_size": 2.793840000000004,
+   "low_coverage": 65.13597784224679
+  },
+  "cqr": {
+   "coverage": 90.03735714285705,
+   "set_size": 3.052757142857143,
+   "low_coverage": 71.20833512125158
+  },
+  "ordinal_aps": {
+   "coverage": 90.11014285714288,
+   "set_size": 2.9369342857142886,
+   "low_coverage": 72.02102362723087
+  },
+  "abs_llm": {
+   "coverage": 90.02642857142862,
+   "set_size": 2.895698571428574,
+   "low_coverage": 63.49942169850078
+  }
+ },
+ "eurollm MovieLens-H 0.05": {
+  "abs": {
+   "coverage": 94.98950000000004,
+   "set_size": 3.326172142857143,
+   "low_coverage": 78.01436850170658
+  },
+  "normalized": {
+   "coverage": 95.00064285714299,
+   "set_size": 3.284042857142859,
+   "low_coverage": 79.58183991104268
+  },
+  "cqr": {
+   "coverage": 94.99785714285711,
+   "set_size": 3.6455985714285686,
+   "low_coverage": 83.21310473549853
+  },
+  "ordinal_aps": {
+   "coverage": 95.07050000000004,
+   "set_size": 3.4285199999999985,
+   "low_coverage": 81.25251223699007
+  },
+  "abs_llm": {
+   "coverage": 95.00000000000021,
+   "set_size": 3.409162142857145,
+   "low_coverage": 78.8963634697217
+  }
+ },
+ "llama MovieLens-H 0.1": {
+  "abs": {
+   "coverage": 89.98771428571423,
+   "set_size": 2.8100449999999957,
+   "low_coverage": 64.0176099639682
+  },
+  "normalized": {
+   "coverage": 90.0026428571428,
+   "set_size": 2.7748871428571418,
+   "low_coverage": 66.74505591227073
+  },
+  "cqr": {
+   "coverage": 89.97885714285701,
+   "set_size": 3.026756428571428,
+   "low_coverage": 73.63714119032296
+  },
+  "ordinal_aps": {
+   "coverage": 90.09707142857125,
+   "set_size": 2.908795714285717,
+   "low_coverage": 75.00821396763773
+  },
+  "abs_llm": {
+   "coverage": 90.01407142857126,
+   "set_size": 2.872969999999998,
+   "low_coverage": 65.49799247896884
+  }
+ },
+ "llama MovieLens-H 0.05": {
+  "abs": {
+   "coverage": 94.98921428571435,
+   "set_size": 3.322000000000001,
+   "low_coverage": 78.89700863059464
+  },
+  "normalized": {
+   "coverage": 94.98650000000005,
+   "set_size": 3.2432264285714263,
+   "low_coverage": 81.09144308946752
+  },
+  "cqr": {
+   "coverage": 95.00142857142866,
+   "set_size": 3.6540307142857134,
+   "low_coverage": 82.73501687009671
+  },
+  "ordinal_aps": {
+   "coverage": 94.9997142857144,
+   "set_size": 3.3869371428571453,
+   "low_coverage": 85.04971208401112
+  },
+  "abs_llm": {
+   "coverage": 94.9742857142858,
+   "set_size": 3.3869321428571437,
+   "low_coverage": 80.07633429775339
+  }
+ },
+ "deepseek MovieLens-H 0.1": {
+  "abs": {
+   "coverage": 89.99478571428567,
+   "set_size": 2.805267142857141,
+   "low_coverage": 64.70257069437638
+  },
+  "normalized": {
+   "coverage": 90.00171428571421,
+   "set_size": 2.7930957142857133,
+   "low_coverage": 66.51247290130229
+  },
+  "cqr": {
+   "coverage": 89.98149999999974,
+   "set_size": 3.038482142857146,
+   "low_coverage": 73.2646943131653
+  },
+  "ordinal_aps": {
+   "coverage": 90.07300000000009,
+   "set_size": 2.9401421428571446,
+   "low_coverage": 72.72202700620593
+  },
+  "abs_llm": {
+   "coverage": 89.99478571428567,
+   "set_size": 2.8816871428571407,
+   "low_coverage": 65.57620087565502
+  }
+ },
+ "deepseek MovieLens-H 0.05": {
+  "abs": {
+   "coverage": 94.97764285714281,
+   "set_size": 3.3168707142857143,
+   "low_coverage": 77.46636040778553
+  },
+  "normalized": {
+   "coverage": 94.98350000000006,
+   "set_size": 3.2808985714285677,
+   "low_coverage": 81.00249526593693
+  },
+  "cqr": {
+   "coverage": 94.9972857142857,
+   "set_size": 3.6753307142857095,
+   "low_coverage": 83.20773766344445
+  },
+  "ordinal_aps": {
+   "coverage": 95.02928571428598,
+   "set_size": 3.415898571428567,
+   "low_coverage": 83.00694757372187
+  },
+  "abs_llm": {
+   "coverage": 94.98378571428573,
+   "set_size": 3.3864242857142854,
+   "low_coverage": 78.9959583164818
+  }
+ },
+ "mistral AmazonBooks-H 0.1": {
+  "abs": {
+   "coverage": 89.97778571428553,
+   "set_size": 2.0813871428571433,
+   "low_coverage": 4.954590967642095
+  },
+  "normalized": {
+   "coverage": 89.98464285714276,
+   "set_size": 1.9780964285714298,
+   "low_coverage": 16.868747880151275
+  },
+  "cqr": {
+   "coverage": 89.9896428571427,
+   "set_size": 2.6484328571428595,
+   "low_coverage": 50.25556153819065
+  },
+  "ordinal_aps": {
+   "coverage": 92.53364285714291,
+   "set_size": 2.378657142857144,
+   "low_coverage": 43.59664486596039
+  },
+  "abs_llm": {
+   "coverage": 89.98314285714284,
+   "set_size": 2.1268642857142863,
+   "low_coverage": 7.338895983906057
+  }
+ },
+ "mistral AmazonBooks-H 0.05": {
+  "abs": {
+   "coverage": 95.00335714285731,
+   "set_size": 2.587282142857142,
+   "low_coverage": 18.84898948128263
+  },
+  "normalized": {
+   "coverage": 94.99335714285716,
+   "set_size": 2.464368571428569,
+   "low_coverage": 41.41475387799227
+  },
+  "cqr": {
+   "coverage": 95.01314285714292,
+   "set_size": 3.2656607142857172,
+   "low_coverage": 67.58508908257028
+  },
+  "ordinal_aps": {
+   "coverage": 95.57407142857156,
+   "set_size": 2.7882514285714324,
+   "low_coverage": 53.018598411840344
+  },
+  "abs_llm": {
+   "coverage": 94.99728571428575,
+   "set_size": 2.5879471428571432,
+   "low_coverage": 23.787802256759452
+  }
+ },
+ "eurollm AmazonBooks-H 0.1": {
+  "abs": {
+   "coverage": 89.96935714285709,
+   "set_size": 2.0898200000000005,
+   "low_coverage": 5.119941233516201
+  },
+  "normalized": {
+   "coverage": 89.98642857142848,
+   "set_size": 1.983324999999998,
+   "low_coverage": 12.207938905414633
+  },
+  "cqr": {
+   "coverage": 90.02142857142849,
+   "set_size": 2.762995000000001,
+   "low_coverage": 48.45226581582444
+  },
+  "ordinal_aps": {
+   "coverage": 92.32749999999994,
+   "set_size": 2.3002100000000016,
+   "low_coverage": 35.36370214164379
+  },
+  "abs_llm": {
+   "coverage": 89.97542857142852,
+   "set_size": 2.1710821428571405,
+   "low_coverage": 4.160316723002659
+  }
+ },
+ "eurollm AmazonBooks-H 0.05": {
+  "abs": {
+   "coverage": 94.9720000000002,
+   "set_size": 2.626103571428571,
+   "low_coverage": 16.906255996606944
+  },
+  "normalized": {
+   "coverage": 95.00485714285735,
+   "set_size": 2.5179607142857154,
+   "low_coverage": 37.16661816015036
+  },
+  "cqr": {
+   "coverage": 95.01035714285726,
+   "set_size": 3.4175892857142838,
+   "low_coverage": 68.8482540502393
+  },
+  "ordinal_aps": {
+   "coverage": 95.16750000000019,
+   "set_size": 2.794142142857143,
+   "low_coverage": 46.63282331686666
+  },
+  "abs_llm": {
+   "coverage": 94.98292857142887,
+   "set_size": 2.690160714285716,
+   "low_coverage": 19.71475199861528
+  }
+ },
+ "llama AmazonBooks-H 0.1": {
+  "abs": {
+   "coverage": 89.97557142857137,
+   "set_size": 2.0983971428571433,
+   "low_coverage": 4.761562229837223
+  },
+  "normalized": {
+   "coverage": 90.00892857142843,
+   "set_size": 1.9714149999999997,
+   "low_coverage": 14.91469320512756
+  },
+  "cqr": {
+   "coverage": 90.02464285714275,
+   "set_size": 2.664990000000001,
+   "low_coverage": 47.545870606192686
+  },
+  "ordinal_aps": {
+   "coverage": 92.30528571428556,
+   "set_size": 2.288221428571428,
+   "low_coverage": 38.279687191944554
+  },
+  "abs_llm": {
+   "coverage": 90.02900000000005,
+   "set_size": 2.1648364285714266,
+   "low_coverage": 7.369889695328092
+  }
+ },
+ "llama AmazonBooks-H 0.05": {
+  "abs": {
+   "coverage": 94.99971428571442,
+   "set_size": 2.5927885714285708,
+   "low_coverage": 17.456883968386506
+  },
+  "normalized": {
+   "coverage": 94.99664285714287,
+   "set_size": 2.4792621428571424,
+   "low_coverage": 39.00829441090134
+  },
+  "cqr": {
+   "coverage": 95.01735714285722,
+   "set_size": 3.275790714285714,
+   "low_coverage": 66.74647709819311
+  },
+  "ordinal_aps": {
+   "coverage": 95.34335714285716,
+   "set_size": 2.7430949999999985,
+   "low_coverage": 49.45227003854412
+  },
+  "abs_llm": {
+   "coverage": 95.00314285714282,
+   "set_size": 2.619883571428574,
+   "low_coverage": 19.742459727282117
+  }
+ },
+ "deepseek AmazonBooks-H 0.1": {
+  "abs": {
+   "coverage": 89.96592857142831,
+   "set_size": 2.087495714285715,
+   "low_coverage": 5.3390494120177
+  },
+  "normalized": {
+   "coverage": 90.001,
+   "set_size": 1.9831564285714285,
+   "low_coverage": 12.578771587903757
+  },
+  "cqr": {
+   "coverage": 90.00514285714277,
+   "set_size": 2.7223228571428546,
+   "low_coverage": 51.140782286973
+  },
+  "ordinal_aps": {
+   "coverage": 92.52385714285718,
+   "set_size": 2.3067299999999973,
+   "low_coverage": 36.367461348680195
+  },
+  "abs_llm": {
+   "coverage": 89.9656428571427,
+   "set_size": 2.1561307142857165,
+   "low_coverage": 6.902825235708669
+  }
+ },
+ "deepseek AmazonBooks-H 0.05": {
+  "abs": {
+   "coverage": 94.97007142857154,
+   "set_size": 2.6097564285714236,
+   "low_coverage": 16.52283404965705
+  },
+  "normalized": {
+   "coverage": 95.02128571428577,
+   "set_size": 2.46493571428571,
+   "low_coverage": 34.95516458045471
+  },
+  "cqr": {
+   "coverage": 95.00921428571438,
+   "set_size": 3.3760157142857103,
+   "low_coverage": 69.76094320228597
+  },
+  "ordinal_aps": {
+   "coverage": 95.7198571428572,
+   "set_size": 2.770288571428576,
+   "low_coverage": 47.60699627652015
+  },
+  "abs_llm": {
+   "coverage": 94.97785714285716,
+   "set_size": 2.634967857142859,
+   "low_coverage": 19.543614395326507
+  }
+ }
+}

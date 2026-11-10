@@ -1,0 +1,32 @@
+[
+ {
+  "name": "probs_llama_clean_LDOS-H",
+  "done": "probs/llama_clean_LDOS-H.json",
+  "cmd": "python evaluate_probs.py --4bit --data data/LDOSWithHistoryLlama_noleak --adapter adapters/llama_clean_LDOS-H --base meta-llama/Llama-2-7b-chat-hf --out probs/llama_clean_LDOS-H.json"
+ },
+ {
+  "name": "probs_llama_clean_Depaul-H",
+  "done": "probs/llama_clean_Depaul-H.json",
+  "cmd": "python evaluate_probs.py --4bit --data data/LocationDepaulWithHisAvecLLama_noleak --adapter adapters/llama_clean_Depaul-H --base meta-llama/Llama-2-7b-chat-hf --out probs/llama_clean_Depaul-H.json"
+ },
+ {
+  "name": "probs_llama_clean_Restaurant-H",
+  "done": "probs/llama_clean_Restaurant-H.json",
+  "cmd": "python evaluate_probs.py --4bit --data data/LocationRestaurantWithHisAvecLLama_noleak --adapter adapters/llama_clean_Restaurant-H --base meta-llama/Llama-2-7b-chat-hf --out probs/llama_clean_Restaurant-H.json"
+ },
+ {
+  "name": "probs_eurollm_clean_LDOS-H",
+  "done": "probs/eurollm_clean_LDOS-H.json",
+  "cmd": "python evaluate_probs.py --4bit --data data/LocationLDOSWithH_noleak --adapter adapters/eurollm_clean_LDOS-H --base utter-project/EuroLLM-9B-Instruct --out probs/eurollm_clean_LDOS-H.json"
+ },
+ {
+  "name": "probs_eurollm_clean_Depaul-H",
+  "done": "probs/eurollm_clean_Depaul-H.json",
+  "cmd": "python evaluate_probs.py --4bit --data data/LocationDepaulAvecHis_noleak --adapter adapters/eurollm_clean_Depaul-H --base utter-project/EuroLLM-9B-Instruct --out probs/eurollm_clean_Depaul-H.json"
+ },
+ {
+  "name": "probs_eurollm_clean_Restaurant-H",
+  "done": "probs/eurollm_clean_Restaurant-H.json",
+  "cmd": "python evaluate_probs.py --4bit --data data/LocationRestaurantAvecHis_noleak --adapter adapters/eurollm_clean_Restaurant-H --base utter-project/EuroLLM-9B-Instruct --out probs/eurollm_clean_Restaurant-H.json"
+ }
+]

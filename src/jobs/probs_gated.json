@@ -1,0 +1,92 @@
+[
+ {
+  "name": "probs_llama_LDOS-WH",
+  "done": "probs/llama_LDOS-WH.json",
+  "cmd": "python evaluate_probs.py --4bit --data ../small_data/LocationLDOSWithoutHis --adapter ../small_data/LDOS-modelSansHist --base meta-llama/Llama-2-7b-chat-hf --out probs/llama_LDOS-WH.json"
+ },
+ {
+  "name": "probs_llama_Depaul-WH",
+  "done": "probs/llama_Depaul-WH.json",
+  "cmd": "python evaluate_probs.py --4bit --data ../small_data/LocationDepaulWithoutHisAvecLLama --adapter ../small_data/Depaul-modelWithoutHistLlama --base meta-llama/Llama-2-7b-chat-hf --out probs/llama_Depaul-WH.json"
+ },
+ {
+  "name": "probs_llama_Tijuana-WH",
+  "done": "probs/llama_Tijuana-WH.json",
+  "cmd": "python evaluate_probs.py --4bit --data ../small_data/LocationRestaurantWithoutHisAvecLLama --adapter ../small_data/Restaurant-modelSansHistLlama --base meta-llama/Llama-2-7b-chat-hf --out probs/llama_Tijuana-WH.json"
+ },
+ {
+  "name": "probs_llama_LDOS-H_noleak",
+  "done": "probs/llama_LDOS-H_noleak.json",
+  "cmd": "python evaluate_probs.py --4bit --data data/LDOSWithHistoryLlama_noleak --adapter ../small_data/LDOS-modelWithHistLlama --base meta-llama/Llama-2-7b-chat-hf --out probs/llama_LDOS-H_noleak.json"
+ },
+ {
+  "name": "probs_llama_Depaul-H_noleak",
+  "done": "probs/llama_Depaul-H_noleak.json",
+  "cmd": "python evaluate_probs.py --4bit --data data/LocationDepaulWithHisAvecLLama_noleak --adapter ../small_data/Depaul-modelWithHistLlama --base meta-llama/Llama-2-7b-chat-hf --out probs/llama_Depaul-H_noleak.json"
+ },
+ {
+  "name": "probs_llama_Restaurant-H_noleak",
+  "done": "probs/llama_Restaurant-H_noleak.json",
+  "cmd": "python evaluate_probs.py --4bit --data data/LocationRestaurantWithHisAvecLLama_noleak --adapter ../small_data/resultsRestaurantWithHisAvecLLama/checkpoint-500 --base meta-llama/Llama-2-7b-chat-hf --out probs/llama_Restaurant-H_noleak.json"
+ },
+ {
+  "name": "probs_llama_LDOS-H_leaky",
+  "done": "probs/llama_LDOS-H_leaky.json",
+  "cmd": "python evaluate_probs.py --4bit --data ../small_data/Datasets/LDOSWithHistoryLlama --adapter ../small_data/LDOS-modelWithHistLlama --base meta-llama/Llama-2-7b-chat-hf --out probs/llama_LDOS-H_leaky.json"
+ },
+ {
+  "name": "probs_llama_Depaul-H_leaky",
+  "done": "probs/llama_Depaul-H_leaky.json",
+  "cmd": "python evaluate_probs.py --4bit --data ../small_data/LocationDepaulWithHisAvecLLama --adapter ../small_data/Depaul-modelWithHistLlama --base meta-llama/Llama-2-7b-chat-hf --out probs/llama_Depaul-H_leaky.json"
+ },
+ {
+  "name": "probs_llama_Restaurant-H_leaky",
+  "done": "probs/llama_Restaurant-H_leaky.json",
+  "cmd": "python evaluate_probs.py --4bit --data ../small_data/LocationRestaurantWithHisAvecLLama --adapter ../small_data/resultsRestaurantWithHisAvecLLama/checkpoint-500 --base meta-llama/Llama-2-7b-chat-hf --out probs/llama_Restaurant-H_leaky.json"
+ },
+ {
+  "name": "probs_eurollm_LDOS-WH",
+  "done": "probs/eurollm_LDOS-WH.json",
+  "cmd": "python evaluate_probs.py --4bit --data ../small_data/LocationLDOSWithoutHis --adapter ../small_data/LDOS-modelNoHist --base utter-project/EuroLLM-9B-Instruct --out probs/eurollm_LDOS-WH.json"
+ },
+ {
+  "name": "probs_eurollm_Depaul-WH",
+  "done": "probs/eurollm_Depaul-WH.json",
+  "cmd": "python evaluate_probs.py --4bit --data ../small_data/Datasets/DepaulNoHistory --adapter ../small_data/Depaul-modelSansHist --base utter-project/EuroLLM-9B-Instruct --out probs/eurollm_Depaul-WH.json"
+ },
+ {
+  "name": "probs_eurollm_Tijuana-WH",
+  "done": "probs/eurollm_Tijuana-WH.json",
+  "cmd": "python evaluate_probs.py --4bit --data ../small_data/LocationRestaurantSansHis --adapter ../small_data/Restaurant-modelSansHist --base utter-project/EuroLLM-9B-Instruct --out probs/eurollm_Tijuana-WH.json"
+ },
+ {
+  "name": "probs_eurollm_LDOS-H_noleak",
+  "done": "probs/eurollm_LDOS-H_noleak.json",
+  "cmd": "python evaluate_probs.py --4bit --data data/LocationLDOSWithH_noleak --adapter ../small_data/LDOS-modelAvecHist --base utter-project/EuroLLM-9B-Instruct --out probs/eurollm_LDOS-H_noleak.json"
+ },
+ {
+  "name": "probs_eurollm_Depaul-H_noleak",
+  "done": "probs/eurollm_Depaul-H_noleak.json",
+  "cmd": "python evaluate_probs.py --4bit --data data/LocationDepaulAvecHis_noleak --adapter ../small_data/Depaul-modelAvecHist --base utter-project/EuroLLM-9B-Instruct --out probs/eurollm_Depaul-H_noleak.json"
+ },
+ {
+  "name": "probs_eurollm_Restaurant-H_noleak",
+  "done": "probs/eurollm_Restaurant-H_noleak.json",
+  "cmd": "python evaluate_probs.py --4bit --data data/LocationRestaurantAvecHis_noleak --adapter ../small_data/Restaurant-modelAvecHist --base utter-project/EuroLLM-9B-Instruct --out probs/eurollm_Restaurant-H_noleak.json"
+ },
+ {
+  "name": "probs_eurollm_LDOS-H_leaky",
+  "done": "probs/eurollm_LDOS-H_leaky.json",
+  "cmd": "python evaluate_probs.py --4bit --data ../small_data/LocationLDOSWithH --adapter ../small_data/LDOS-modelAvecHist --base utter-project/EuroLLM-9B-Instruct --out probs/eurollm_LDOS-H_leaky.json"
+ },
+ {
+  "name": "probs_eurollm_Depaul-H_leaky",
+  "done": "probs/eurollm_Depaul-H_leaky.json",
+  "cmd": "python evaluate_probs.py --4bit --data ../small_data/LocationDepaulAvecHis --adapter ../small_data/Depaul-modelAvecHist --base utter-project/EuroLLM-9B-Instruct --out probs/eurollm_Depaul-H_leaky.json"
+ },
+ {
+  "name": "probs_eurollm_Restaurant-H_leaky",
+  "done": "probs/eurollm_Restaurant-H_leaky.json",
+  "cmd": "python evaluate_probs.py --4bit --data ../small_data/LocationRestaurantAvecHis --adapter ../small_data/Restaurant-modelAvecHist --base utter-project/EuroLLM-9B-Instruct --out probs/eurollm_Restaurant-H_leaky.json"
+ }
+]

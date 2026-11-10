@@ -1,0 +1,37 @@
+[
+ {
+  "name": "mistral_full_Tijuana-WH",
+  "done": "results/mistral_full_Tijuana-WH.json",
+  "cmd": "python evaluate.py --data ../small_data/LocationTRestaurantWithoutHis --adapter ../small_data/Restaurant-recommendation-model1WithoutHist --base mistralai/Mistral-7B-Instruct-v0.2 --out results/mistral_full_Tijuana-WH.json"
+ },
+ {
+  "name": "mistral_clean_LDOS-H",
+  "cmd": "python train.py --data data/LocationLDOSWithHisAvecMistral_noleak --base mistralai/Mistral-7B-Instruct-v0.2 --out adapters/mistral_clean_LDOS-H && python evaluate.py --data data/LocationLDOSWithHisAvecMistral_noleak --adapter adapters/mistral_clean_LDOS-H --base mistralai/Mistral-7B-Instruct-v0.2 --out results/mistral_clean_LDOS-H.json",
+  "done": "results/mistral_clean_LDOS-H.json"
+ },
+ {
+  "name": "mistral_clean_Depaul-H",
+  "cmd": "python train.py --data data/LocationDepaulWithHisAvecMistral_noleak --base mistralai/Mistral-7B-Instruct-v0.2 --out adapters/mistral_clean_Depaul-H && python evaluate.py --data data/LocationDepaulWithHisAvecMistral_noleak --adapter adapters/mistral_clean_Depaul-H --base mistralai/Mistral-7B-Instruct-v0.2 --out results/mistral_clean_Depaul-H.json",
+  "done": "results/mistral_clean_Depaul-H.json"
+ },
+ {
+  "name": "mistral_clean_Restaurant-H",
+  "cmd": "python train.py --data data/LocationRestaurantWithHisAvecMistral_noleak --base mistralai/Mistral-7B-Instruct-v0.2 --out adapters/mistral_clean_Restaurant-H && python evaluate.py --data data/LocationRestaurantWithHisAvecMistral_noleak --adapter adapters/mistral_clean_Restaurant-H --base mistralai/Mistral-7B-Instruct-v0.2 --out results/mistral_clean_Restaurant-H.json",
+  "done": "results/mistral_clean_Restaurant-H.json"
+ },
+ {
+  "name": "deepseek_clean_LDOS-H",
+  "cmd": "python train.py --data data/LocationLDOSWithH_noleak --base deepseek-ai/deepseek-llm-7b-chat --out adapters/deepseek_clean_LDOS-H && python evaluate.py --data data/LocationLDOSWithH_noleak --adapter adapters/deepseek_clean_LDOS-H --base deepseek-ai/deepseek-llm-7b-chat --out results/deepseek_clean_LDOS-H.json",
+  "done": "results/deepseek_clean_LDOS-H.json"
+ },
+ {
+  "name": "deepseek_clean_Depaul-H",
+  "cmd": "python train.py --data data/LocationDepaulAvecHis_noleak --base deepseek-ai/deepseek-llm-7b-chat --out adapters/deepseek_clean_Depaul-H && python evaluate.py --data data/LocationDepaulAvecHis_noleak --adapter adapters/deepseek_clean_Depaul-H --base deepseek-ai/deepseek-llm-7b-chat --out results/deepseek_clean_Depaul-H.json",
+  "done": "results/deepseek_clean_Depaul-H.json"
+ },
+ {
+  "name": "deepseek_clean_Restaurant-H",
+  "cmd": "python train.py --data data/LocationRestaurantAvecHis_noleak --base deepseek-ai/deepseek-llm-7b-chat --out adapters/deepseek_clean_Restaurant-H && python evaluate.py --data data/LocationRestaurantAvecHis_noleak --adapter adapters/deepseek_clean_Restaurant-H --base deepseek-ai/deepseek-llm-7b-chat --out results/deepseek_clean_Restaurant-H.json",
+  "done": "results/deepseek_clean_Restaurant-H.json"
+ }
+]

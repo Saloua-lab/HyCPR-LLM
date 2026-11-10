@@ -1,0 +1,452 @@
+{
+ "LDOS-H": {
+  "logits": {
+   "abs": {
+    "coverage": 90.24006309148255,
+    "set_size": 3.1410031545741317,
+    "low_coverage": 64.93110586717806
+   },
+   "normalized": {
+    "coverage": 90.27381703470017,
+    "set_size": 3.714839116719246,
+    "low_coverage": 77.56655550281053
+   },
+   "cqr": {
+    "coverage": 90.15015772870662,
+    "set_size": 3.264324921135643,
+    "low_coverage": 62.68877344865903
+   },
+   "ordinal_aps": {
+    "coverage": 90.47350157728717,
+    "set_size": 3.559977917981073,
+    "low_coverage": 66.73746974043719
+   }
+  },
+  "sampled_5": {
+   "abs": {
+    "coverage": 90.21640378548898,
+    "set_size": 3.16578233438486,
+    "low_coverage": 64.9582651588049
+   },
+   "normalized": {
+    "coverage": 90.15299684542592,
+    "set_size": 3.2655362776025236,
+    "low_coverage": 63.94888834939113
+   },
+   "cqr": {
+    "coverage": 90.40694006309141,
+    "set_size": 3.6159400630914758,
+    "low_coverage": 80.9231791808123
+   },
+   "ordinal_aps": {
+    "coverage": 99.86056782334384,
+    "set_size": 4.992,
+    "low_coverage": 99.89437303641544
+   }
+  },
+  "sampled_10": {
+   "abs": {
+    "coverage": 90.2293375394321,
+    "set_size": 3.147044164037848,
+    "low_coverage": 64.82738618788721
+   },
+   "normalized": {
+    "coverage": 90.1668769716088,
+    "set_size": 3.230735015772867,
+    "low_coverage": 60.69245580222611
+   },
+   "cqr": {
+    "coverage": 90.41577287066242,
+    "set_size": 3.6562145110410134,
+    "low_coverage": 80.21046437024623
+   },
+   "ordinal_aps": {
+    "coverage": 99.40315457413246,
+    "set_size": 4.962,
+    "low_coverage": 99.44539316532723
+   }
+  },
+  "sampled_20": {
+   "abs": {
+    "coverage": 90.24258675078858,
+    "set_size": 3.1478359621451077,
+    "low_coverage": 64.7760109745847
+   },
+   "normalized": {
+    "coverage": 90.15899053627759,
+    "set_size": 3.23177287066246,
+    "low_coverage": 59.91035309587401
+   },
+   "cqr": {
+    "coverage": 90.21388012618291,
+    "set_size": 3.2876782334384824,
+    "low_coverage": 60.09882651153916
+   },
+   "ordinal_aps": {
+    "coverage": 98.72776025236611,
+    "set_size": 4.91,
+    "low_coverage": 98.7729800437441
+   }
+  }
+ },
+ "Depaul-H": {
+  "logits": {
+   "abs": {
+    "coverage": 90.2559498956159,
+    "set_size": 3.090643006263049,
+    "low_coverage": 85.45557887956939
+   },
+   "normalized": {
+    "coverage": 90.32943632567853,
+    "set_size": 3.2943006263048034,
+    "low_coverage": 92.08810291621793
+   },
+   "cqr": {
+    "coverage": 90.2918580375783,
+    "set_size": 3.0483048016701453,
+    "low_coverage": 88.74143614188566
+   },
+   "ordinal_aps": {
+    "coverage": 91.17870563674313,
+    "set_size": 3.5291189979123216,
+    "low_coverage": 87.09976887797005
+   }
+  },
+  "sampled_5": {
+   "abs": {
+    "coverage": 90.28601252609594,
+    "set_size": 3.0615594989561568,
+    "low_coverage": 85.32015610402391
+   },
+   "normalized": {
+    "coverage": 90.35699373695215,
+    "set_size": 3.18357828810021,
+    "low_coverage": 85.29884057494914
+   },
+   "cqr": {
+    "coverage": 90.28977035490603,
+    "set_size": 3.471396659707725,
+    "low_coverage": 90.48505686703109
+   },
+   "ordinal_aps": {
+    "coverage": 96.92108559498962,
+    "set_size": 4.736,
+    "low_coverage": 98.4241868211806
+   }
+  },
+  "sampled_10": {
+   "abs": {
+    "coverage": 90.33277661795424,
+    "set_size": 3.099845511482256,
+    "low_coverage": 85.20022932919682
+   },
+   "normalized": {
+    "coverage": 90.33131524008347,
+    "set_size": 3.1722463465553283,
+    "low_coverage": 85.64615160535845
+   },
+   "cqr": {
+    "coverage": 90.31377870563671,
+    "set_size": 3.4636450939457233,
+    "low_coverage": 90.54312040251239
+   },
+   "ordinal_aps": {
+    "coverage": 96.6634655532361,
+    "set_size": 4.709,
+    "low_coverage": 97.9816405485631
+   }
+  },
+  "sampled_20": {
+   "abs": {
+    "coverage": 90.27620041753656,
+    "set_size": 3.0752317327766163,
+    "low_coverage": 85.32306987482647
+   },
+   "normalized": {
+    "coverage": 90.34759916492698,
+    "set_size": 3.113311064718162,
+    "low_coverage": 86.30363571938999
+   },
+   "cqr": {
+    "coverage": 90.35866388308978,
+    "set_size": 3.150839248434241,
+    "low_coverage": 87.32087402368246
+   },
+   "ordinal_aps": {
+    "coverage": 95.87933194154495,
+    "set_size": 4.621,
+    "low_coverage": 97.39399383588494
+   }
+  }
+ },
+ "Restaurant-H": {
+  "logits": {
+   "abs": {
+    "coverage": 90.78342857142836,
+    "set_size": 2.5774857142857166,
+    "low_coverage": 81.96903261785097
+   },
+   "normalized": {
+    "coverage": 90.80914285714265,
+    "set_size": 2.5476571428571417,
+    "low_coverage": 89.9577839604436
+   },
+   "cqr": {
+    "coverage": 90.81999999999964,
+    "set_size": 2.539394285714285,
+    "low_coverage": 90.37738972802013
+   },
+   "ordinal_aps": {
+    "coverage": 94.35428571428542,
+    "set_size": 3.730874285714289,
+    "low_coverage": 82.18531275913425
+   }
+  },
+  "sampled_5": {
+   "abs": {
+    "coverage": 90.74742857142833,
+    "set_size": 2.6212342857142845,
+    "low_coverage": 80.9686349092265
+   },
+   "normalized": {
+    "coverage": 90.774857142857,
+    "set_size": 2.5885142857142833,
+    "low_coverage": 78.14502077839747
+   },
+   "cqr": {
+    "coverage": 90.88342857142831,
+    "set_size": 3.455051428571429,
+    "low_coverage": 87.0622180926072
+   },
+   "ordinal_aps": {
+    "coverage": 94.89999999999986,
+    "set_size": 4.447599999999999,
+    "low_coverage": 96.0035035713511
+   }
+  },
+  "sampled_10": {
+   "abs": {
+    "coverage": 90.79199999999977,
+    "set_size": 2.613165714285716,
+    "low_coverage": 81.43937294139576
+   },
+   "normalized": {
+    "coverage": 90.80342857142848,
+    "set_size": 2.59015428571429,
+    "low_coverage": 78.77813832015066
+   },
+   "cqr": {
+    "coverage": 90.78971428571404,
+    "set_size": 3.366445714285715,
+    "low_coverage": 88.47238031929298
+   },
+   "ordinal_aps": {
+    "coverage": 94.9045714285714,
+    "set_size": 4.449571428571428,
+    "low_coverage": 95.88889423024561
+   }
+  },
+  "sampled_20": {
+   "abs": {
+    "coverage": 90.77314285714266,
+    "set_size": 2.6002971428571473,
+    "low_coverage": 82.06191065482435
+   },
+   "normalized": {
+    "coverage": 90.83428571428556,
+    "set_size": 2.516165714285715,
+    "low_coverage": 81.03139510357144
+   },
+   "cqr": {
+    "coverage": 90.85085714285684,
+    "set_size": 3.1093199999999928,
+    "low_coverage": 89.10380425358531
+   },
+   "ordinal_aps": {
+    "coverage": 93.96971428571389,
+    "set_size": 4.182177142857143,
+    "low_coverage": 95.30030271876537
+   }
+  }
+ },
+ "MovieLens-H": {
+  "logits": {
+   "abs": {
+    "coverage": 90.00749999999974,
+    "set_size": 2.8324821428571476,
+    "low_coverage": 63.47574195805109
+   },
+   "normalized": {
+    "coverage": 89.99578571428555,
+    "set_size": 2.7576521428571414,
+    "low_coverage": 68.20077513469921
+   },
+   "cqr": {
+    "coverage": 90.0065714285713,
+    "set_size": 3.0368478571428605,
+    "low_coverage": 72.2094273830108
+   },
+   "ordinal_aps": {
+    "coverage": 90.01649999999985,
+    "set_size": 2.908007857142855,
+    "low_coverage": 75.45986001659149
+   }
+  },
+  "sampled_5": {
+   "abs": {
+    "coverage": 90.00814285714289,
+    "set_size": 2.982833571428568,
+    "low_coverage": 67.9135200012873
+   },
+   "normalized": {
+    "coverage": 90.00142857142843,
+    "set_size": 2.9552535714285764,
+    "low_coverage": 66.81116426716767
+   },
+   "cqr": {
+    "coverage": 89.99499999999996,
+    "set_size": 3.2997614285714283,
+    "low_coverage": 73.59919436374561
+   },
+   "ordinal_aps": {
+    "coverage": 94.19049999999984,
+    "set_size": 3.867068571428572,
+    "low_coverage": 92.4624829890903
+   }
+  },
+  "sampled_10": {
+   "abs": {
+    "coverage": 90.00435714285709,
+    "set_size": 2.8895714285714336,
+    "low_coverage": 66.10477691756188
+   },
+   "normalized": {
+    "coverage": 89.9830714285713,
+    "set_size": 2.8608549999999986,
+    "low_coverage": 66.28416496514717
+   },
+   "cqr": {
+    "coverage": 89.96199999999979,
+    "set_size": 3.0144378571428563,
+    "low_coverage": 69.48888237604456
+   },
+   "ordinal_aps": {
+    "coverage": 91.80149999999982,
+    "set_size": 3.21215142857143,
+    "low_coverage": 76.63314367298551
+   }
+  },
+  "sampled_20": {
+   "abs": {
+    "coverage": 89.98921428571418,
+    "set_size": 2.831893571428574,
+    "low_coverage": 64.44447410588741
+   },
+   "normalized": {
+    "coverage": 89.99592857142841,
+    "set_size": 2.827961428571429,
+    "low_coverage": 66.37887605493476
+   },
+   "cqr": {
+    "coverage": 89.99307142857126,
+    "set_size": 3.039655,
+    "low_coverage": 68.01330565699912
+   },
+   "ordinal_aps": {
+    "coverage": 92.67771428571415,
+    "set_size": 3.239452142857141,
+    "low_coverage": 76.42554757401481
+   }
+  }
+ },
+ "AmazonBooks-H": {
+  "logits": {
+   "abs": {
+    "coverage": 89.97778571428553,
+    "set_size": 2.0813871428571433,
+    "low_coverage": 4.954590967642095
+   },
+   "normalized": {
+    "coverage": 89.98464285714276,
+    "set_size": 1.9780964285714298,
+    "low_coverage": 16.868747880151275
+   },
+   "cqr": {
+    "coverage": 89.9896428571427,
+    "set_size": 2.6484328571428595,
+    "low_coverage": 50.25556153819065
+   },
+   "ordinal_aps": {
+    "coverage": 92.53364285714291,
+    "set_size": 2.378657142857144,
+    "low_coverage": 43.59664486596039
+   }
+  },
+  "sampled_5": {
+   "abs": {
+    "coverage": 89.99114285714272,
+    "set_size": 2.1837257142857154,
+    "low_coverage": 7.525713906395048
+   },
+   "normalized": {
+    "coverage": 90.02871428571422,
+    "set_size": 2.184743571428571,
+    "low_coverage": 10.997154633769142
+   },
+   "cqr": {
+    "coverage": 90.01535714285708,
+    "set_size": 2.992387857142856,
+    "low_coverage": 36.447722401296936
+   },
+   "ordinal_aps": {
+    "coverage": 93.28021428571415,
+    "set_size": 3.0925571428571432,
+    "low_coverage": 35.62147871728017
+   }
+  },
+  "sampled_10": {
+   "abs": {
+    "coverage": 89.98949999999996,
+    "set_size": 2.140241428571427,
+    "low_coverage": 6.28489581408891
+   },
+   "normalized": {
+    "coverage": 90.02278571428556,
+    "set_size": 2.1355285714285723,
+    "low_coverage": 11.264509830279247
+   },
+   "cqr": {
+    "coverage": 90.02428571428563,
+    "set_size": 3.0573685714285697,
+    "low_coverage": 36.46613064997308
+   },
+   "ordinal_aps": {
+    "coverage": 92.15614285714291,
+    "set_size": 2.5026335714285732,
+    "low_coverage": 35.702143341013326
+   }
+  },
+  "sampled_20": {
+   "abs": {
+    "coverage": 89.97857142857129,
+    "set_size": 2.1153942857142862,
+    "low_coverage": 5.600590201113616
+   },
+   "normalized": {
+    "coverage": 90.00257142857139,
+    "set_size": 2.0410521428571413,
+    "low_coverage": 12.930824268738721
+   },
+   "cqr": {
+    "coverage": 90.06428571428553,
+    "set_size": 3.058791428571426,
+    "low_coverage": 39.94376342173848
+   },
+   "ordinal_aps": {
+    "coverage": 91.52135714285718,
+    "set_size": 2.4204657142857178,
+    "low_coverage": 35.944680619103
+   }
+  }
+ }
+}
